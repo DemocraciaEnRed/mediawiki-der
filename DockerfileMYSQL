@@ -1,0 +1,6 @@
+FROM mysql:5.7
+#ENTRYPOINT mysql -uroot -p$MYSQL_ROOT_PASSWORD
+RUN mysql -uroot -p$MYSQL_ROOT_PASSWORD -e "CREATE DATABASE mwdb;CREATE USER 'dbusu'@'db' IDENTIFIED BY 'NkF9L44Opssx5h';GRANT ALL PRIVILEGES ON mwdb.* TO 'dbusu'@'db' WITH GRANT OPTION;"
+#RUN mysql -h db -P 3306 -u root
+#RUN echo $MYSQL_ROOT_PASSWORD | mysqladmin -u root -p- status
+#RUN mysql -uroot -e "CREATE DATABASE wikidb;CREATE USER 'wikiuser'@'localhost' IDENTIFIED BY 'password';GRANT ALL PRIVILEGES ON wikidb.* TO 'wikiuser'@'localhost' WITH GRANT OPTION;"

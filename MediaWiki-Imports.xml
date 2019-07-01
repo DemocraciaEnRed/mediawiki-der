@@ -1,0 +1,273 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>MediaWiki</sitename>
+    <dbname>mediawikiwiki</dbname>
+    <base>https://www.mediawiki.org/wiki/MediaWiki</base>
+    <generator>MediaWiki 1.34.0-wmf.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Project</namespace>
+      <namespace key="5" case="first-letter">Project talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="90" case="first-letter">Thread</namespace>
+      <namespace key="91" case="first-letter">Thread talk</namespace>
+      <namespace key="92" case="first-letter">Summary</namespace>
+      <namespace key="93" case="first-letter">Summary talk</namespace>
+      <namespace key="100" case="first-letter">Manual</namespace>
+      <namespace key="101" case="first-letter">Manual talk</namespace>
+      <namespace key="102" case="first-letter">Extension</namespace>
+      <namespace key="103" case="first-letter">Extension talk</namespace>
+      <namespace key="104" case="first-letter">API</namespace>
+      <namespace key="105" case="first-letter">API talk</namespace>
+      <namespace key="106" case="first-letter">Skin</namespace>
+      <namespace key="107" case="first-letter">Skin talk</namespace>
+      <namespace key="486" case="first-letter">Data</namespace>
+      <namespace key="487" case="first-letter">Data talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1198" case="first-letter">Translations</namespace>
+      <namespace key="1199" case="first-letter">Translations talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+      <namespace key="5500" case="first-letter">Newsletter</namespace>
+      <namespace key="5501" case="first-letter">Newsletter talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Template:InfoCard</title>
+    <ns>10</ns>
+    <id>862385</id>
+    <revision>
+      <id>3163437</id>
+      <parentid>3163436</parentid>
+      <timestamp>2019-03-29T14:56:17Z</timestamp>
+      <contributor>
+        <username>HakanIST</username>
+        <id>2379387</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted edits by [[Special:Contribs/213.146.6.1|213.146.6.1]] ([[User talk:213.146.6.1|talk]]) to last version by SamanthaNguyen</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="281">&lt;templatestyles src="InfoCard/styles.css" /&gt;
+&lt;div class="wiki-template-infocard {{#if:{{{class|}}}|{{{class}}}}}"&gt;
+	&lt;h3 class="wiki-template-infocard-title"&gt;{{{heading}}}&lt;/h3&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+	&lt;div class="wiki-template-infocard-content"&gt;{{{content}}}&lt;/div&gt;
+&lt;/div&gt;</text>
+      <sha1>jcxyugzv2bvybt6x31vt3x4bnl28d1t</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InfoCard/styles.css</title>
+    <ns>10</ns>
+    <id>862392</id>
+    <revision>
+      <id>3249232</id>
+      <parentid>3249231</parentid>
+      <timestamp>2019-05-28T10:35:02Z</timestamp>
+      <contributor>
+        <username>Ed g2s</username>
+        <id>33155</id>
+      </contributor>
+      <comment>Use @box-shadow-card</comment>
+      <model>sanitized-css</model>
+      <format>text/css</format>
+      <text xml:space="preserve" bytes="207">.wiki-template-infocard {
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.15 );
+	border-radius: 2px;
+	padding: 1em;
+}
+
+.wiki-template-infocard-title {
+	padding: 0 0 0.5625em 0;
+	margin: 0;
+}</text>
+      <sha1>p1gfkpebuvuw9muieku8d6505fxwukn</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:TwoColumnGrid</title>
+    <ns>10</ns>
+    <id>863659</id>
+    <revision>
+      <id>3106956</id>
+      <parentid>3106953</parentid>
+      <timestamp>2019-02-23T20:16:55Z</timestamp>
+      <contributor>
+        <username>SamanthaNguyen</username>
+        <id>1336174</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="148">{{ContentGrid
+|width={{{width|auto}}}
+|grid-columns-min-max = {{{grid-columns-min-max|500px}}}
+|grid-rows-min-max = 10px
+|content = {{{content}}}
+}}</text>
+      <sha1>3nklpnl9sgaz0veu6qct2yi5kvr5opq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:NewDeveloperProject</title>
+    <ns>10</ns>
+    <id>863643</id>
+    <revision>
+      <id>3038209</id>
+      <parentid>3038196</parentid>
+      <timestamp>2019-01-03T22:41:54Z</timestamp>
+      <contributor>
+        <username>SamanthaNguyen</username>
+        <id>1336174</id>
+      </contributor>
+      <minor/>
+      <comment>use TemplateStyles</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="174">&lt;templatestyles src="NewDeveloperProject/styles.css" /&gt;
+{{InfoCard
+|class = wiki-template-infocard--new_developer_project
+|heading = {{{project}}}
+|content = {{{content}}}
+}}</text>
+      <sha1>mrhlv5jt3y8yft6f5pja71dk0dcfh5a</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:NewDeveloperProject/styles.css</title>
+    <ns>10</ns>
+    <id>863646</id>
+    <revision>
+      <id>3249226</id>
+      <parentid>3249225</parentid>
+      <timestamp>2019-05-28T10:18:18Z</timestamp>
+      <contributor>
+        <username>Ed g2s</username>
+        <id>33155</id>
+      </contributor>
+      <comment>Add parent selector</comment>
+      <model>sanitized-css</model>
+      <format>text/css</format>
+      <text xml:space="preserve" bytes="296">.wiki-template-infocard--new_developer_project {
+	vertical-align: top;
+	border-radius: 2px;
+	position: relative;
+	display: inline-block;
+}
+
+.wiki-template-infocard--new_developer_project &gt; .wiki-template-infocard-title {
+	border-bottom: 1px solid #c9c9c9;
+	font-size: 1.35em;
+	font-weight: 700;
+}</text>
+      <sha1>fru3o7l1ebevyyw18bptljjkf00o58i</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ContentGrid</title>
+    <ns>10</ns>
+    <id>862386</id>
+    <revision>
+      <id>3106951</id>
+      <parentid>3038229</parentid>
+      <timestamp>2019-02-23T20:13:25Z</timestamp>
+      <contributor>
+        <username>SamanthaNguyen</username>
+        <id>1336174</id>
+      </contributor>
+      <minor/>
+      <comment>add {{{width}}} param</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="364">&lt;templatestyles src="ContentGrid/styles.css" /&gt;
+&lt;div class="wiki-template-contentgrid" style="margin-{{dir|{{pagelang}}|left|right}}: 1em; grid-template-columns: repeat(auto-fit, minmax({{{grid-columns-min-max|300px}}}, 1fr)); grid-gap: {{{grid-gap|10px}}}; grid-auto-rows: minmax({{{grid-rows-min-max|100px}}}, auto); width: {{{width|auto}}};"&gt;{{{content}}}&lt;/div&gt;</text>
+      <sha1>ide5aiupzfyq0dfugqplcndgu45i3ha</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ContentGrid/styles.css</title>
+    <ns>10</ns>
+    <id>863658</id>
+    <revision>
+      <id>3187494</id>
+      <parentid>3187493</parentid>
+      <timestamp>2019-04-10T06:38:33Z</timestamp>
+      <contributor>
+        <ip>217.63.90.17</ip>
+      </contributor>
+      <model>sanitized-css</model>
+      <format>text/css</format>
+      <text xml:space="preserve" bytes="83">.wiki-template-contentgrid {
+	padding: 10px;
+	margin-bottom: 1em;
+	display: grid;
+}</text>
+      <sha1>rotf9pgqxd2xgvnn13sgg21ehpeihij</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Dir</title>
+    <ns>10</ns>
+    <id>190173</id>
+    <revision>
+      <id>3225669</id>
+      <parentid>3213492</parentid>
+      <timestamp>2019-05-08T21:57:18Z</timestamp>
+      <contributor>
+        <username>Shirayuki</username>
+        <id>472859</id>
+      </contributor>
+      <comment>ha is not RTL</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="430">{{#switch:{{lc:{{#if:{{{lang|}}}|{{{lang|}}}|{{#if:{{{1|}}}|{{{1|}}}|{{int:lang}}}}}}}}
+|aeb-arab|ar|arc|arz|azb|bcc|bgn|bqi|ckb|dv|en-rtl|fa|fa-af|glk|he|khw|kk-arab|kk-cn|ks|ks-arab|ku-arab|lki|lrc|luz|mzn|pnb|prd|ps|sd|sdh|skr-arab|ug|ug-arab|ur|ydd|yi
+={{#if:{{{rtl|}}}|{{{rtl|}}}|{{#if:{{{2|}}}|{{{2|}}}|rtl}}}}
+|#default
+={{#if:{{{ltr|}}}|{{{ltr|}}}|{{#if:{{{3|}}}|{{{3|}}}|ltr}}}}
+}}&lt;noinclude&gt;{{documentation}}&lt;/noinclude&gt;</text>
+      <sha1>jna4g8e0duqg31nz3u4utv8nbqfcgf3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Pagelang</title>
+    <ns>10</ns>
+    <id>190171</id>
+    <revision>
+      <id>2844743</id>
+      <parentid>2844740</parentid>
+      <timestamp>2018-08-05T11:09:44Z</timestamp>
+      <contributor>
+        <username>Mainframe98</username>
+        <id>2319711</id>
+      </contributor>
+      <minor/>
+      <comment>Protected "[[Template:Pagelang]]": Excessive vandalism ([Edit=Allow only autoconfirmed users] (indefinite))</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="613">{{#ifeq:{{#titleparts:{{{1|{{PAGENAME}}}}}||-1}}|{{#titleparts:{{{1|{{PAGENAME}}}}}|1}}||{{#ifeq:{{#titleparts:{{{1|{{PAGENAME}}}}}||-1}}|{{lc:{{PAGENAME:{{#titleparts:{{{1|{{PAGENAME}}}}}||-1}}}}}}|{{#ifeq:{{#titleparts:{{{1|{{PAGENAME}}}}}||-1}}|{{urlencode:{{#titleparts:{{{1|{{PAGENAME}}}}}||-1}}}}|{{#ifeq:{{lc:{{#titleparts:{{{1|{{PAGENAME}}}}}||-1}}}}|{{ucfirst:{{lc:{{#titleparts:{{{1|{{PAGENAME}}}}}||-1}}}}}}||{{#switch:{{#titleparts:{{{1|{{PAGENAME}}}}}||-1}}|doc|layout|sandbox|testcases|init|preload=|#default={{#titleparts:{{{1|{{PAGENAME}}}}}||-1}}}}}}}}}}}}&lt;noinclude&gt;{{Documentation}}&lt;/noinclude&gt;</text>
+      <sha1>acqhx2nttfjqv7brml1d0t4avs3kjsp</sha1>
+    </revision>
+  </page>
+</mediawiki>

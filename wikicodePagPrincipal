@@ -1,0 +1,79 @@
+== Bienvenido a la wiki de Causas Comunes == <!--T:45-->
+
+{{Note|1=Este es un mensaje que podríamos usar para algo}}
+
+== Ciencia ==
+* Este es un
+* formato
+* Simple
+
+== Trabajo ==
+* Este es un
+* formato
+* Simple
+
+{{ContentGrid
+|content = 
+<!--
+nowiki markers are added so the first bullet in the list are rendered correctly!
+please don't remove those markers, thank you
+-->
+
+{{InfoCard
+|heading = [[File:OOjs_UI_icon_article-ltr.svg|20px]] <!--T:1--> Reading
+|content =
+<nowiki></nowiki>
+* {{ll|Help:Navigation|nsp=0}}
+* {{ll|Help:Searching|nsp=0}}
+* {{ll|Help:Tracking changes|nsp=0}}
+* {{ll|Help:Watchlist|nsp=0}}
+}}
+
+{{InfoCard
+|heading = [[File:OOjs_UI_icon_edit-ltr.svg|20px]] <!--T:3--> Editing
+|content =
+<nowiki></nowiki>
+* {{ll|Help:Editing pages|nsp=0}}
+* {{ll|Help:Starting a new page|nsp=0}}
+* {{ll|Help:Formatting|nsp=0}}
+* {{ll|Help:Links|nsp=0}}
+* {{ll|Help:User page|nsp=0}}
+* {{ll|Help:Talk pages|nsp=0}}
+* {{ll|Help:Signatures|nsp=0}}
+* {{ll|Help:VisualEditor/User guide|<!--T:22--> VisualEditor}}
+}}
+
+}} <!-- closure to content grid template -->
+
+{{TwoColumnGrid
+|content =
+<!-- ↑↑ This common outer template makes the projects appear organised in a grid ↑↑ -->
+
+{{NewDeveloperProject
+|project = [[File:Huggle_3_logo.svg|middle|frameless|x30px|alt=Huggle|link=meta:Huggle]]
+|content = 
+[[File:Huggle3_kde_ubuntu.png|{{dir|{{pagelang}}|left|right}}|frameless|x120px|alt=Screenshot]]
+An anti-vandalism desktop application for Wikimedia projects
+* Skills required: C++ with [[w:Qt_(software)|Qt]]
+* Get in touch: [https://lists.wikimedia.org/mailman/listinfo/huggle Mailing list] / Chat in {{irc|huggle}} on irc.freenode.net
+* Get the source code: [https://github.com/huggle/huggle3-qt-lx GitHub]
+* Read the [https://www.mediawiki.org/wiki/Manual:Huggle user] and [https://tools.wmflabs.org/huggle/docs/head/ programmer] documentation
+* Check the recommended tasks to work on: [https://phabricator.wikimedia.org/maniphest/query/zZ8QQy8yH1R2/#R Phabricator]
+* Mentor(s): [[User:Petrb|Peter Bena]]
+}}
+
+{{NewDeveloperProject
+|project = [[File:Kiwix_logo.svg|middle|frameless|x24px|alt=Kiwix|link=meta:Kiwix]]
+|content = 
+[[File:Kiwix_0.9_alpha1_screenshot_en.png|{{dir|{{pagelang}}|left|right}}|frameless|x120px|alt=Screenshot]]
+An offline reader for Wikipedia web content
+* Skills required: Java (Android app), Swift (iOS app)
+* Get in touch: [https://sourceforge.net/p/kiwix/mailman/kiwix-developer/ Mailing list] / Chat in {{irc|kiwix}} on irc.freenode.net
+* Get the source code: [https://github.com/kiwix/ GitHub]
+* Read the [https://github.com/kiwix/overview/blob/master/CONTRIBUTING.md general documentation] and the README.md file of the corresponding project
+* Check the recommended tasks to work on: [https://github.com/kiwix/kiwix-android/labels/enhancement Android], [https://github.com/kiwix/iOS/labels/enhancement iOS], [https://github.com/kiwix/kiwix-js/issues JS] on GitHub
+* Mentor(s): Matthieu Gauthier, [[user:Kelson|Emmanuel Engelhart]], [[user:Stephane (Kiwix)|Stephane Coillet-Matillon]]
+}}
+
+}} <!-- closure to content grid template -->
+

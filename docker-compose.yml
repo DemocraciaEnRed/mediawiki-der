@@ -1,0 +1,47 @@
+version: '3'
+
+services:
+    db:
+        #build: 
+        #    context: .
+        #    dockerfile: DockerfileMYSQL
+        image: mysql:5.7
+        restart: always
+        environment:
+            - MYSQL_ROOT_PASSWORD=89fdhuASOK9s
+            - MYSQL_DATABASE=mwdb
+            - MYSQL_USER=dbusu
+            - MYSQL_PASSWORD=NkF9L44Opssx5h
+    web:
+        build: 
+            context: .
+            dockerfile: DockerfileMW
+        restart: always
+        depends_on:
+            - db
+            - parsoid
+        ports:
+            - 8080:80
+        environment:
+            - MW_DB_SERVER=db
+            - MW_DB_INSTALLDB_USER=dbusu
+            - MW_DB_INSTALLDB_PASS=NkF9L44Opssx5h
+            - MW_DB_TYPE=mysql
+            - MW_DB_NAME=mwdb
+            - MW_DB_USER=dbusu
+            - MW_DB_PASSWORD=NkF9L44Opssx5h
+            - MW_SITE_SERVER=http://192.168.88.20:8080
+            - MW_WEB_PATH=/w
+            - MW_ADMIN_USER=admin
+            - MW_ADMIN_PASS=123123123
+            - MW_SEC_KEY=dbd138b56512b048ee9c22b351a1bba10860d51257222ee312d857a65a1daa99
+            - MW_SITE_LANG=es
+            - MW_SITE_NAME=Wiki Causas Comunes
+            - PHP_ERROR_REPORTING=E_ALL #dev
+            #- PHP_ERROR_REPORTING=E_ALL & ~E_DEPRECATED & ~E_STRICT #prod
+    parsoid:
+        image: thenets/parsoid:0.10
+        restart: always
+        environment:
+            - PARSOID_DOMAIN_web=http://web/api.php
+        

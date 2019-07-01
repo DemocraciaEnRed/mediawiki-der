@@ -1,0 +1,85 @@
+FROM mediawiki:1.32.2
+
+RUN apt update
+
+####EXTENSIONES
+WORKDIR /var/www/html/extensions
+#VisualEditor extension
+#WORKDIR /var/www/html/extensions
+RUN git clone --recurse-submodules -b REL1_32 https://gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor.git
+#WORKDIR VisualEditor
+#RUN git submodule update --init
+
+#TemplateStyles extension
+#WORKDIR /var/www/html/extensions
+RUN curl -S https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/TemplateStyles/+archive/REL1_32.tar.gz | tar xz --one-top-level=TemplateStyles
+#RUN curl https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/TemplateStyles/+archive/REL1_32.tar.gz --output TemplateStyles-REL1_32.tar.gz 
+#RUN mkdir TemplateStyles
+#RUN tar -xzf TemplateStyles-REL1_32.tar.gz -C TemplateStyles
+#RUN rm TemplateStyles-REL1_32.tar.gz
+WORKDIR TemplateStyles
+#RUN apt install unzip
+RUN curl -S https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin –filename=composer
+RUN php /usr/local/bin/composer.phar update --no-dev
+
+#OpenID
+#WORKDIR /var/www/html/extensions
+RUN curl -S https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/PluggableAuth/+archive/REL1_32.tar.gz | tar xz --one-top-level=PluggableAuth
+RUN curl -S https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/OpenIDConnect/+archive/REL1_32.tar.gz | tar xz --one-top-level=OpenIDConnect
+
+#Flow & Echo
+WORKDIR /var/www/html/extensions
+RUN curl -S https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/Echo/+archive/REL1_32.tar.gz | tar xz --one-top-level=Echo
+RUN curl -S https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/Flow/+archive/REL1_32.tar.gz | tar xz --one-top-level=Flow
+WORKDIR Flow
+RUN php /usr/local/bin/composer.phar update --no-dev --verbose
+
+####OTROS
+#Mobile skins
+WORKDIR /var/www/html/skins
+RUN git clone --recurse-submodules https://github.com/hutchy68/pivot.git
+RUN echo '.oo-ui-tool .oo-ui-tool-link{ padding-top: 0em !important; }' >> pivot/assets/stylesheets/pivot.css 
+RUN git clone --recurse-submodules --branch v2.2.0 https://github.com/thingles/foreground.git
+RUN git clone --recurse-submodules --branch v1.1.0 https://github.com/thaider/Tweeki.git
+
+#SVG support
+RUN apt install librsvg2-bin -y
+
+#Crashea la db, no hacer
+#COPY LocalSettings.php /var/www/html/
+#Crashea xq no hay db
+#WORKDIR /var/www/html
+#RUN php maintenance/install.php 
+
+#Dejar en root para la shell
+WORKDIR /var/www/html
+RUN apt install unzip -y
+RUN php /usr/local/bin/composer.phar update --no-dev
+RUN echo ServerName web>> /etc/apache2/apache2.conf 
+
+COPY LocalSettings.php LocalSettingsINIT.php
+ENTRYPOINT if [ ! -f LocalSettings.php ]; then \
+		sleep 17; \
+		php maintenance/install.php \
+	        --confpath "/" \
+	        --dbserver "$MW_DB_SERVER" \
+	        --dbtype "$MW_DB_TYPE" \
+	        --dbname "$MW_DB_NAME" \
+	        --dbuser "$MW_DB_USER" \
+	        --dbpass "$MW_DB_PASSWORD" \
+	        --installdbuser "$MW_DB_INSTALLDB_USER" \
+	        --installdbpass "$MW_DB_INSTALLDB_PASS" \
+	        --server "$MW_SITE_SERVER" \
+	        --scriptpath "$MW_WEB_PATH" \
+	        --lang "$MW_SITE_LANG" \
+	        --pass "$MW_ADMIN_PASS" \
+	        "$MW_SITE_NAME" \
+	        "$MW_ADMIN_USER"; \
+		mv LocalSettingsINIT.php LocalSettings.php; \
+		php maintenance/update.php --quick; \
+		php maintenance/populateContentModel.php --wiki=somewiki --ns=1 --table=revision; \
+		php maintenance/populateContentModel.php --wiki=somewiki --ns=1 --table=archive; \
+		php maintenance/populateContentModel.php --wiki=somewiki --ns=1 --table=page; \
+		fi; \
+	exec apachectl -e info -D FOREGROUND
+

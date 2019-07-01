@@ -1,0 +1,39 @@
+
+{{ContentGrid
+|content = 
+<!--
+nowiki markers are added so the first bullet in the list are rendered correctly!
+please don't remove those markers, thank you
+-->
+
+{{InfoCard
+|heading = [[File:OOjs_UI_icon_article-ltr.svg|20px]] <!--T:1--> [[Ciencia]]
+|content =
+<nowiki></nowiki>
+La situación de los ámbitos científicos en el país es alarmante. Las universidades y entes autárquicos del ecosistema cada vez tienen menos presupuesto real y no  pueden mantener sus servicios básicos y actividades. Los ingresos a carrera y ofertas de doctorados de los organismos de investigación no se pueden sostener, poniendo en jaque el avance científico y tecnológico en el país.
+}}
+
+{{InfoCard
+|heading = [[File:OOjs_UI_icon_article-ltr.svg|20px]] <!--T:1--> [[Ambiente]]
+|content = <nowiki></nowiki>Las temáticas ambientales suelen quedar en un segundo plano en las discusiones de desarrollo productivo, se las trata como “problemas de lujo” y su postergación se justifica argumentando problemas “más urgentes”. 
+Hay una demanda de varios sectores de la sociedad para comer más sano, al mismo tiempo que la alimentación de los sectores más pobres del país está desbalanceada aún dentro de las poca posibilidades que tienen. 
+Está problemática además presenta ramificaciones para hablar de varios temas dentro de lo que es la matriz productiva.
+}}
+
+{{InfoCard
+|heading = [[File:OOjs_UI_icon_article-ltr.svg|20px]] <!--T:1--> [[Género]]
+|content = <nowiki></nowiki>La agenda de género cada vez ocupa un lugar más importante en el debate público, sin embargo todavía no está asimilada en las plataformas políticas. 
+Las desigualdades se observan tanto en la participación política de las mujeres como en su acceso al mercado laboral donde son mayoría entre las personas desocupadas y precarizadas. 
+A su vez, el trabajo doméstico no remunerado recae asimétricamente sobre ellas generando obstáculos para la inserción laboral y la independencia económica. La violencia machista, la homofobia y transfobia continúan siendo un límite para el ejercicio de derechos.
+}}
+
+{{InfoCard
+|heading = [[File:OOjs_UI_icon_article-ltr.svg|20px]] <!--T:3--> [[Trabajo]]
+|content =
+<nowiki></nowiki>
+Desde hace 6 años, el empleo en la Argentina está estancado. Además, los niveles de precarización alcanzan a más de un tercio de los y las trabajadores. Según las últimas estimaciones del INDEC, la pobreza afecta a un tercio de la población. Además, el 46,8% de los y las niñas del país viven en hogares pobres, , los y las jóvenes son quienes mayores niveles de desempleo presentan.  Estos datos nos alertan sobre el futuro del trabajo desde todas las perspectivas. La estructura precaria del empleo crece al tiempo que contribuye a un sistema que, de conjunto, se muestra insostenible.
+}}
+
+}} <!-- closure to content grid template -->
+__SIN_TDC__
+
