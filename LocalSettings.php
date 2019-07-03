@@ -144,7 +144,7 @@ wfLoadExtension( 'WikiEditor' );
 
 $wgLogo = "{$wgScriptPath}/wikilogo.svg";
 
-wfLoadSkin( 'pivot' );
+#wfLoadSkin( 'pivot' );
 #wfLoadSkin( 'foreground' );
 #wfLoadSkin( 'Tweeki' );
 $wgDefaultSkin = "Timeless";
