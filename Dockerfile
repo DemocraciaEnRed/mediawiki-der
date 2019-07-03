@@ -1,60 +1,45 @@
 FROM mediawiki:1.32.2
 
-RUN apt update
+RUN apt update && apt install -y unzip nano
+RUN curl -S https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin –filename=composer
 
 ####EXTENSIONES
 WORKDIR /var/www/html/extensions
+
 #VisualEditor extension
-#WORKDIR /var/www/html/extensions
 RUN git clone --recurse-submodules -b REL1_32 https://gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor.git
-#WORKDIR VisualEditor
-#RUN git submodule update --init
 
-#TemplateStyles extension
-#WORKDIR /var/www/html/extensions
+#TemplateStyles extension (para templates del editor)
 RUN curl -S https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/TemplateStyles/+archive/REL1_32.tar.gz | tar xz --one-top-level=TemplateStyles
-#RUN curl https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/TemplateStyles/+archive/REL1_32.tar.gz --output TemplateStyles-REL1_32.tar.gz 
-#RUN mkdir TemplateStyles
-#RUN tar -xzf TemplateStyles-REL1_32.tar.gz -C TemplateStyles
-#RUN rm TemplateStyles-REL1_32.tar.gz
-WORKDIR TemplateStyles
-#RUN apt install unzip
-RUN curl -S https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin –filename=composer
-RUN php /usr/local/bin/composer.phar update --no-dev
+RUN cd TemplateStyles && php /usr/local/bin/composer.phar update --no-dev
 
-#OpenID
-#WORKDIR /var/www/html/extensions
+#PluggableAuth + OpenID extensions (para keycloack)
 RUN curl -S https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/PluggableAuth/+archive/REL1_32.tar.gz | tar xz --one-top-level=PluggableAuth
 RUN curl -S https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/OpenIDConnect/+archive/REL1_32.tar.gz | tar xz --one-top-level=OpenIDConnect
+RUN cd OpenIDConnect && php /usr/local/bin/composer.phar update --no-dev
 
-#Flow & Echo
-WORKDIR /var/www/html/extensions
+#Echo + Flow extensions (para las discusiones)
 RUN curl -S https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/Echo/+archive/REL1_32.tar.gz | tar xz --one-top-level=Echo
+RUN cd Echo && php /usr/local/bin/composer.phar update --no-dev
 RUN curl -S https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/Flow/+archive/REL1_32.tar.gz | tar xz --one-top-level=Flow
-WORKDIR Flow
-RUN php /usr/local/bin/composer.phar update --no-dev --verbose
+RUN cd Flow && php /usr/local/bin/composer.phar update --no-dev
 
 ####OTROS
 #Mobile skins
-WORKDIR /var/www/html/skins
-RUN git clone --recurse-submodules https://github.com/hutchy68/pivot.git
-RUN echo '.oo-ui-tool .oo-ui-tool-link{ padding-top: 0em !important; }' >> pivot/assets/stylesheets/pivot.css 
-RUN git clone --recurse-submodules --branch v2.2.0 https://github.com/thingles/foreground.git
-RUN git clone --recurse-submodules --branch v1.1.0 https://github.com/thaider/Tweeki.git
+#WORKDIR /var/www/html/skins
+#RUN git clone --recurse-submodules https://github.com/hutchy68/pivot.git
+#RUN echo '.oo-ui-tool .oo-ui-tool-link{ padding-top: 0em !important; }' >> pivot/assets/stylesheets/pivot.css 
+#RUN git clone --recurse-submodules --branch v2.2.0 https://github.com/thingles/foreground.git
+#RUN git clone --recurse-submodules --branch v1.1.0 https://github.com/thaider/Tweeki.git
 
 #SVG support
-RUN apt install librsvg2-bin -y
-
-#Crashea la db, no hacer
-#COPY LocalSettings.php /var/www/html/
-#Crashea xq no hay db
-#WORKDIR /var/www/html
-#RUN php maintenance/install.php 
+RUN echo 'La siguiente operación puede tardar unos segundos' \
+	&& echo "El mensaje 'debconf: delaying package configuration...' es normal" \ 
+	&& apt install librsvg2-bin -y >/dev/null
 
 #Dejar en root para la shell
 WORKDIR /var/www/html
-RUN apt install unzip -y
-RUN php /usr/local/bin/composer.phar update --no-dev
+
 RUN echo ServerName web>> /etc/apache2/apache2.conf 
 
 COPY LocalSettings.php LocalSettingsINIT.php

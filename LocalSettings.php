@@ -145,8 +145,8 @@ wfLoadExtension( 'WikiEditor' );
 $wgLogo = "{$wgScriptPath}/wikilogo.svg";
 
 wfLoadSkin( 'pivot' );
-wfLoadSkin( 'foreground' );
-wfLoadSkin( 'Tweeki' );
+#wfLoadSkin( 'foreground' );
+#wfLoadSkin( 'Tweeki' );
 $wgDefaultSkin = "Timeless";
 
 wfLoadExtension( 'VisualEditor' );
@@ -164,7 +164,7 @@ $wgFileExtensions[] = 'svg';
 $wgAllowTitlesInSVG = true;
 $wgSVGConverter = 'rsvg';
 
-#wfLoadExtension( 'PluggableAuth' );
+wfLoadExtension( 'PluggableAuth' );
 $wgGroupPermissions['user']['createaccount'] = true;
 $wgGroupPermissions['user']['autocreateaccount'] = true;
 $wgPluggableAuth_EnableLocalLogin = true;

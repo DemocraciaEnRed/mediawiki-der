@@ -2,21 +2,16 @@ version: '3'
 
 services:
     db:
-        #build: 
-        #    context: .
-        #    dockerfile: DockerfileMYSQL
         image: mysql:5.7
-        restart: always
+        restart: on-failure
         environment:
             - MYSQL_ROOT_PASSWORD=89fdhuASOK9s
             - MYSQL_DATABASE=mwdb
             - MYSQL_USER=dbusu
             - MYSQL_PASSWORD=NkF9L44Opssx5h
     web:
-        build: 
-            context: .
-            dockerfile: DockerfileMW
-        restart: always
+        build: .
+        restart: on-failure
         depends_on:
             - db
             - parsoid
@@ -41,7 +36,7 @@ services:
             #- PHP_ERROR_REPORTING=E_ALL & ~E_DEPRECATED & ~E_STRICT #prod
     parsoid:
         image: thenets/parsoid:0.10
-        restart: always
+        restart: on-failure
         environment:
             - PARSOID_DOMAIN_web=http://web/api.php
         
