@@ -1,22 +1,31 @@
 version: '3'
 
 services:
+    db:
+        image: mysql:5.7
+        restart: on-failure
+        environment:
+            - MYSQL_ROOT_PASSWORD=89fdhuASOK9s
+            - MYSQL_DATABASE=mwdb
+            - MYSQL_USER=dbusu
+            - MYSQL_PASSWORD=NkF9L44Opssx5h
     web:
         build: .
         restart: on-failure
         depends_on:
+            - db
             - parsoid
         ports:
-            - 8020:80
+            - 8080:80
         environment:
-            - MW_SITE_SERVER=http://localhost:8020
-            - MW_DB_SERVER=cc-mysql
+            - MW_DB_SERVER=db
+            - MW_DB_INSTALLDB_USER=dbusu
+            - MW_DB_INSTALLDB_PASS=NkF9L44Opssx5h
             - MW_DB_TYPE=mysql
-            - MW_DB_NAME=mediawikidb
-            - MW_DB_INSTALLDB_USER=mediawiki747895
-            - MW_DB_INSTALLDB_PASS=kjavjkKL2949JDFJK757ysd82487
-            - MW_DB_USER=mediawiki747895
-            - MW_DB_PASSWORD=kjavjkKL2949JDFJK757ysd82487
+            - MW_DB_NAME=mwdb
+            - MW_DB_USER=dbusu
+            - MW_DB_PASSWORD=NkF9L44Opssx5h
+            - MW_SITE_SERVER=http://192.168.88.20:8080
             - MW_WEB_PATH=/w
             - MW_ADMIN_USER=admin
             - MW_ADMIN_PASS=123123123
@@ -30,7 +39,4 @@ services:
         restart: on-failure
         environment:
             - PARSOID_DOMAIN_web=http://web/api.php
-networks:
-    default:
-        external:
-            name: CC-DEPLOY
+        
