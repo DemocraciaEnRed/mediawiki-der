@@ -1,0 +1,86 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="es">
+  <siteinfo>
+    <sitename>Wiki Causas Comunes</sitename>
+    <dbname>mediawikidb</dbname>
+    <base>http://localhost:8020/index.php/P%C3%A1gina_principal</base>
+    <generator>MediaWiki 1.32.2</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medio</namespace>
+      <namespace key="-1" case="first-letter">Especial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Discusión</namespace>
+      <namespace key="2" case="first-letter">Usuario</namespace>
+      <namespace key="3" case="first-letter">Usuario discusión</namespace>
+      <namespace key="4" case="first-letter">Wiki Causas Comunes</namespace>
+      <namespace key="5" case="first-letter">Wiki Causas Comunes discusión</namespace>
+      <namespace key="6" case="first-letter">Archivo</namespace>
+      <namespace key="7" case="first-letter">Archivo discusión</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki discusión</namespace>
+      <namespace key="10" case="first-letter">Plantilla</namespace>
+      <namespace key="11" case="first-letter">Plantilla discusión</namespace>
+      <namespace key="12" case="first-letter">Ayuda</namespace>
+      <namespace key="13" case="first-letter">Ayuda discusión</namespace>
+      <namespace key="14" case="first-letter">Categoría</namespace>
+      <namespace key="15" case="first-letter">Categoría discusión</namespace>
+      <namespace key="2600" case="first-letter">Tema</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>MediaWiki:Common.css</title>
+    <ns>8</ns>
+    <id>12</id>
+    <revision>
+      <id>23</id>
+      <parentid>22</parentid>
+      <timestamp>2019-07-06T16:07:34Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <model>css</model>
+      <format>text/css</format>
+      <text xml:space="preserve" bytes="421">/* Los estilos CSS colocados aquí se aplicarán a todas las apariencias */
+
+/* esconder "Herramientas wiki" */
+#site-tools {display:none;}
+
+/* esconder "Herramientas de página" */
+#p-cactions {display:none;}
+
+/* esconder "Más" salvo "Versión para imprimir" */
+#p-pagemisc li {display:none;}
+#p-pagemisc li#t-print {display:list-item;}
+
+/* esconder "Editar código" en namespace 0 */
+body.ns-0 #ca-edit {display:none;}</text>
+      <sha1>7haeopb8nr94ww02z88hdt1y0qeo1ss</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar</title>
+    <ns>8</ns>
+    <id>10</id>
+    <revision>
+      <id>11</id>
+      <timestamp>2019-07-06T15:59:26Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Página creada con « * navigation ** genereo|Género ** ciencia|Ciencia ** trabajo|Trabajo ** drogas|Drogas ** vivienda|Vivienda ** transparencia|Transparencia»</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="139">
+* navigation
+** genereo|Género
+** ciencia|Ciencia
+** trabajo|Trabajo
+** drogas|Drogas
+** vivienda|Vivienda
+** transparencia|Transparencia</text>
+      <sha1>jh53idh8o7bh1f9w8a8k15qvig1apnq</sha1>
+    </revision>
+  </page>
+</mediawiki>
