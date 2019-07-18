@@ -164,10 +164,10 @@ $wgFileExtensions[] = 'svg';
 $wgAllowTitlesInSVG = true;
 $wgSVGConverter = 'rsvg';
 
-wfLoadExtension( 'PluggableAuth' );
-$wgGroupPermissions['user']['createaccount'] = true;
-$wgGroupPermissions['user']['autocreateaccount'] = true;
-$wgPluggableAuth_EnableLocalLogin = true;
+#wfLoadExtension( 'PluggableAuth' );
+#$wgGroupPermissions['user']['createaccount'] = true;
+#$wgGroupPermissions['user']['autocreateaccount'] = true;
+#$wgPluggableAuth_EnableLocalLogin = true;
 
 #wfLoadExtension( 'OpenIDConnect' );
 
@@ -180,3 +180,12 @@ $wgFlowEditorList = array( 'visualeditor', 'none' );
 wfLoadExtension( 'Flow' );
 $wgNamespaceContentModels[NS_TALK] = 'flow-board';
 $wgNamespaceContentModels[NS_USER_TALK] = 'flow-board';
+
+$wgEnableUploads = true;
+$wgLogo = "images/logo-wiki.png";
+
+$wgAllowSiteCSSOnRestrictedPages = true;
+
+$wgEnableEmail = true;
+$wgEnableUserEmail = false; # UPO
+$wgEmailAuthentication = true;

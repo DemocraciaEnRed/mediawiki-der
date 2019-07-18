@@ -1,0 +1,9 @@
+MediaWiki:Sidebar
+MediaWiki:Common.css
+Página_principal
+Género
+Medioambiente
+Trabajo
+Drogas
+Vivienda
+Transparencia
