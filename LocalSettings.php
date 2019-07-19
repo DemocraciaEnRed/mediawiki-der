@@ -189,3 +189,6 @@ $wgAllowSiteCSSOnRestrictedPages = true;
 $wgEnableEmail = true;
 $wgEnableUserEmail = false; # UPO
 $wgEmailAuthentication = true;
+
+wfLoadExtension( 'Cite' );
+

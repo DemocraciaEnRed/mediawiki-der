@@ -57,16 +57,16 @@
     <ns>8</ns>
     <id>10</id>
     <revision>
-      <id>59</id>
-      <parentid>58</parentid>
-      <timestamp>2019-07-18T16:22:00Z</timestamp>
+      <id>66</id>
+      <parentid>65</parentid>
+      <timestamp>2019-07-18T17:51:59Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
       <model>css</model>
       <format>text/css</format>
-      <text xml:space="preserve" bytes="2320">/* Los estilos CSS colocados aquí se aplicarán a todas las apariencias */
+      <text xml:space="preserve" bytes="2527">/* Los estilos CSS colocados aquí se aplicarán a todas las apariencias */
 
 /* esconder "Herramientas wiki" */
 #site-tools {display:none;}
@@ -126,7 +126,7 @@ li#pt-notifications-alert {display: none;}
 /* sacar gatito marca de agua */
 #mw-content-container {background-image:none;}
 
-
+/* fonts generales */
 @font-face {
   font-family:'Barlow';
   src: url(images/Barlow-Regular.ttf) format('truetype');
@@ -147,8 +147,13 @@ body{
 }
 .mw-body h1, .mw-body h2, .mw-body h3, .mw-body h4, .mw-body h5, .mw-body h6, .mw-body dt {
   font-family:'Barlow', sans-serif;
-}</text>
-      <sha1>c9z0eqt28zqefpnx3qangcrb2r7vaxz</sha1>
+}
+
+/* footer (usa el bgcolor del body) */
+body {background: #f3f3f3;}
+#mw-footer-container li, #mw-footer-container a {color:black;}
+#mw-content-container {border-bottom: solid 4px #900;}</text>
+      <sha1>3s96hq51tb6zy96micwylw95mehyx4x</sha1>
     </revision>
   </page>
   <page>
@@ -183,17 +188,17 @@ Por favor ingrese a alguno de los artículos de las causas:
     <ns>0</ns>
     <id>12</id>
     <revision>
-      <id>21</id>
-      <parentid>18</parentid>
-      <timestamp>2019-07-15T15:43:41Z</timestamp>
+      <id>67</id>
+      <parentid>21</parentid>
+      <timestamp>2019-07-18T18:26:07Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="7287">==Contexto==
-Se lanzó al mundo de las criptomonedas con su propia moneda digital concebida para '''ahorrar, enviar o gastar''' dinero con la misma simplicidad que enviar un mensaje de texto. Y la argentina Mercado Libre forma parte del proyectoo.
+      <text xml:space="preserve" bytes="7362">==Contexto==
+Se lanzó al mundo de las criptomonedas con su propia moneda digital concebida para '''ahorrar, enviar o gastar''' dinero con la misma simplicidad que enviar un mensaje de texto. Y la argentina Mercado Libre forma parte del proyectoo.&lt;ref&gt;https://transparencia.podemos.info/cuentas-claras/partido/gastos&lt;/ref&gt;
 
 "Libra", que es descrita como "una nueva moneda global", fue presentada este martes por la mayor red social del mundo como un medio de pago con el potencial de sacar de las sombras a las criptomonedas.
 &lt;br /&gt;
@@ -258,7 +263,7 @@ Morbi quis fringilla arcu, quis euismod purus. Maecenas ornare eros at nisi conv
  
 ==Información/Datos Random==
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium lacinia ultricies. Quisque sed volutpat orci. Sed accumsan, sapien eget pellentesque laoreet, lacus elit imperdiet orci, a fringilla dolor dui ut lectus. Mauris in ullamcorper tellus. Curabitur sit amet justo dignissim, accumsan diam vel, maximus magna. Integer a vulputate nulla. Curabitur ultricies tellus at nibh egestas, et fringilla purus ornare. Nunc gravida purus neque, vitae volutpat nisl cursus ullamcorper. Nam suscipit luctus mi ut mattis.</text>
-      <sha1>paynmtkbonsysv84lvbloxs6skjqajc</sha1>
+      <sha1>og674nz2jlsw8ni5rviqfyw1ihpktv9</sha1>
     </revision>
   </page>
   <page>
@@ -266,18 +271,59 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium lacinia 
     <ns>0</ns>
     <id>17</id>
     <revision>
-      <id>50</id>
-      <parentid>49</parentid>
-      <timestamp>2019-07-18T15:55:08Z</timestamp>
+      <id>76</id>
+      <parentid>75</parentid>
+      <timestamp>2019-07-18T23:19:07Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>ValeLisciani</username>
+        <id>3</id>
       </contributor>
-      <comment>Página blanqueada</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="0" />
-      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+      <text xml:space="preserve" bytes="2318">=='''Contexto'''==
+Nuestro sistema de producción, distribución y consumo está genera impactos ecológicos devastadores y alimenta una sociedad cada vez más desigual. El 10% más rico de la población del planeta genera el 45% de las emisiones de CO2, mientras el 50% más pobre genera solo el 10%. Sin embargo quienes más sufrirán las consecuencias de las inundaciones y sequías, o el aumento de enfermedades como el dengue, serán los más vulnerables. 
+
+Además, los grandes productores recurren a un modelo basado en una cantidad de agroquímicos exagerada y sin controles, cuyos efectos sufren quienes los  aplican y quienes circundan las tierras fumigadas como escuelas y pueblos rurales. 
+
+En una situación de crisis climática y ecológica, repensar la manera en la que nos relacionamos con nuestros recursos es fundamental. Necesitamos un cambio de matriz energética que a la vez genere trabajo y motorice la economía como respuesta al cambio climático. Necesitamos crear las bases para una transición a un modelo productivo agroecológico como respuesta a la inequidad y los problemas de salud ambiental que genera el sector agropecuario. 
+
+El ambiente no es un problema de “lujo” sino el terreno en donde encontramos raíces profundas de la desigualdad. Crear y soñar un nuevo sistema productivo es prioridad.
+
+=='''Problemática/Causa común'''==
+
+*Ley de zonas buffer de agroquímicos
+*Ley de Emergencia Climática
+*Ley de etiquetado de alimentos
+
+=='''Afectados'''==
+La ciudadanía, especialmente los mas vulnerados
+
+=='''Actores relevantes'''==
+
+*Megacorporaciones
+*Políticxs
+*Productores agrícolas
+*Organismos internacionales
+*Ciudadanos
+*Productores agroecológicos
+
+=='''Causas'''==
+El modelo de producción distribución y consumo que concentra la riqueza al mismo tiempo que daña el ambiente.
+
+=='''Consecuencias'''==
+Crisis climática y ecológica, pueblos y escuelas fumigadas.
+
+=='''Datos relevantes'''==
+
+===GEIs (gases de efecto invernadero)===
+Pasamos de producir 1170 kg por persona en 1970 a 2728 kg por persona en 2016.
+
+=== Gráficos/Datos numéricos ===
+[[Archivo:Cuadro ambiente 1.png|centro|miniaturadeimagen|700x700px]]
+[[Archivo:Cuadro ambiente 2.png|centro|miniaturadeimagen|700x700px]]
+[[Archivo:Cuadro ambiente 3.png|centro|miniaturadeimagen|700x700px]]
+&lt;br /&gt;</text>
+      <sha1>94mab879y67tqro70x0huoez7xt7ogb</sha1>
     </revision>
   </page>
   <page>
@@ -285,57 +331,62 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium lacinia 
     <ns>0</ns>
     <id>16</id>
     <revision>
-      <id>33</id>
-      <parentid>29</parentid>
-      <timestamp>2019-07-18T14:31:37Z</timestamp>
+      <id>99</id>
+      <parentid>98</parentid>
+      <timestamp>2019-07-19T00:21:52Z</timestamp>
       <contributor>
         <username>ValeLisciani</username>
         <id>3</id>
       </contributor>
-      <comment>formato</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="12815">=='''CONTEXTO'''==
+      <text xml:space="preserve" bytes="15418">=='''Contexto'''==
 
 En Argentina durante  el 2018 creció el empleo no registrado (el 49,3% trabaja en la informalidad). El 81,7% del personal “en negro” tiene empleo de baja calidad y un 75,9% no recibe aportes de seguridad social.
-Sólo el 44,1% de la población económica activa de 18 años y más logró acceder a un empleo pleno de derechos. Mientras que el 9,9% de esta población se encontraba abiertamente desempleado y el 18,6% sometida a un subempleo inestable (realizando changas, trabajos temporarios o no remunerados, o siendo beneficiarios de programas de empleo con contraprestación). En este contexto aparecieron nuevas ofertas laborales como Uber, Rappi, Glovo , etc.  
-Casi el 90% de trabajadores de plataformas digitales terminó el secundario, y el 37% afirma haber terminado estudios superiores. En el caso particular de los trabajadores de Rappi, solo el 3% no terminó los estudios secundarios, el 55.2% se encuentra con estos estudios finalizados, y el 41.8% cuenta con nivel universitario completo. Por otro lado, en el caso de Glovo los números no difieren en gran medida, en donde vemos que el 9% cuenta con secundario incompleto, el 52.2% alcanza el terciario o universitario incompleto, y el 38.8% finalizó los estudios de grado. Aquí podemos ver que la mayoría de los trabajadores de estas plataformas se encuentran sobrecalificados para las tareas que realizan, por lo que entendemos que el mercado laboral argentino no cuenta con recursos para absorber a una gran cantidad de trabajadores cualificados.
 
-&lt;br /&gt;
+Sólo el 44,1% de la población económica activa de 18 años y más logró acceder a un empleo pleno de derechos. Mientras que el 9,9% de esta población se encontraba abiertamente desempleado y el 18,6% sometida a un subempleo inestable (realizando changas, trabajos temporarios o no remunerados, o siendo beneficiarios de programas de empleo con contraprestación). En este contexto aparecieron nuevas ofertas laborales como Uber, Rappi, Glovo , etc.  &lt;ref&gt;&lt;nowiki&gt;http://wadmin.uca.edu.ar/public/ckeditor/Observatorio%20Deuda%20Social/Documentos/2019/2019-OBSERVATORIO-DOCUMENTO-ESTADISTICO-HETEROGENEIDAD-FRAGMENTACION.pdf&lt;/nowiki&gt; &lt;/ref&gt;
 
-=='''PROBLEMÁTICA / CAUSA COMÚN'''==
+Casi el 90% de trabajadores de plataformas digitales terminó el secundario, y el 37% afirma haber terminado estudios superiores. En el caso particular de los trabajadores de Rappi, solo el 3% no terminó los estudios secundarios, el 55.2% se encuentra con estos estudios finalizados, y el 41.8% cuenta con nivel universitario completo. Por otro lado, en el caso de Glovo los números no difieren en gran medida, en donde vemos que el 9% cuenta con secundario incompleto, el 52.2% alcanza el terciario o universitario incompleto, y el 38.8% finalizó los estudios de grado. Aquí podemos ver que la mayoría de los trabajadores de estas plataformas se encuentran sobrecalificados para las tareas que realizan, por lo que entendemos que el mercado laboral argentino no cuenta con recursos para absorber a una gran cantidad de trabajadores cualificados.&lt;ref&gt;https://www.cippec.org/publicacion/economia-de-plataformas-y-empleo-como-es-trabajar-para-una-app-en-argentina/&lt;/ref&gt;
+[[Archivo:Grafico trabajo nivel educativo.png|miniaturadeimagen|600x600px|https://www.cippec.org/wp-content/uploads/2019/05/Como-es-trabajar-en-una-app-en-Argentina-CIPPEC-BID-LAB-OIT.pdf|alt=|centro]]
+&lt;br /&gt;&lt;br /&gt;
+=='''Problemática/Causa Común'''==
 Derechos laborales de trabajadoras y trabajadores de Plataformas Digitales de Servicios. 
 &lt;br /&gt;
 
-=='''AFECTADOS'''==
+=='''Afectados'''==
 Trabajadores, en su mayoría hombres, con promedio 38 años. 
 &lt;br /&gt;
 
-=='''CAUSAS'''==
+=='''Causas'''==
+[[Archivo:Grafico trabajo motivaciones.png|miniaturadeimagen|alt=]]
 Si bien una de las grandes motivaciones que llevan a los trabajadores a desempeñarse en plataformas digitales es la imposibilidad de encontrar otros empleos (17.3%), verificamos que en un 29.1% la motivación que los mueve es la posibilidad de manejar los horarios de trabajo, cualidad específica de este tipo de actividades. Por otro lado, es importante tener en cuenta que un 30.2% de los trabajadores eligen este tipo de plataformas para trabajar, ya que se encuentran ante la necesidad de generar un ingreso extra, por lo que podemos inferir que los salarios de su actividad principal no les son suficientes para cubrir necesidades básicas.
+&lt;ref&gt;https://www.cippec.org/publicacion/economia-de-plataformas-y-empleo-como-es-trabajar-para-una-app-en-argentina/&lt;/ref&gt;&lt;br /&gt;
 &lt;br /&gt;
-
-=='''CONSECUENCIAS'''==
+=='''Consecuencias'''==
 Los trabajadores de estos tipos de plataformas se encuentran en una situación precarizada, en donde no cuentan con una legislación clara que los ampare. Los empleadores, en la mayoría de los casos, no pagan contribuciones ni cargas sociales, ni les aseguran a los trabajadores las condiciones mínimas de seguridad. 
 
 ==='''Aportes jubilatorios'''===
 Solo un 54,5% de los trabajadores de plataformas digitales realizan aportes jubilatorios. De esos aportes, un 87% de los trabajadores lo pagan a través del monotributo. En el caso de Rappi, solo un 58.2% realiza aportes, abonados en un 100% por el trabajador (A través del monotributo, o autónomos). En el caso de Glovo, el porcentaje de aportantes asciende al 89.6%, y solo es abonado por el empleador en el 1.7% de los casos.
+[[Archivo:Grafico trabajo aportes jubilatorios.png|izquierda]]
+&lt;br /&gt;[[Archivo:Grafico trabajo aportes por app.png]]
+[[Archivo:Grafico trabajo aportes por app2.png]]&lt;ref&gt;https://www.cippec.org/wp-content/uploads/2019/05/Como-es-trabajar-en-una-app-en-Argentina-CIPPEC-BID-LAB-OIT.pdf&lt;/ref&gt;
 
+&lt;br /&gt;
 ==='''Obra social'''===
-Con lo que respecta a la obra social, más de la mitad de los trabajadores de plataformas digitales no cuenta con dicha cobertura (57.8%). Por otra parte, los que cuentan con obra social, lo hacen gracias a sus aportes al monotributo en un 86.7%
-
-=='''DATOS RELEVANTES'''==
-
+&lt;br /&gt;[[Archivo:Grafico trabajo OS.png|miniaturadeimagen|400x400px|alt=|centro]]Con lo que respecta a la obra social, más de la mitad de los trabajadores de plataformas digitales no cuenta con dicha cobertura (57.8%). Por otra parte, los que cuentan con obra social, lo hacen gracias a sus aportes al monotributo en un 86.7%.&lt;ref&gt;https://www.cippec.org/wp-content/uploads/2019/05/Como-es-trabajar-en-una-app-en-Argentina-CIPPEC-BID-LAB-OIT.pdf&lt;/ref&gt;
+&lt;br /&gt;
+=='''Datos relevantes'''==
 ==='''¿Economía Colaborativa?'''===
-Este tipo de plataformas, pretenden ser de economía colaborativa cuando en realidad forman parte de la economía bajo demanda. Para explicar la economía colaborativa podemos tomar el caso del Carpooling, ya que la plataforma genera un mayor aprovechamiento de los bienes y recursos existentes pero infrautilizados. Los usuarios comparten el costo del viaje, pero no generan utilidad. La economía colaborativa “permite utilizar, compartir, intercambiar o invertir recursos o bienes, pudiendo existir o no una contraprestación monetaria entre los usuarios.”. En cambio, en el caso de Uber, estamos hablando de una economía bajo demanda, en donde las plataformas funcionan como intermediarios entre la oferta y la demanda, generada de profesional a consumidor. El conductor inicia su viaje solo cuando el usuario lo solicita, bajo una tarifa definida por la plataforma, generando utilidad a esta última y al conductor. En estos casos, “La prestación se origina en base a las necesidades del usuario que demanda y se adapta a sus preferencias. Estos servicios se ofrecen normalmente a cambio de una contraprestación y habitualmente con ánimo de lucro”.
+[[Archivo:Plataformas.png|miniaturadeimagen|500x500px|https://www.cippec.org/wp-content/uploads/2019/05/Como-es-trabajar-en-una-app-en-Argentina-CIPPEC-BID-LAB-OIT.pdf]]
+Este tipo de plataformas, pretenden ser de economía colaborativa cuando en realidad forman parte de la economía bajo demanda. Para explicar la economía colaborativa podemos tomar el caso del Carpooling, ya que la plataforma genera un mayor aprovechamiento de los bienes y recursos existentes pero infrautilizados. Los usuarios comparten el costo del viaje, pero no generan utilidad. La economía colaborativa “permite utilizar, compartir, intercambiar o invertir recursos o bienes, pudiendo existir o no una contraprestación monetaria entre los usuarios.”. En cambio, en el caso de Uber, estamos hablando de una economía bajo demanda, en donde las plataformas funcionan como intermediarios entre la oferta y la demanda, generada de profesional a consumidor. El conductor inicia su viaje solo cuando el usuario lo solicita, bajo una tarifa definida por la plataforma, generando utilidad a esta última y al conductor. En estos casos, “La prestación se origina en base a las necesidades del usuario que demanda y se adapta a sus preferencias. Estos servicios se ofrecen normalmente a cambio de una contraprestación y habitualmente con ánimo de lucro”.&lt;ref&gt;https://www.cippec.org/publicacion/claves-para-entender-la-economia-colaborativa-y-de-plataformas-en-las-ciudades/&lt;/ref&gt;&lt;br /&gt;
 
 ==='''Posibles consecuencias ante proyecto de reforma labora'''l===
-El proyecto de reforma “Ratifica la instauración de las figuras del '''«trabajador autónomo económicamente vinculado»''' y del «trabajador independiente» con colaboradores, donde se las margina de la ley 20.744 que rige todas las relaciones laborales formales y las asimila a una '''variante del monotributo,''' con '''menores obligaciones para sus dadores de empleo'''. En el primer caso se ideó para aquellos prestadores de servicios (profesionales, en general) que tienen un cliente preponderante siempre y cuando la facturación para ese destino no supere el 80% del total- y que en la actualidad figuran como autónomos.”
+El proyecto de reforma&lt;ref&gt;https://www.ncn.com.ar/wp-content/uploads/2017/11/reforma-laboral.pdf&lt;/ref&gt; “Ratifica la instauración de las figuras del '''«trabajador autónomo económicamente vinculado»''' y del «trabajador independiente» con colaboradores, donde se las margina de la ley 20.744 que rige todas las relaciones laborales formales y las asimila a una '''variante del monotributo,''' con '''menores obligaciones para sus dadores de empleo'''. En el primer caso se ideó para aquellos prestadores de servicios (profesionales, en general) que tienen un cliente preponderante siempre y cuando la facturación para ese destino no supere el 80% del total- y que en la actualidad figuran como autónomos.”
 
-En caso de aplicarse esta reforma, los trabajadores de plataformas digitales podrían estar encuadrados bajo la categoría de “trabajador económicamente dependiente” o “trabajador autónomo económicamente vinculado”, definidos como "aquellas personas que '''presten servicios especializados''', realizando una actividad económica o profesional a tí­tulo oneroso '''de manera habitual personal y directa para una persona fí­sica o jurí­dica''' de la que '''dependan económicamente hasta el 80% de sus ingresos anuales'''"
+En caso de aplicarse esta reforma, los trabajadores de plataformas digitales podrían estar encuadrados bajo la categoría de “trabajador económicamente dependiente” o “trabajador autónomo económicamente vinculado”, definidos como "aquellas personas que '''presten servicios especializados''', realizando una actividad económica o profesional a tí­tulo oneroso '''de manera habitual personal y directa para una persona fí­sica o jurí­dica''' de la que '''dependan económicamente hasta el 80% de sus ingresos anuales'''"&lt;ref&gt;https://www.ncn.com.ar/los-trabajadores-independientes-la-clave-en-la-nueva-version-de-la-reforma-laboral/&lt;/ref&gt;
 
-==='''Datos numericos'''===
-Segun la info extraída de “Economía de plataformas y empleo” de Javier Madariaga, César Buenadicha, Erika Molina, y Christoph Ernst:
+==='''Datos numéricos'''===
+Segun la info extraída de “Economía de plataformas y empleo” de Javier Madariaga, César Buenadicha, Erika Molina, y Christoph Ernst:&lt;ref&gt;https://www.redaccion.com.ar/uber-rappi-y-glovo-la-economia-de-plataformas-ya-emplea-al-1-de-los-trabajadores-argentinos/&lt;/ref&gt;
 
 *El 85% dice estar satisfecho con su trabajo
 *Solo 2 de cada 10 eligió trabajar ahí por la dificultad para conseguir otro trabajo. Aunque la mitad no realiza aportes previsionales.
@@ -347,28 +398,28 @@ Segun la info extraída de “Economía de plataformas y empleo” de Javier Mad
 
 &lt;br /&gt;
 
-=='''POLÍTICA/LEGISLACIÓN COMPARADA'''==
+=='''Política/Legislación comparada'''==
 
 ==='''Perú'''===
-Aproximadamente cerca de 420 mil jóvenes entre 15 y 19 años se encuentran sin empleo en el Perú. Según advierte un proyecto de ley del congresista Miguel Román Valdivia, muchos de ellos optan por dedicarse a trabajar en empresas que brindan servicios de delivery y courier.
+Aproximadamente cerca de 420 mil jóvenes entre 15 y 19 años se encuentran sin empleo en el Perú. Según advierte un proyecto de ley del congresista Miguel Román Valdivia, muchos de ellos optan por dedicarse a trabajar en empresas que brindan servicios de delivery y courier.&lt;ref&gt;https://redaccion.lamula.pe/2019/06/07/glovo-rappi-uber-eats-peru-lima-trabajadores-motorizados-ciclistas-derechos-laborales/jorgepaucar/&lt;/ref&gt;
 
 ==='''Chile'''===
-“¿Por qué no pueden ser calificados como "emprendedores" o “emprendedoras” quienes trabajan para estas aplicaciones? Porque no definen sus tarifas, porque no tienen cómo llegar autónomamente a sus clientes, porque no tienen la posibilidad de “crecer” en su rubro, porque les cambian unilateralmente las condiciones, porque deben realizar su labor con implementos exclusivos de la aplicación y porque pueden ser desconectados de manera arbitraria por las aplicaciones”
+“¿Por qué no pueden ser calificados como "emprendedores" o “emprendedoras” quienes trabajan para estas aplicaciones? Porque no definen sus tarifas, porque no tienen cómo llegar autónomamente a sus clientes, porque no tienen la posibilidad de “crecer” en su rubro, porque les cambian unilateralmente las condiciones, porque deben realizar su labor con implementos exclusivos de la aplicación y porque pueden ser desconectados de manera arbitraria por las aplicaciones”.&lt;ref&gt;https://web.mijefeesunaapp.cl/&lt;/ref&gt;
 
 ==='''Regulación jurídica de Uber en Europa'''===
 
 ====Tribunal de Justicia europeo====
-“El TJUE (Tribunal de Justicia europeo) decidió que Uber es en esencia un servicio de transporte, y, por lo tanto, debe adecuarse a las reglas administrativas que cada Estado Miembro de la Unión Europea disponga respecto de la actividad.”
+“El TJUE (Tribunal de Justicia europeo) decidió que Uber es en esencia un servicio de transporte, y, por lo tanto, debe adecuarse a las reglas administrativas que cada Estado Miembro de la Unión Europea disponga respecto de la actividad.”&lt;ref&gt;http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=198047&amp;pageIndex=0&amp;doclang=ES&amp;mode=req&amp;dir=&amp;occ=first&amp;part=1&amp;cid=698276&lt;/ref&gt;
 
 ====Caso Uber vs. Aslam====
 “El 28 de Octubre del 2016 el Tribunal Central de Empleos de Londres determinó que los choferes de Uber son empleados y por ende deben recibir los beneficios y las prestaciones como tales”. 
 
-“El Tribunal Laboral (employment tribunal), determinó que basta que una persona se encuentre conectada a la aplicación, en el territorio en que esta funciona, y disponible para aceptar la realización de servicios para que se encuentre trabajando.”
+“El Tribunal Laboral (employment tribunal), determinó que basta que una persona se encuentre conectada a la aplicación, en el territorio en que esta funciona, y disponible para aceptar la realización de servicios para que se encuentre trabajando.”&lt;ref&gt;https://www.cronista.com/columnistas/Choferes-de-Uber-son-empleados-en-relacion-de-dependencia-segun-tribunales-londinenses-20161129-0025.html&lt;/ref&gt;
 
 ==='''Uber en Argentina'''===
-“En lo que refiere al caso Uber en la República Argentina, es claro que el camino judicial fue distinto al seguido en Europa, en tanto el Gobierno de la Ciudad de Buenos Aires tuvo un rol activo en '''prohibir las actividades comerciales de Uber''' a través de: a) el bloqueo de la página web con la que opera Uber en todo el territorio nacional, y b) la prohibición de operar con ciertos medios de pago en el ámbito de la C.A.B.A., lo cual fue dispuesto primero en el orden administrativo, y luego confirmado judicialmente."
+“En lo que refiere al caso Uber en la República Argentina, es claro que el camino judicial fue distinto al seguido en Europa, en tanto el Gobierno de la Ciudad de Buenos Aires tuvo un rol activo en '''prohibir las actividades comerciales de Uber''' a través de: a) el bloqueo de la página web con la que opera Uber en todo el territorio nacional, y b) la prohibición de operar con ciertos medios de pago en el ámbito de la C.A.B.A., lo cual fue dispuesto primero en el orden administrativo, y luego confirmado judicialmente."&lt;ref&gt;http://www.saij.gob.ar/&lt;/ref&gt;
 
-Luego, "'''Un fallo revocó las condenas contra la empresa y sus directivos por el supuesto "uso lucrativo del espacio público sin autorización""'''
+Luego, "'''Un fallo revocó las condenas contra la empresa y sus directivos por el supuesto "uso lucrativo del espacio público sin autorización""'''&lt;ref&gt;https://drive.google.com/file/d/1QZRxBunuHHoPxlgKwEgcSu9n2VqChbC9/view&lt;/ref&gt;
 
 ==='''Rappi, Glovo y PedidosYa en Argentina'''===
 
@@ -376,15 +427,20 @@ Luego, "'''Un fallo revocó las condenas contra la empresa y sus directivos por 
 
 El fallo surge como respuesta a la inacción del GCBA frente a la problemática que se desprende de los últimos relevamientos realizados: 
 
-*Según relevamientos efectuados en la vía pública por la Policía de la Ciudad, de un total de 691 vehículos relevados afectados al servicio de mensajería urbana y reparto de sustancias alimenticias a domicilio, 262 prestaban servicios para Rappi, 255 para Glovo y 117 para pedidos Ya y 57 para firmas no identificadas. De esos 691 vehículos, 417 eran bicicletas, 199 motos y 75 no fueron clasificados. '''De las 417 bicicletas''', 281 de los conductores circulaban sin casco (67%), 323 con la caja portaobjetos en la espalda (77%) y 290 sin seguro alguno (70%). '''En el caso de las 199 motos''', 5 conductores circulaban sin casco (2.5%), 94 con la caja portaobjetos en la espalda (47%) y 3 sin seguro alguno (26%). '''De los 75 vehículos no identificados'''  el 56% circulaba sin casco, el 76% con el portaobjetos en la espalda y el 56% sin seguro alguno.
+*Según relevamientos efectuados en la vía pública por la Policía de la Ciudad, de un total de 691 vehículos relevados afectados al servicio de mensajería urbana y reparto de sustancias alimenticias a domicilio, 262 prestaban servicios para Rappi, 255 para Glovo y 117 para pedidos Ya y 57 para firmas no identificadas. De esos 691 vehículos, 417 eran bicicletas, 199 motos y 75 no fueron clasific&lt;ref&gt;https://es.scribd.com/document/405786909/El-fallo-que-prohibe-el-delivery-en-bicicleta#from_embed&lt;/ref&gt;ados. '''De las 417 bicicletas''', 281 de los conductores circulaban sin casco (67%), 323 con la caja portaobjetos en la espalda (77%) y 290 sin seguro alguno (70%). '''En el caso de las 199 motos''', 5 conductores circulaban sin casco (2.5%), 94 con la caja portaobjetos en la espalda (47%) y 3 sin seguro alguno (26%). '''De los 75 vehículos no identificados'''  el 56% circulaba sin casco, el 76% con el portaobjetos en la espalda y el 56% sin seguro alguno.
 **De esto se desprende que el servicio de mensajería urbana y reparto a domicilio de sustancias a domicilio llevado a cabo en CABA por Rappi, Glovo y Pedidos Ya, se realiza en transgresión a la normativa vigente, y se les debe exigir dar cumplimiento a las normas básicas en materia de seguridad contenidas en el Código de Tránsito y Transporte y en el decreto reglamentario 198/18.
 
 *Por otro lado, de la información aportada por el Ministerio de Salud, surge que, en el lapso de un mes y solo en los htales públicos, se registraron 25 accidentes en la vía pública, involucrando motos o bicicletas al servicio de mensajería o reparto a domicilio.
 
 Por lo tanto, “En consecuencia se ordenará al GCBA que en cumplimiento de las disposiciones contenidas en el capítulo 13 del código de tránsito y transporte de la CABA y de sus normas reglamentarias, prohíba en el territorio local la operatoria de las empresas Rappi ARG. S.A.S, Kadabra S.A.S (Glovo) y Pedidos Ya S.A, así como de todas las firmas que realicen la actividad de mensajería y reparto a domicilio, sin estar inscriptas en el RUTRAMYC y sin cumplir con la normativa vigente, hasta tanto acrediten haber dado cumplimiento a mínimos requisitos legales.'''*''' (…) Habré de ordenar además al GCBA que asuma la responsabilidad que le cabe al haber permitido este grave cuatro y mitigue los efectos económicos y sociales que necesariamente deriven de lo aquí resuelto.”
 
-'''*'''	Se entiende por requisitos legales: 1)   Que todos sus repartidores circulen utilizando casco, 2) que la caja portaobjetos esté anclada a la moto y/o bicicleta y no en la espalda del repartidor, 3) que los repartidores cuenten con seguro de vida y accidentes, 4) que posean libreta sanitaria, 5) que los vehículos cuenten con adecuada señalización nocturna (luminosa y refractaria).</text>
-      <sha1>keg5aqo1zet9c92qvfbwjh5kj0oc3u5</sha1>
+'''*'''	Se entiende por requisitos legales: 1)   Que todos sus repartidores circulen utilizando casco, 2) que la caja portaobjetos esté anclada a la moto y/o bicicleta y no en la espalda del repartidor, 3) que los repartidores cuenten con seguro de vida y accidentes, 4) que posean libreta sanitaria, 5) que los vehículos cuenten con adecuada señalización nocturna (luminosa y refractaria).
+
+&lt;br /&gt;
+
+== Referencias ==
+&lt;references /&gt;</text>
+      <sha1>fu4x0wxkffvv6qu7w08yn551ofuwv4g</sha1>
     </revision>
   </page>
   <page>
