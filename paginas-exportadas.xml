@@ -57,16 +57,16 @@
     <ns>8</ns>
     <id>10</id>
     <revision>
-      <id>66</id>
-      <parentid>65</parentid>
-      <timestamp>2019-07-18T17:51:59Z</timestamp>
+      <id>101</id>
+      <parentid>100</parentid>
+      <timestamp>2019-07-20T19:50:45Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
       <model>css</model>
       <format>text/css</format>
-      <text xml:space="preserve" bytes="2527">/* Los estilos CSS colocados aquí se aplicarán a todas las apariencias */
+      <text xml:space="preserve" bytes="2626">/* Los estilos CSS colocados aquí se aplicarán a todas las apariencias */
 
 /* esconder "Herramientas wiki" */
 #site-tools {display:none;}
@@ -107,7 +107,9 @@ li#pt-notifications-alert {display: none;}
   #pt-notifications-notice .mw-echo-notifications-badge::before {top:1002px;}
 }
 
-#searchButton {background-image: url(/images/CausasComunes_Busqueda_Small.png);}
+/* no me pasaron uno que pueda ir bien, fue */
+/*#searchButton {background-image: url(/images/CausasComunes_Busqueda_Small.png);}*/
+#searchButton, #mw-searchButton {opacity:0.4;}
 
 /* logo */
 #p-banner {
@@ -117,7 +119,7 @@ li#pt-notifications-alert {display: none;}
 #p-logo-text {
   background-image: url(images/logo-wiki.png);
   background-repeat: no-repeat;
-  background-size: 88px 35px;
+  background-size: 204px 35px;
 }
 @media screen and (min-width: 1099px) {
   #p-logo-text {background-position-x: center;}
@@ -153,7 +155,7 @@ body{
 body {background: #f3f3f3;}
 #mw-footer-container li, #mw-footer-container a {color:black;}
 #mw-content-container {border-bottom: solid 4px #900;}</text>
-      <sha1>3s96hq51tb6zy96micwylw95mehyx4x</sha1>
+      <sha1>84eix88lwdd0hehcwjodgh8h3vq0dvn</sha1>
     </revision>
   </page>
   <page>
