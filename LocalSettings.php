@@ -153,7 +153,7 @@ wfLoadExtension( 'VisualEditor' );
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
 $wgDefaultUserOptions['visualeditor-editor'] = "visualeditor";
 $wgHiddenPrefs[] = 'visualeditor-enable';
-$wgVirtualRestConfig['modules']['parsoid'] = array('url' => 'http://parsoid:8000', 'domain' => 'web');
+$wgVirtualRestConfig['modules']['parsoid'] = array('url' => getenv( 'MW_PARSOID_URL' ), 'domain' => getenv( 'MW_PARSOID_WIKI_DOMAIN' ));
 
 wfLoadExtension( 'TemplateStyles' );
 
