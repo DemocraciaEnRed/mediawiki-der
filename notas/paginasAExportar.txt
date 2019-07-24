@@ -1,5 +1,7 @@
 MediaWiki:Sidebar
 MediaWiki:Common.css
+Plantilla:Instrucciones
+
 Página_principal
 Género
 Medioambiente
