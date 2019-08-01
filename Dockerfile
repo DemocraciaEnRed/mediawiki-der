@@ -24,6 +24,11 @@ RUN cd Echo && php /usr/local/bin/composer.phar update --no-dev
 RUN curl -S https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/Flow/+archive/REL1_32.tar.gz | tar xz --one-top-level=Flow
 RUN cd Flow && php /usr/local/bin/composer.phar update --no-dev
 
+#EditNotify
+RUN curl -S https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/EditNotify/+archive/REL1_32.tar.gz | tar xz --one-top-level=EditNotify
+RUN pear install mail net_smtp
+RUN cd EditNotify/i18n && cp en.json es.json && sed -i -e 's/was modified/tuvo modificaciones/' -e 's/was created/fue creada/' -e 's/Page/La página/' es.json
+
 ####OTROS
 #Mobile skins
 #WORKDIR /var/www/html/skins
