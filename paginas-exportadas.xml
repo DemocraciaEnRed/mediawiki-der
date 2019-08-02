@@ -1,8 +1,8 @@
 <mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="es">
   <siteinfo>
     <sitename>Wiki Causas Comunes</sitename>
-    <dbname>mediawikidb</dbname>
-    <base>http://diagnostico.causascomunes.mooo.com/index.php/P%C3%A1gina_principal</base>
+    <dbname>mediawiki</dbname>
+    <base>https://diagnostico.causascomunes.org/index.php/P%C3%A1gina_principal</base>
     <generator>MediaWiki 1.32.2</generator>
     <case>first-letter</case>
     <namespaces>
@@ -30,43 +30,43 @@
   <page>
     <title>MediaWiki:Sidebar</title>
     <ns>8</ns>
-    <id>11</id>
+    <id>10</id>
     <revision>
-      <id>48</id>
-      <parentid>16</parentid>
-      <timestamp>2019-07-18T15:54:25Z</timestamp>
+      <id>65</id>
+      <parentid>64</parentid>
+      <timestamp>2019-07-26T14:18:27Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="151">
-* navigation
+      <text xml:space="preserve" bytes="137">
+* Causas
 ** género|Género
-** medioambiente|Medioambiente
+** ambiente|Ambiente
 ** trabajo|Trabajo
 ** drogas|Drogas
 ** vivienda|Vivienda
 ** transparencia|Transparencia</text>
-      <sha1>jfw7hn5p73ags4j3ob1c2v8kx3bkylc</sha1>
+      <sha1>b04hpw8qxkvr4lg9hra1412670dh3md</sha1>
     </revision>
   </page>
   <page>
     <title>MediaWiki:Common.css</title>
     <ns>8</ns>
-    <id>10</id>
+    <id>11</id>
     <revision>
-      <id>180</id>
-      <parentid>148</parentid>
-      <timestamp>2019-07-23T19:22:19Z</timestamp>
+      <id>55</id>
+      <parentid>31</parentid>
+      <timestamp>2019-07-26T13:43:46Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
       <model>css</model>
       <format>text/css</format>
-      <text xml:space="preserve" bytes="2913">/* Los estilos CSS colocados aquí se aplicarán a todas las apariencias */
+      <text xml:space="preserve" bytes="3057">/* Los estilos CSS colocados aquí se aplicarán a todas las apariencias */
 
 /* esconder "Herramientas wiki" */
 #site-tools {display:none;}
@@ -80,6 +80,9 @@
 
 /* esconder "Editar código" en namespace 0 */
 body.ns-0 #ca-edit {display:none;}
+
+/* esconder "Categorías" */
+#catlinks-sidebar {display:none;}
 
 /* ícono menú hamburguesa */
 #site-navigation h2 {background-image: url(/images/CausasComunes_Menu_Small.png);}
@@ -107,7 +110,7 @@ li#pt-notifications-alert {display: none;}
   #pt-notifications-notice .mw-echo-notifications-badge::before {top:1002px;}
 }
 
-/* no me pasaron uno que pueda ir bien, fue */
+/* no me pasaron in ícono de search que pueda ir bien, modifico el que está */
 /*#searchButton {background-image: url(/images/CausasComunes_Busqueda_Small.png);}*/
 #searchButton, #mw-searchButton {opacity:0.4;}
 
@@ -125,7 +128,7 @@ li#pt-notifications-alert {display: none;}
   #p-logo-text {background-position-x: center;}
 }
 
-/* sacar gatito marca de agua */
+/* sacar gatito marca de agua que viene con el skin */
 #mw-content-container {background-image:none;}
 
 /* fonts generales */
@@ -156,7 +159,7 @@ body {background: #f3f3f3;}
 #mw-footer-container li, #mw-footer-container a {color:black;}
 #mw-content-container {border-bottom: solid 4px #900;}
 
-/* bloques de código utilizados para dar avisos (la segunda regla es para el visualeditor) */
+/* bloques de código utilizados para dar avisos tipo FUENTE o MAS DATOS (la segunda regla es para el visualeditor) */
 #mw-content-text code, #bodyContent code {
   background-color: #eadd7f;background-color: #e6c94d;
   /*font-weight: bold;*/
@@ -164,32 +167,33 @@ body {background: #f3f3f3;}
   border-radius: 20px;
   padding: 1px 7px;
 }</text>
-      <sha1>hr7wgxepbzftdiityiz4dyhv5m7y85e</sha1>
+      <sha1>mmhmzou3txkk8yk49aj1nffsckjqmd2</sha1>
     </revision>
   </page>
   <page>
     <title>Plantilla:Instrucciones</title>
     <ns>10</ns>
-    <id>41</id>
+    <id>17</id>
     <revision>
-      <id>176</id>
-      <timestamp>2019-07-23T19:03:40Z</timestamp>
+      <id>54</id>
+      <parentid>33</parentid>
+      <timestamp>2019-07-25T19:04:33Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>AgustinFrizzera</username>
+        <id>4</id>
       </contributor>
-      <comment>Página creada con «{| class="wikitable" |- | [[Archivo:Info-wiki.png]] || '''Para editar la Wiki, sumar, corregir, aclarar ...''' #  CREAR cuenta. #  Una vez creada la cuenta, presionar EDITA…»</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="256">{| class="wikitable"
+      <text xml:space="preserve" bytes="403">{| class="wikitable"
 |-
 | [[Archivo:Info-wiki.png]] || '''Para editar la Wiki, sumar, corregir, aclarar ...'''
 #  CREAR cuenta.
 #  Una vez creada la cuenta, presionar EDITAR en la sección correspondiente.
 #  MODIFICAR/AGREGAR texto.
-#  GUARDAR cambios.
+#  GUARDAR cambios
+#  VER más detalles sobre la edición, [https://docs.google.com/presentation/d/1Hj1WhIHJGBb197Z86Ijl6lMi3H1_CUwrk6AXLKQse_Q/edit?usp=sharing ACÁ]
 |}</text>
-      <sha1>1osvxqz8510hx968wxrb4oc7tn8xqso</sha1>
+      <sha1>0abx11w6suwwhfexczq9vu6sfeq2hrr</sha1>
     </revision>
   </page>
   <page>
@@ -197,26 +201,28 @@ body {background: #f3f3f3;}
     <ns>0</ns>
     <id>1</id>
     <revision>
-      <id>62</id>
-      <parentid>1</parentid>
-      <timestamp>2019-07-18T17:22:20Z</timestamp>
+      <id>35</id>
+      <parentid>34</parentid>
+      <timestamp>2019-07-25T13:31:04Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
+      <minor/>
+      <comment>1 revisión importada</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="202">'''Bienvenide a la wiki de Causas Comunes'''
+      <text xml:space="preserve" bytes="191">'''Bienvenide a la wiki de Causas Comunes'''
 
 Por favor ingrese a alguno de los artículos de las causas:
 
-* [[Género]]
-* [[Medioambiente]]
-* [[Trabajo]]
-* [[Drogas]]
-* [[Vivienda]]
-* [[Transparencia]]</text>
-      <sha1>2iuikhxrk9p0hgbnktgr081d2sb83cf</sha1>
+*[[Género]]
+*[[Ambiente]]
+*[[Trabajo]]
+*[[Drogas]]
+*[[Vivienda]]
+*[[Transparencia]]</text>
+      <sha1>57hrq12zugtbipemour4bysj5b9knpo</sha1>
     </revision>
   </page>
   <page>
@@ -224,37 +230,51 @@ Por favor ingrese a alguno de los artículos de las causas:
     <ns>0</ns>
     <id>12</id>
     <revision>
-      <id>187</id>
-      <parentid>182</parentid>
-      <timestamp>2019-07-23T22:52:20Z</timestamp>
+      <id>141</id>
+      <parentid>112</parentid>
+      <timestamp>2019-07-31T20:39:12Z</timestamp>
       <contributor>
-        <username>Agustin Frizzera</username>
-        <id>5</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="3591">{{Instrucciones}}
+      <text xml:space="preserve" bytes="4485">{{Instrucciones}}
 
 =='''Problemática / Causa Común'''==
-Implementación de la Educación Sexual Integral, a nivel nacional 
+Implementación de la Educación Sexual Integral, a nivel nacional. 
 
 =='''Contexto'''==
-La "Educación Sexual Integral" (ESI) es el conjunto de actividades que se hacen en la escuela para que lxs niñxs y adolescentes aprendan a conocer y respetar su propio cuerpo y su voluntad de forma autónoma, puedan asumir actitudes responsables respecto a su sexualidad, y conozcan y respeten el derecho a la identidad, la no discriminación y el buen trato. &lt;code&gt;'''AGREGAR FUENTE'''&lt;/code&gt; 
+La "Educación Sexual Integral" (ESI) es el conjunto de actividades que se hacen en la escuela para que lxs niñxs y adolescentes aprendan a conocer y respetar su propio cuerpo y su voluntad de forma autónoma, puedan asumir actitudes responsables respecto a su sexualidad, y conozcan y respeten el derecho a la identidad, la no discriminación y el buen trato. &lt;ref&gt;Fundación Huesped, "Educación sexual integral"
+
+https://www.huesped.org.ar/informacion/derechos-sexuales-y-reproductivos/tus-derechos/educacion-sexual-integral/&lt;/ref&gt; 
 
 En el 2006, el Congreso aprobó, con un amplio consenso, la [http://servicios.infoleg.gob.ar/infolegInternet/anexos/120000-124999/121222/norma.htm Ley de Educación Sexual Integral] . &lt;code&gt;'''DESARROLLAR LO QUE ESTABLECE LA LEY'''&lt;/code&gt; 
 
-Sin embargo, 13 años después, en muchas provincias, lxs niñxs y adolescentes manifiestan nunca haber recibido ESI en su escuela. Por ejemplo, en Córdoba, la mitad de las y los estudiantes nunca recibieron educación sexual. &lt;code&gt;'''FUENTE'''&lt;/code&gt; '''-&lt;code&gt;¿HAY MÁS CASOS?&lt;/code&gt;''' 
+Sin embargo, 13 años después, en muchas provincias, lxs niñxs y adolescentes manifiestan nunca haber recibido ESI en su escuela. Por ejemplo, un 80% de estudiantes manifiesta que su escuela debería abordar el tema de la Educación Sexual Integral, y no lo hace &lt;ref&gt;Aprender (2017), Informe de Resultados Cordoba - 6° año Secundaria
 
-De acuerdo a los resultados de las encuestas del Operativo Aprender, el 80% de lxs estudiantxs de escuelas secundarias de la Argentina demandan expresamente que necesitan recibir educación sexual integral y que les falta educación sobre violencia de género.&lt;ref&gt;https://www.argentina.gob.ar/sites/default/files/aprender2018_primaria.pdf&lt;/ref&gt; &lt;code&gt;'''CITAR LAS CATEGORÍAS EXACTAS'''&lt;/code&gt; 
+https://www.argentina.gob.ar/sites/default/files/informe_cordoba_secundaria_2017_0.pdf&lt;/ref&gt;'''-&lt;code&gt;¿HAY MÁS CASOS?&lt;/code&gt;''' 
 
-En Argentina, actualmente, cada tres horas, una niña de entre 10 y 14 años tiene un parto en argentina (Fuente: Unicef). &lt;ref&gt;https://www.clarin.com/sociedad/embarazo-infantil_0_Hyyy2LZSb.html&lt;/ref&gt; &lt;code&gt;'''MÁS DATOS'''&lt;/code&gt; 
+De acuerdo a los resultados de las encuestas del Operativo Aprender, el 80% de lxs estudiantxs de escuelas secundarias de la Argentina demandan expresamente que necesitan recibir educación sexual integral y que les falta educación sobre violencia de género.&lt;ref&gt;Aprender (2017), "Informe de resultados de secundaria"
 
-La evidencia demuestra que en aquellos países en los cuales se implemento la educación sexual, la situación de lxs niñxs y adolescentes respecto al cumplimiento de sus derechos mejora notablemente. Por ejemplo, en Ecuador la tasa de embarazo de mujeres de 15 años disminuyó en un 70% luego de la implementación de la ley.&lt;ref&gt;http://sedici.unlp.edu.ar/bitstream/handle/10915/57118/Documento_completo.pdf-PDFA.pdf?sequence=3&amp;isAllowed=y&lt;/ref&gt;  &lt;code&gt;'''MÁS DATOS'''&lt;/code&gt;
+https://www.argentina.gob.ar/sites/default/files/reporte_nacional_2017_secundaria_0.pdf&lt;/ref&gt; &lt;code&gt;'''CITAR LAS CATEGORÍAS EXACTAS'''&lt;/code&gt; 
+
+En Argentina, actualmente, cada tres horas, una niña de entre 10 y 14 años tiene un parto en argentina (Fuente: Unicef). &lt;ref&gt;Mariana Iglesias (10 de Julio del 2017), "Cada tres horas una nena de entre 10 y 14 años tiene un bebé en la Argentina". Clarin.
+
+https://www.clarin.com/sociedad/embarazo-infantil_0_Hyyy2LZSb.html&lt;/ref&gt; &lt;code&gt;'''MÁS DATOS'''&lt;/code&gt; 
+
+La evidencia demuestra que en aquellos países en los cuales se implementó la educación sexual, la situación de lxs niñxs y adolescentes respecto al cumplimiento de sus derechos mejora notablemente. Por ejemplo, en Ecuador la tasa de embarazo de mujeres de 15 años disminuyó en un 70% luego de la implementación de la ley.&lt;ref&gt;María Isabel Egas (2015), "Educación y embarazo adolescente. Evaluación del cambio curricular para Ecuador." Tesis de maestría, UNLP; Dir: Guillermo Cruces
+
+http://sedici.unlp.edu.ar/bitstream/handle/10915/57118/Documento_completo.pdf-PDFA.pdf?sequence=3&amp;isAllowed=y&lt;/ref&gt;  &lt;code&gt;'''MÁS DATOS'''&lt;/code&gt;
 
 =='''Embarazos adolescentes en Argentina'''==
-En la Argentina hay 700 mil nacimientos por año. El 16% proviene de madres adolescentes de entre 15 y 19 años (en algunas provincias equivale al 25%) y más de 3000 son de niñas de 10 a 13 años. El 69% de esas mujeres adolescentes no planearon ese embarazo &lt;code&gt;'''FUENTE'''&lt;/code&gt; (SIP 2010). Los embarazos no deseados suelen ser mayor entre las mujeres del 20% de los hogares más pobres, en particular las que tienen menor escolaridad y viven en áreas rurales quienes, sin acceso a métodos anticonceptivos, están más expuestas al embarazo no deseado. 
+En la Argentina hay 700 mil nacimientos por año. El 16% proviene de madres adolescentes de entre 15 y 19 años (en algunas provincias equivale al 25%) y más de 3000 son de niñas de 10 a 13 años. El 69% de esas mujeres adolescentes no planearon ese embarazo. Los embarazos no deseados suelen ser mayor entre las mujeres del 20% de los hogares más pobres, en particular las que tienen menor escolaridad y viven en áreas rurales quienes, sin acceso a métodos anticonceptivos, están más expuestas al embarazo no deseado.&lt;ref&gt;UNFPA Argentina, "Datos sobre embarazo adolescente en la Argentina"
 
-En la Ciudad de Buenos Aires, el 31% de los 200 jóvenes encuestados no recibió educación sexual en la secundaria. El 69% restante la asoció con contenidos vinculados al funcionamiento del aparato reproductivo (95%), métodos anticonceptivos (94%) y prevención de enfermedades de transmisión sexual (92%). Y dijeron que recibieron menos de dos horas de cátedra al año durante su secundario (poco enfoque en igualdad de derechos, violencia de género, abuso y acoso).&lt;ref&gt;https://issuu.com/lauragvelasco/docs/informe_esi_ultima_version&lt;/ref&gt; 
+http://www.unfpa.org.ar/sitio/index.php?option=com_content&amp;view=article&amp;id=202&amp;Itemid=105&lt;/ref&gt; 
+
+En la Ciudad de Buenos Aires, el 31% de los 200 jóvenes encuestados no recibió educación sexual en la secundaria. El 69% restante la asoció con contenidos vinculados al funcionamiento del aparato reproductivo (95%), métodos anticonceptivos (94%) y prevención de enfermedades de transmisión sexual (92%). Y dijeron que recibieron menos de dos horas de cátedra al año durante su secundario (poco enfoque en igualdad de derechos, violencia de género, abuso y acoso).&lt;ref&gt;Laura Velasco (2016), "Informe sobre educación sexual integral en CABA", CABA
+
+https://issuu.com/lauragvelasco/docs/informe_esi_ultima_version&lt;/ref&gt; 
 
 &lt;code&gt;'''¿DATOS A NIVEL NACIONAL? ¿HISTÓRICOS?'''&lt;/code&gt; 
 
@@ -266,24 +286,25 @@ En la Ciudad de Buenos Aires, el 31% de los 200 jóvenes encuestados no recibió
 
 =='''Referencias'''==
 &lt;references /&gt;</text>
-      <sha1>qrd186emc88tjmdf7veb920dyrzofma</sha1>
+      <sha1>ccd8cb16qgg9qaqrjhnwm1byag4njby</sha1>
     </revision>
   </page>
   <page>
-    <title>Medioambiente</title>
+    <title>Ambiente</title>
     <ns>0</ns>
-    <id>17</id>
+    <id>18</id>
     <revision>
-      <id>188</id>
-      <parentid>103</parentid>
-      <timestamp>2019-07-23T22:52:51Z</timestamp>
+      <id>104</id>
+      <parentid>82</parentid>
+      <timestamp>2019-07-30T20:57:21Z</timestamp>
       <contributor>
-        <username>Agustin Frizzera</username>
-        <id>5</id>
+        <username>La vuelta al mundo</username>
+        <id>7</id>
       </contributor>
+      <comment>/* GEIs (gases de efecto invernadero) */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="2386">{{Instrucciones}}
+      <text xml:space="preserve" bytes="3699">{{Instrucciones}}
 
 =='''Contexto'''==
 El sistema global de producción, distribución y consumo está genera impactos ecológicos devastadores y alimenta una sociedad cada vez más desigual. El 10% más rico de la población del planeta genera el 45% de las emisiones de CO2, mientras el 50% más pobre genera solo el 10%. Sin embargo quienes más sufren las consecuencias de los fenómenos derivados, inundaciones, sequías o el aumento de enfermedades, como el dengue, serán los más estratos más vulnerables. 
@@ -294,70 +315,65 @@ En Argentina, los grandes productores agropecuarios recurren a un modelo basado 
 
 =='''Problemática/Causa común'''==
 
-*Ley de zonas buffer de agroquímicos
-*Ley de Emergencia Climática
-*Ley de etiquetado de alimentos
-
-=='''Afectados'''==
-La ciudadanía, especialmente los mas vulnerados
-
-=='''Actores relevantes'''==
-
-*Megacorporaciones
-*Políticxs
-*Productores agrícolas
-*Organismos internacionales
-*Ciudadanos
-*Productores agroecológicos
+*Ley de zonas buffer/regulación de agroquímicos.
+*Ley de fomento de renovables con inclusión social.
+*Ley de etiquetado de alimentos.
 
 =='''Causas'''==
-El modelo de producción distribución y consumo que concentra la riqueza al mismo tiempo que daña el ambiente.
+La problemática tienen todas una misma raíz. El modelo de producción distribución y consumo que concentra la riqueza al mismo tiempo que daña el ambiente. En cambio climático las que resuenan más en Argentina tienen son una matriz energética basada en energías fósiles, falta de más y mejor transporte público (trenes y subtes), altos niveles de desforestación y una elevada producción de carne en feed-lots. En cuanto a la problemática de los agroquímicos, las causas tienen que ver con una completa desregulación de los cuidados que hay que tener para aplicar esos insumos a la producción. Se utilizan litros de pesticidas tóxicos sin consideraciónes de protección ni de zonas donde se aplican, pero aún más sin ninguna clase de controles al respecto.
 
 =='''Consecuencias'''==
-Crisis climática y ecológica, pueblos y escuelas fumigadas.
+Las consecuencias del cambio climático se pueden ver en detalle en los reportes del IPCC. Ya estamos transitando un aumento de entre 0.8 y 1,2 °C de temperatura media. Tenemos 10 años para bajar las emisiones a la mitad y 30 para tener un balance 0 de emisiones, si queremos mantener el aumento en 1,5°C de temperatura. La tendencia en cambio es de un aumento exponencial lo que nos acercaría a escenarios más catastróficos de aumentos de 3 a +5°C centígrados. Pero no solo aumenta la temperatura , también aumentarán las inundaciones, sequías, eventos extremos como tormentas y aumentará el nivel del mar. Todo esto afectará más a las personas mas vulnerables, que también sufriran más las las perdidas en la producción de comida que estos eventos traerán.
+
+Las consecuencias de la falta de regulación y control de agroquímicos provocan severos daños en la salud de trabajadoras y trabajadores como de gente en los pueblos, escuelas y ciudades aledañas. 
 
 =='''Datos relevantes'''==
 
 ===GEIs (gases de efecto invernadero)===
-Pasamos de producir 1170 kg por persona en 1970 a 2728 kg por persona en 2016.
-
 ===Gráficos/Datos numéricos===
 [[Archivo:Cuadro ambiente 1.png|centro|miniaturadeimagen|700x700px]]
 [[Archivo:Cuadro ambiente 2.png|centro|miniaturadeimagen|700x700px]]
 [[Archivo:Cuadro ambiente 3.png|centro|miniaturadeimagen|700x700px]]
 &lt;br /&gt;</text>
-      <sha1>eohy2jk8pw2x4n3wo40z4nsmy6s546q</sha1>
+      <sha1>f7uf3v86kb047ubdpgvl7r6ne2dxgkp</sha1>
     </revision>
   </page>
   <page>
     <title>Trabajo</title>
     <ns>0</ns>
-    <id>16</id>
+    <id>14</id>
     <revision>
-      <id>186</id>
-      <parentid>183</parentid>
-      <timestamp>2019-07-23T22:52:02Z</timestamp>
+      <id>145</id>
+      <parentid>144</parentid>
+      <timestamp>2019-07-31T22:19:31Z</timestamp>
       <contributor>
-        <username>Agustin Frizzera</username>
-        <id>5</id>
+        <username>ValeLisciani</username>
+        <id>10</id>
       </contributor>
+      <comment>/* Material Adicional */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="16537">{{Instrucciones}}
+      <text xml:space="preserve" bytes="19864">{{Instrucciones}}
 
 =='''Problemática/Causa Común'''==
-Derechos laborales de trabajadoras y trabajadores de Plataformas Digitales de Servicios. 
+Derechos laborales de trabajadoras y trabajadores de "plataformas digitales de servicios". 
 
 =='''Contexto'''==
-En Argentina, durante el 2018, creció el empleo no registrado, alcanzando al 49,3% de la población económicamente activa: el 81,7% del personal “en negro” tiene empleo de baja calidad y un 75,9% no recibe aportes de seguridad social. &lt;code&gt;'''AGREGAR FUENTE'''&lt;/code&gt; Durante 2018, sólo el 44,1% de la población económica activa logró acceder a un empleo pleno de derechos, mientras que el 9,9% de esta población se encontraba abiertamente desempleado y el 18,6% sometida a un subempleo inestable ("changas", "trabajos temporarios o no remunerados", o siendo beneficiarios de "programas de empleo con contraprestación") &lt;ref&gt;&lt;nowiki&gt;http://wadmin.uca.edu.ar/public/ckeditor/Observatorio%20Deuda%20Social/Documentos/2019/2019-OBSERVATORIO-DOCUMENTO-ESTADISTICO-HETEROGENEIDAD-FRAGMENTACION.pdf&lt;/nowiki&gt; &lt;/ref&gt;. En este contexto aparecieron nuevas ofertas laborales como Uber, Rappi, Glovo , etc.  
+En Argentina, durante el 2018, creció el empleo no registrado, alcanzando al 49,3% de la población económicamente activa: el 81,7% del personal “en negro” tiene empleo de baja calidad y un 75,9% no recibe aportes de seguridad social.&lt;ref name=":1"&gt;Eduardo Donza (Coordinador). Heterogeneidad y fragmentación del mercado de trabajo (2010-2018) - 1a ed. - Ciudad Autónoma de Buenos Aires: Educa, 2019. 
 
-Casi el 90% de trabajadores de plataformas digitales terminó el secundario, y el 37% afirma haber terminado también estudios superiores. En el caso particular de los trabajadores de Rappi, solo el 3% no terminó los estudios secundarios, el 55.2% se encuentra con estos estudios finalizados, y el 41.8% cuenta con nivel universitario completo. En el caso de Glovo los números no difieren en gran medida, el 9% cuenta con secundario incompleto, el 52.2% alcanza el terciario o universitario incompleto, y el 38.8% finalizó los estudios de grado. Así podemos concluir que la mayoría de los trabajadores de estas plataformas se encuentran sobrecalificados para las tareas que realizan, por lo que entendemos que el mercado laboral argentino no cuenta con recursos para absorber a una gran cantidad de trabajadores cualificados.&lt;ref&gt;https://www.cippec.org/publicacion/economia-de-plataformas-y-empleo-como-es-trabajar-para-una-app-en-argentina/&lt;/ref&gt;
+http://wadmin.uca.edu.ar/public/ckeditor/Observatorio%20Deuda%20Social/Documentos/2019/2019-OBSERVATORIO-DOCUMENTO-ESTADISTICO-HETEROGENEIDAD-FRAGMENTACION.pdf&lt;/ref&gt;  Durante 2018, sólo el 44,1% de la población económica activa logró acceder a un empleo pleno de derechos, mientras que el 9,9% de esta población se encontraba abiertamente desempleado y el 18,6% sometida a un subempleo inestable ("changas", "trabajos temporarios o no remunerados", o siendo beneficiarios de "programas de empleo con contraprestación") &lt;ref name=":1" /&gt;. En este contexto aparecieron nuevas ofertas laborales como Uber, Rappi, Glovo , etc.  
+
+Casi el 90% de trabajadores de plataformas digitales terminó el secundario, y el 37% afirma haber terminado también estudios superiores. En el caso particular de los trabajadores de Rappi, solo el 3% no terminó los estudios secundarios, el 55.2% se encuentra con estos estudios finalizados, y el 41.8% cuenta con nivel universitario completo. En el caso de Glovo los números no difieren en gran medida, el 9% cuenta con secundario incompleto, el 52.2% alcanza el terciario o universitario incompleto, y el 38.8% finalizó los estudios de grado. Así podemos concluir que la mayoría de los trabajadores de estas plataformas se encuentran sobrecalificados para las tareas que realizan, por lo que entendemos que el mercado laboral argentino no cuenta con recursos para absorber a una gran cantidad de trabajadores cualificados.&lt;ref name=":2"&gt;Madariaga, Javier "¿Cómo es trabajar para una app en Argentina?" CIPPEC. 
+
+https://www.cippec.org/publicacion/economia-de-plataformas-y-empleo-como-es-trabajar-para-una-app-en-argentina/&lt;/ref&gt;
 
 &lt;br /&gt;
 [[Archivo:Grafico trabajo nivel educativo.png|miniaturadeimagen|600x600px|https://www.cippec.org/wp-content/uploads/2019/05/Como-es-trabajar-en-una-app-en-Argentina-CIPPEC-BID-LAB-OIT.pdf|alt=|centro]]
 
 =='''Caraterísticas de Trabajadorxs de Apps en Argentina'''==
-Según información extraída de “Economía de plataformas y empleo” de Javier Madariaga, César Buenadicha, Erika Molina, y Christoph Ernst&lt;ref name=":0"&gt;https://www.redaccion.com.ar/uber-rappi-y-glovo-la-economia-de-plataformas-ya-emplea-al-1-de-los-trabajadores-argentinos/&lt;/ref&gt;.
+Según información extraída de “Economía de plataformas y empleo” de Javier Madariaga, César Buenadicha, Erika Molina, y Christoph Ernst&lt;ref name=":0"&gt;Weissman, Ivan (30 de Mayo de 2019). "Uber, Rappi y Glovo: la economía de plataformas ya emplea al 1% de los trabajadores argentinos" Redacción.
+
+https://www.redaccion.com.ar/uber-rappi-y-glovo-la-economia-de-plataformas-ya-emplea-al-1-de-los-trabajadores-argentinos/&lt;/ref&gt;.
 
 *Casi 4 de cada 5 trabajadorxs de plataformas digitales son hombres, con una edad promedio de 38 años.
 *El 85% dice estar satisfechx con su trabajo
@@ -368,47 +384,63 @@ Según información extraída de “Economía de plataformas y empleo” de Javi
 *Más del 20% de las y los trabajadores de plataformas provienen de otros países, porcentaje muy superior a la porción inmigrante de la población argentina (4,6%). Las personas que provienen de Venezuela se destacan como el colectivo inmigrante más numeroso.
 
 =='''¿Por qué eligen trabajar para apps?'''==
-Si bien una de las motivaciones que llevan a los trabajadores a desempeñarse en plataformas digitales es la imposibilidad de encontrar otros empleos (17.3%),  para un 29.1% la motivación que los mueve es la posibilidad de manejar los horarios de trabajo, cualidad que este tipo de actividades ofrece. Por otro lado, es importante tener en cuenta que un 30.2% de los trabajadores dicen que trabajan en este tipo de plataformas, ante la necesidad de generar un ingreso extra, hecho que permite inferir que los salarios de su actividad principal no les son suficientes para cubrir necesidades básicas.&lt;ref&gt;https://www.cippec.org/publicacion/economia-de-plataformas-y-empleo-como-es-trabajar-para-una-app-en-argentina/&lt;/ref&gt;
+Si bien una de las motivaciones que llevan a los trabajadores a desempeñarse en plataformas digitales es la imposibilidad de encontrar otros empleos (17.3%),  para un 29.1% la motivación que los mueve es la posibilidad de manejar los horarios de trabajo, cualidad que este tipo de actividades ofrece. Por otro lado, es importante tener en cuenta que un 30.2% de los trabajadores dicen que trabajan en este tipo de plataformas, ante la necesidad de generar un ingreso extra, hecho que permite inferir que los salarios de su actividad principal no les son suficientes para cubrir necesidades básicas.&lt;ref name=":2" /&gt;
 =='''Precarización'''==
-Técnicamente, los trabajadores de plataformas se encuentran en una situación precarizada, ya que no cuentan con una legislación clara que los ampare. sus empleadores, en gran mayoría de los casos, no pagan contribuciones ni cargas sociales, ni les aseguran a los trabajadores las condiciones mínimas de seguridad. &lt;code&gt;'''AGREGAR FUENTE'''&lt;/code&gt; 
+Técnicamente, los trabajadores de plataformas se encuentran en una situación precarizada, ya que no cuentan con una legislación clara que los ampare. Sus empleadores, en gran mayoría de los casos, no pagan contribuciones ni cargas sociales, ni les aseguran a los trabajadores las condiciones mínimas de seguridad.&lt;ref name=":3" /&gt; 
 
 ==='''Aportes jubilatorios'''===
-Solo un 54,5% de los trabajadores de plataformas digitales realizan aportes jubilatorios. De esos aportes, un 87% de los trabajadores lo pagan a través del monotributo. En el caso de Rappi, solo un 58.2% realiza aportes, abonados en un 100% por el trabajador (con monotributo, como autónomos). En el caso de Glovo, el porcentaje de aportantes asciende al 89.6%, y solo es abonado por el empleador en el 1.7% de los casos. &lt;ref&gt;https://www.cippec.org/wp-content/uploads/2019/05/Como-es-trabajar-en-una-app-en-Argentina-CIPPEC-BID-LAB-OIT.pdf&lt;/ref&gt;
+Solo un 54,5% de los trabajadores de plataformas digitales realizan aportes jubilatorios. De esos aportes, un 87% de los trabajadores lo pagan a través del monotributo. En el caso de Rappi, solo un 58.2% realiza aportes, abonados en un 100% por el trabajador (con monotributo, como autónomos). En el caso de Glovo, el porcentaje de aportantes asciende al 89.6%, y solo es abonado por el empleador en el 1.7% de los casos. &lt;ref name=":3"&gt;Madariaga, J., Buenadicha, C., Molina, E. y Ernst, C. (2019). Economía de plataformas y empleo ¿Cómo es trabajar para una app en Argentina?, CIPPEC-BID - OIT. Buenos Aires, 2019.
+
+https://www.cippec.org/wp-content/uploads/2019/05/Como-es-trabajar-en-una-app-en-Argentina-CIPPEC-BID-LAB-OIT.pdf&lt;/ref&gt;
 
 ==='''Obra social'''===
-En lo que respecta a la obra social, más de la mitad de los trabajadores de plataformas digitales no cuenta con dicha cobertura (57.8%). Quienes sí cuentan con obra social, lo hacen gracias a sus aportes al monotributo en un 86.7%.&lt;ref&gt;https://www.cippec.org/wp-content/uploads/2019/05/Como-es-trabajar-en-una-app-en-Argentina-CIPPEC-BID-LAB-OIT.pdf&lt;/ref&gt;
+En lo que respecta a la obra social, más de la mitad de los trabajadores de plataformas digitales no cuenta con dicha cobertura (57.8%). Quienes sí cuentan con obra social, lo hacen gracias a sus aportes al monotributo en un 86.7%.&lt;ref name=":3" /&gt;
 
 =='''¿Economía Colaborativa o Bajo Demanda?'''==
 [[Archivo:Plataformas.png|miniaturadeimagen|500x500px|https://www.cippec.org/wp-content/uploads/2019/05/Como-es-trabajar-en-una-app-en-Argentina-CIPPEC-BID-LAB-OIT.pdf]]
-Plataformas como las mencionadas suelen presentarse como dispositivos de "economía colaborativa" cuando, en realidad, forman parte de la economía bajo demanda.
+Plataformas como las mencionadas suelen presentarse como dispositivos de "economía colaborativa" cuando, en realidad, forman parte de lo que llamamos "economía bajo demanda".
 
-&lt;code&gt;'''DEFINIR ECONOMÍA COLABORATIVA'''&lt;/code&gt;. La economía colaborativa “permite utilizar, compartir, intercambiar o invertir recursos o bienes, pudiendo existir o no una contraprestación monetaria entre los usuarios.” &lt;code&gt;'''AGREGAR FUENTE'''&lt;/code&gt;
+Según el informe de CIPPEC "Claves para entender la economía colaborativa y de plataformas en las ciudades": "La Economía Colaborativa la conforman aquellos modelos de producción, consumo o financiación que se basan en la intermediación entre la oferta y la demanda generada en relaciones entre iguales (P2P o B2B), o bien de particular a profesional, a través de plataformas digitales que no prestan el servicio subyacente, generando un mayor aprovechamiento de los bienes y recursos existentes pero infrautilizados". Entonces, la economía colaborativa “permite utilizar, compartir, intercambiar o invertir recursos o bienes, pudiendo existir o no una contraprestación monetaria entre los usuarios.”&lt;ref&gt;Programa de Ciudades de CIPPEC (2018). Ciudad digital: Claves para entender la Economía Colaborativa y de plataformas en ciudades, Buenos Aires: CIPPEC
 
-&lt;code&gt;'''DEFINIR ECONOMÍA BAJO DEMANDA'''&lt;/code&gt;.  La prestación se origina en base a las necesidades del usuario que demanda y se adapta a sus preferencias. Estos servicios se ofrecen normalmente a cambio de una contraprestación y habitualmente con ánimo de lucro”.&lt;ref&gt;https://www.cippec.org/publicacion/claves-para-entender-la-economia-colaborativa-y-de-plataformas-en-las-ciudades/&lt;/ref&gt;&lt;br /&gt;
+https://www.cippec.org/wp-content/uploads/2018/10/manual-ciudad-digital-ultimo-link-2.pdf&lt;/ref&gt; 
 
-A manera de ejemplo de "economía colaborativa" se puede tomar el caso del Carpooling, en el que la plataforma genera un mayor aprovechamiento de los bienes y recursos existentes pero infrautilizados. En ella, lxs usuarixs comparten el costo del viaje, pero no generan utilidad. En cambio de, por ejemplo, Uber la plataformas funciona como intermediaria entre la oferta y la demanda, generada de profesional a consumidor. El conductor inicia su viaje solo cuando el usuario lo solicita, bajo una tarifa definida por la plataforma, generando utilidad a esta última y al conductor. 
+Por el contrario, en el caso de la economía bajo demanda (a menudo también referida como gig-economy), "encontramos aquellos modelos de consumo y provisión de servicios que se basan en la intermediación entre la oferta y la demanda generada habitualmente de profesional a consumidor (B2C) a través de plataformas digitales que no prestan el servicio subyacente. La prestación se origina en base a las necesidades del usuario que demanda y se adapta a sus preferencias. Estos servicios se ofrecen normalmente a cambio de una contraprestación y habitualmente con ánimo de lucro”.&lt;ref&gt;Javier Madariaga, Albert Cañigueral Bagó, Clara Popeo, "Claves para entender la economía colaborativa de plataformas en las ciudades". CIPPEC
+
+https://www.cippec.org/publicacion/claves-para-entender-la-economia-colaborativa-y-de-plataformas-en-las-ciudades/&lt;/ref&gt;
+
+A manera de ejemplo, para entender la "economía colaborativa" se puede tomar el caso del Carpooling, en el que la plataforma genera un mayor aprovechamiento de los bienes y recursos existentes pero infrautilizados. En ella, lxs usuarixs comparten el costo del viaje, pero no generan utilidad. Por el contrario, en el caso de Uber, la plataformas funciona como intermediaria entre la oferta y la demanda, generada de profesional a consumidor. El conductor inicia su viaje solo cuando el usuario lo solicita, bajo una tarifa definida por la plataforma, generando utilidad a esta última y al conductor. 
 
 '''Posibles consecuencias ante proyecto de reforma labora'''l
 
-El proyecto de reforma laboral &lt;code&gt;'''AGREGAR DATOS: ¿CUÁL? ¿QUIEN LO PRESENTA? ¿CUÁNDO?'''&lt;/code&gt; &lt;ref&gt;https://www.ncn.com.ar/wp-content/uploads/2017/11/reforma-laboral.pdf&lt;/ref&gt; “Ratifica la instauración de las figuras del '''«trabajador autónomo económicamente vinculado»''' y del «trabajador independiente» con colaboradores, donde se las margina de la ley 20.744 que rige todas las relaciones laborales formales y las asimila a una '''variante del monotributo,''' con '''menores obligaciones para sus dadores de empleo'''. En el primer caso se ideó para aquellos prestadores de servicios (profesionales, en general) que tienen un cliente preponderante siempre y cuando la facturación para ese destino no supere el 80% del total- y que en la actualidad figuran como autónomos.”  &lt;code&gt;'''AGREGAR FUENTE'''&lt;/code&gt;
+El proyecto de reforma laboral &lt;code&gt;'''AGREGAR DATOS: ¿CUÁL? ¿QUIEN LO PRESENTA? ¿CUÁNDO?'''&lt;/code&gt; &lt;ref&gt;Borrador de proyecto de reforma laboral argentina (2017)
 
-En caso de aplicarse esta reforma, los trabajadores de plataformas digitales podrían estar encuadrados bajo la categoría de “trabajador económicamente dependiente” o “trabajador autónomo económicamente vinculado”, definidos como "aquellas personas que '''presten servicios especializados''', realizando una actividad económica o profesional a tí­tulo oneroso '''de manera habitual personal y directa para una persona fí­sica o jurí­dica''' de la que '''dependan económicamente hasta el 80% de sus ingresos anuales'''"&lt;ref&gt;https://www.ncn.com.ar/los-trabajadores-independientes-la-clave-en-la-nueva-version-de-la-reforma-laboral/&lt;/ref&gt;
+https://www.ncn.com.ar/wp-content/uploads/2017/11/reforma-laboral.pdf&lt;/ref&gt; “Ratifica la instauración de las figuras del '''«trabajador autónomo económicamente vinculado»''' y del «trabajador independiente» con colaboradores, donde se las margina de la ley 20.744 que rige todas las relaciones laborales formales y las asimila a una '''variante del monotributo,''' con '''menores obligaciones para sus dadores de empleo'''. En el primer caso se ideó para aquellos prestadores de servicios (profesionales, en general) que tienen un cliente preponderante siempre y cuando la facturación para ese destino no supere el 80% del total- y que en la actualidad figuran como autónomos.” &lt;ref name=":4"&gt;Noticias Congreso Nacional (15 de Noviembre 2017), "Los «trabajadores independientes», la clave en la nueva versión de la reforma laboral"
+
+https://www.ncn.com.ar/los-trabajadores-independientes-la-clave-en-la-nueva-version-de-la-reforma-laboral/&lt;/ref&gt;
+
+En caso de aplicarse esta reforma, los trabajadores de plataformas digitales podrían estar encuadrados bajo la categoría de “trabajador económicamente dependiente” o “trabajador autónomo económicamente vinculado”, definidos como "aquellas personas que '''presten servicios especializados''', realizando una actividad económica o profesional a tí­tulo oneroso '''de manera habitual personal y directa para una persona fí­sica o jurí­dica''' de la que '''dependan económicamente hasta el 80% de sus ingresos anuales'''"&lt;ref name=":4" /&gt;
 
 =='''Fallos Judiciales'''==
 
 ==='''En Ciudad de Buenos Aires'''===
 
 ===='''''Uber'''''====
-“En lo que refiere al caso Uber en la República Argentina, es claro que el camino judicial fue distinto al seguido en Europa, en tanto el Gobierno de la Ciudad de Buenos Aires tuvo un rol activo en '''prohibir las actividades comerciales de Uber''' a través de: a) el bloqueo de la página web con la que opera Uber en todo el territorio nacional, y b) la prohibición de operar con ciertos medios de pago en el ámbito de la C.A.B.A., lo cual fue dispuesto primero en el orden administrativo, y luego confirmado judicialmente."&lt;ref&gt;http://www.saij.gob.ar/&lt;/ref&gt;
+“En lo que refiere al caso Uber en la República Argentina, es claro que el camino judicial fue distinto al seguido en Europa, en tanto el Gobierno de la Ciudad de Buenos Aires tuvo un rol activo en '''prohibir las actividades comerciales de Uber''' a través de: a) el bloqueo de la página web con la que opera Uber en todo el territorio nacional, y b) la prohibición de operar con ciertos medios de pago en el ámbito de la C.A.B.A., lo cual fue dispuesto primero en el orden administrativo, y luego confirmado judicialmente."&lt;ref&gt;John Grover Dorado (2018), Sistema argentino de información jurídica, "Nuevos modelos de negocios en internet: regulación jurídica de servicios prestados a través de aplicaciones móviles. El caso "Uber""
+
+http://www.saij.gob.ar/&lt;/ref&gt;
 
 &lt;code&gt;'''DESARROLLAR ¿QUE ESTABLECE EL FALLO?'''&lt;/code&gt;
 
-Luego, "'''Un fallo revocó las condenas contra la empresa y sus directivos por el supuesto "uso lucrativo del espacio público sin autorización""'''&lt;ref&gt;https://drive.google.com/file/d/1QZRxBunuHHoPxlgKwEgcSu9n2VqChbC9/view&lt;/ref&gt;
+Luego, "'''Un fallo revocó las condenas contra la empresa y sus directivos por el supuesto "uso lucrativo del espacio público sin autorización""'''&lt;ref&gt;Fallo emitido por La Sala III de la Cámara de Apelaciones en lo Penal, Contravencional y de Faltas de la Ciudad de Buenos Aires.
+
+https://drive.google.com/file/d/1QZRxBunuHHoPxlgKwEgcSu9n2VqChbC9/view&lt;/ref&gt;
 
 &lt;code&gt;'''DESARROLLAR ¿QUE ESTABLECE EL FALLO?'''&lt;/code&gt;
 
 ===='''''Rappi, Glovo y PedidosYa'''''====
-En el mes de abril &lt;code&gt;'''AGREGAR AÑO'''&lt;/code&gt;, la Justicia porteña le ordenó al Gobierno de la Ciudad que prohíba la actividad de las empresas de delivery Rappi, Glovo y PedidosYa en todo el territorio porteño, hasta tantos sus repartidores cumplan con las medidas de seguridad exigidas por el Código de Tránsito y Transporte de la Ciudad.&lt;ref&gt;https://es.scribd.com/document/405786909/El-fallo-que-prohibe-el-delivery-en-bicicleta#from_embed&lt;/ref&gt;
+En el mes de abril del 2019, la Justicia porteña le ordenó al Gobierno de la Ciudad que prohíba la actividad de las empresas de delivery Rappi, Glovo y PedidosYa en todo el territorio porteño, hasta tantos sus repartidores cumplan con las medidas de seguridad exigidas por el Código de Tránsito y Transporte de la Ciudad.&lt;ref name=":5"&gt;Fallo emitido por Andrés Gallardo, del Juzgado N°2 en lo Contencioso Administrativo y Tributario
+
+https://es.scribd.com/document/405786909/El-fallo-que-prohibe-el-delivery-en-bicicleta#from_embed&lt;/ref&gt;
 
 El fallo surge como respuesta a la inacción del GCBA frente a la problemática que se desprende de los últimos relevamientos realizados, citados en el fallo:
 
@@ -416,44 +448,57 @@ El fallo surge como respuesta a la inacción del GCBA frente a la problemática 
 *'''De las 417 bicicletas''', 281 de los conductores circulaban sin casco (67%), 323 con la caja portaobjetos en la espalda (77%) y 290 sin seguro alguno (70%). '''En el caso de las 199 motos''', 5 conductores circulaban sin casco (2.5%), 94 con la caja portaobjetos en la espalda (47%) y 3 sin seguro alguno (26%). '''De los 75 vehículos no identificados'''  el 56% circulaba sin casco, el 76% con el portaobjetos en la espalda y el 56% sin seguro alguno.
 *Por otro lado, de la información aportada por el Ministerio de Salud, surge que, en el lapso de un mes y solo en los hospitales públicos, se registraron 25 accidentes en la vía pública, involucrando motos o bicicletas al servicio de mensajería o reparto a domicilio.
 
-De esto se estableció que el servicio de mensajería urbana y reparto a domicilio de sustancias a domicilio llevado a cabo en CABA por Rappi, Glovo y Pedidos Ya, se realizaba en transgresión a la normativa vigente, y se les debe exigir dar cumplimiento a las normas básicas en materia de seguridad contenidas en el Código de Tránsito y Transporte y el decreto reglamentario 198/18. &lt;code&gt;'''AGREGAR FUENTE'''&lt;/code&gt;
+De esto se estableció que el servicio de mensajería urbana y reparto a domicilio de sustancias a domicilio llevado a cabo en CABA por Rappi, Glovo y Pedidos Ya, se realizaba en transgresión a la normativa vigente, y se les debe exigir dar cumplimiento a las normas básicas en materia de seguridad contenidas en el [https://documentosboletinoficial.buenosaires.gob.ar/publico/ck_PE-DEC-AJG-AJG-198-18-5398.pdf Código de Tránsito y Transporte y el decreto reglamentario 198/18]. &lt;ref name=":5" /&gt;
 
 “En consecuencia se ordenará al GCBA que en cumplimiento de las disposiciones contenidas en el capítulo 13 del código de tránsito y transporte de la CABA y de sus normas reglamentarias, prohíba en el territorio local la operatoria de las empresas Rappi ARG. S.A.S, Kadabra S.A.S (Glovo) y Pedidos Ya S.A, así como de todas las firmas que realicen la actividad de mensajería y reparto a domicilio, sin estar inscriptas en el RUTRAMYC y sin cumplir con la normativa vigente, hasta tanto acrediten haber dado cumplimiento a mínimos requisitos legales.'''*''' (…) Habré de ordenar además al GCBA que asuma la responsabilidad que le cabe al haber permitido este grave cuatro y mitigue los efectos económicos y sociales que necesariamente deriven de lo aquí resuelto.”
 
-El fallo entiende por requisitos legales: 1)   Que todos sus repartidores circulen utilizando casco, 2) que la caja portaobjetos esté anclada a la moto y/o bicicleta y no en la espalda del repartidor, 3) que los repartidores cuenten con seguro de vida y accidentes, 4) que posean libreta sanitaria, 5) que los vehículos cuenten con adecuada señalización nocturna (luminosa y refractaria). &lt;code&gt;'''AGREGAR FUENTE'''&lt;/code&gt;
+El fallo entiende por requisitos legales: 1)   Que todos sus repartidores circulen utilizando casco, 2) que la caja portaobjetos esté anclada a la moto y/o bicicleta y no en la espalda del repartidor, 3) que los repartidores cuenten con seguro de vida y accidentes, 4) que posean libreta sanitaria, 5) que los vehículos cuenten con adecuada señalización nocturna (luminosa y refractaria). &lt;ref name=":5" /&gt;
 
-El 19 de Julio del corriente año, la Cámara Nacional de Apelaciones del Trabajo revocó esta sentencia asegurando que “Es claro que esta sala se encuentra imposibilitada de calificar el vínculo entre las partes, porque ello implicaría anticipar el criterio con el que solamente corresponde resolver cuando el expediente pueda volver al tribunal para dictar una sentencia definitiva, que establezca en toda su extensión los derechos de las partes (..) Dada esa imposibilidad de calificar el vinculo, no cabe otra solución - se reitera, en este momento del trámite del expediente- que dejar provisoriamente sin efecto la medida dictada en primera instancia."&lt;ref&gt;https://cij.gov.ar/scp/include/showFile.php?acc=showFAR&amp;tipo=fallo&amp;id=240111268&amp;origen=SGU&lt;/ref&gt;
+El 19 de Julio del corriente año, la Cámara Nacional de Apelaciones del Trabajo revocó esta sentencia asegurando que “Es claro que esta sala se encuentra imposibilitada de calificar el vínculo entre las partes, porque ello implicaría anticipar el criterio con el que solamente corresponde resolver cuando el expediente pueda volver al tribunal para dictar una sentencia definitiva, que establezca en toda su extensión los derechos de las partes (..) Dada esa imposibilidad de calificar el vinculo, no cabe otra solución - se reitera, en este momento del trámite del expediente- que dejar provisoriamente sin efecto la medida dictada en primera instancia."&lt;ref&gt;Fallo emitido por la Cámara Nacional de Apelaciones del Trabajo - Sala IX 
+
+https://cij.gov.ar/scp/include/showFile.php?acc=showFAR&amp;tipo=fallo&amp;id=240111268&amp;origen=SGU&lt;/ref&gt;
 ==='''En Europa'''===
 
 ===='''''Uber'''''====
-“El TJUE (Tribunal de Justicia europeo) decidió que Uber es en esencia un servicio de transporte, y, por lo tanto, debe adecuarse a las reglas administrativas que cada Estado Miembro de la Unión Europea disponga respecto de la actividad.”&lt;ref&gt;http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=198047&amp;pageIndex=0&amp;doclang=ES&amp;mode=req&amp;dir=&amp;occ=first&amp;part=1&amp;cid=698276&lt;/ref&gt;
+“El TJUE (Tribunal de Justicia europeo) decidió que Uber es en esencia un servicio de transporte, y, por lo tanto, debe adecuarse a las reglas administrativas que cada Estado Miembro de la Unión Europea disponga respecto de la actividad.”&lt;ref&gt;Sentencia del Tribunal de Justicia europeo
+
+http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=198047&amp;pageIndex=0&amp;doclang=ES&amp;mode=req&amp;dir=&amp;occ=first&amp;part=1&amp;cid=698276&lt;/ref&gt;
 
 &lt;code&gt;'''DESARROLLAR ¿QUE ESTABLECE EL FALLO?'''&lt;/code&gt;
 
-===='''''Inglaterra: "caso Uber vs. Aslam"'''''====
+===='''''Inglaterra: "caso Uber vs. Aslam"'''''&lt;ref&gt;Fallo Uber vs Aslam
+
+https://www.bailii.org/ew/cases/EWCA/Civ/2018/2748.html&lt;/ref&gt;====
 “El 28 de Octubre del 2016 el Tribunal Central de Empleos de Londres determinó que los choferes de Uber son empleados y por ende deben recibir los beneficios y las prestaciones como tales”. 
 
-“El Tribunal Laboral (employment tribunal), determinó que basta que una persona se encuentre conectada a la aplicación, en el territorio en que esta funciona, y disponible para aceptar la realización de servicios para que se encuentre trabajando.”&lt;ref&gt;https://www.cronista.com/columnistas/Choferes-de-Uber-son-empleados-en-relacion-de-dependencia-segun-tribunales-londinenses-20161129-0025.html&lt;/ref&gt;
+“El Tribunal Laboral (employment tribunal), determinó que basta que una persona se encuentre conectada a la aplicación, en el territorio en que esta funciona, y disponible para aceptar la realización de servicios para que se encuentre trabajando.”&lt;ref&gt;Publicación de Julian A. de Diego (El Cronista), "Choferes de Uber son empleados en relación de dependencia, segun tribunales londinenses"
+
+https://www.cronista.com/columnistas/Choferes-de-Uber-son-empleados-en-relacion-de-dependencia-segun-tribunales-londinenses-20161129-0025.html&lt;/ref&gt;
 
 &lt;code&gt;'''DESARROLLAR ¿QUE ESTABLECE EL FALLO?'''&lt;/code&gt;
 =='''Proyectos de legislación en otros países'''==
 
 ==='''Perú'''===
-Aproximadamente cerca de 420 mil jóvenes entre 15 y 19 años se encuentran sin empleo en el Perú. Según advierte un proyecto de ley del congresista Miguel Román Valdivia, muchos de ellos optan por dedicarse a trabajar en empresas que brindan servicios de delivery y courier.&lt;ref&gt;https://redaccion.lamula.pe/2019/06/07/glovo-rappi-uber-eats-peru-lima-trabajadores-motorizados-ciclistas-derechos-laborales/jorgepaucar/&lt;/ref&gt;
+Aproximadamente cerca de 420 mil jóvenes entre 15 y 19 años se encuentran sin empleo en el Perú. Según advierte un proyecto de ley del congresista Miguel Román Valdivia, muchos de ellos optan por dedicarse a trabajar en empresas que brindan servicios de delivery y courier.&lt;ref&gt;Paucar Albino, Jorge (6 de Julio del 2019), "Glovo, Rappi, Uber Eats: las razones para reconocer los derechos de los repartidores". LaMula.pe&lt;nowiki/&gt;https://redaccion.lamula.pe/2019/06/07/glovo-rappi-uber-eats-peru-lima-trabajadores-motorizados-ciclistas-derechos-laborales/jorgepaucar/&lt;/ref&gt;&lt;ref&gt;Proyecto de Ley promulgado por Miguel Roman Valdivia
+
+http://www.leyes.congreso.gob.pe/Documentos/2016_2021/Proyectos_de_Ley_y_de_Resoluciones_Legislativas/PL0414420190404.pdf&lt;/ref&gt;
 
 &lt;code&gt;'''DESARROLLAR ¿QUE PROPONE EL PROYECTO?'''&lt;/code&gt;
 
 ==='''Chile'''===
-“¿Por qué no pueden ser calificados como "emprendedores" o “emprendedoras” quienes trabajan para estas aplicaciones? Porque no definen sus tarifas, porque no tienen cómo llegar autónomamente a sus clientes, porque no tienen la posibilidad de “crecer” en su rubro, porque les cambian unilateralmente las condiciones, porque deben realizar su labor con implementos exclusivos de la aplicación y porque pueden ser desconectados de manera arbitraria por las aplicaciones”.&lt;ref&gt;https://web.mijefeesunaapp.cl/&lt;/ref&gt;
+“¿Por qué no pueden ser calificados como "emprendedores" o “emprendedoras” quienes trabajan para estas aplicaciones? Porque no definen sus tarifas, porque no tienen cómo llegar autónomamente a sus clientes, porque no tienen la posibilidad de “crecer” en su rubro, porque les cambian unilateralmente las condiciones, porque deben realizar su labor con implementos exclusivos de la aplicación y porque pueden ser desconectados de manera arbitraria por las aplicaciones”.&lt;ref&gt;Web "Mi jefe es una app", contiene proyecto de ley de Giorgio Jackson y Maite Orsini
+
+https://web.mijefeesunaapp.cl/&lt;/ref&gt;
 
 &lt;code&gt;'''DESARROLLAR ¿QUE PROPONE EL PROYECTO?'''&lt;/code&gt;
 
 =='''Material Adicional'''==
-&lt;code&gt;'''AGREGAR'''&lt;/code&gt;
+[https://academicworks.cuny.edu/gc_etds/2794/ Lee, Do J., "Delivering Justice: Food Delivery Cyclists in New York City" (2018). CUNY Academic Works.]
 
+[https://www.ilo.org/global/topics/future-of-work/publications/WCMS_662541/lang--es/index.htm &lt;nowiki&gt;Comisión Mundial sobre el Futuro del Trabajo: Trabajar para un futuro más prometedor [Resumen]&lt;/nowiki&gt;]&lt;br /&gt;
 =='''Referencias'''==
 &lt;references /&gt;</text>
-      <sha1>evi3cfl7bhhi7dear7xj9jqpm9b4kx5</sha1>
+      <sha1>a41w0p1lumlkyrpzmargi962cn6lya6</sha1>
     </revision>
   </page>
   <page>
@@ -461,33 +506,46 @@ Aproximadamente cerca de 420 mil jóvenes entre 15 y 19 años se encuentran sin 
     <ns>0</ns>
     <id>15</id>
     <revision>
-      <id>185</id>
-      <parentid>181</parentid>
-      <timestamp>2019-07-23T22:51:38Z</timestamp>
+      <id>149</id>
+      <parentid>148</parentid>
+      <timestamp>2019-07-31T23:08:31Z</timestamp>
       <contributor>
-        <username>Agustin Frizzera</username>
-        <id>5</id>
+        <username>ValeLisciani</username>
+        <id>10</id>
       </contributor>
-      <comment>/* Material de apoyo */</comment>
+      <comment>/* Legalización del cannabis en otros países */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="8418">{{Instrucciones}}
+      <text xml:space="preserve" bytes="13713">{{Instrucciones}}
 
 =='''Problemática / Causa Común'''==
 Regulación de la producción, comercialización, y tenencia para consumo del cannabis
 
 =='''Contexto'''==
-A nivel global, el '''narcotráfico''' genera '''ganancias de 500 mil millones al año''', lo que equivale al '''8% del comercio mundial''' &lt;code&gt;¿Y CUANTO DEL PIB MUNDIAL?&lt;/code&gt;. Estas ganancias extraordinarias se basan en la ilegalidad de la producción y comercialización de las drogas. Si a esto sumáramos las ganancias obtenidas por el tráfico de armas, de personas y de blancas asociado al tráfico de drogas ilegales estamos hablando de un negocio de 800 mil millones al año, concentrado en un oligopolio  de tan solo en 11 grupos económicos ilegales a nivel mundial.  &lt;code&gt;FUENTE&lt;/code&gt; (''Jean de Maillard, Atlas de la criminalidad financiera'').
+Para dejar en claro ¿Qué son las '''drogas psicoactivas'''? Son todos aquellos compuestos químicos capaces de cambiar el modo en que funciona la mente mediante la interacción con las estructuras neurológicas, como alterar las sensaciones de dolor y placer, el estado de ánimo, la conciencia, la percepción, la capacidad de pensar y de ser creativos, el estado de alerta y otras funciones psicológicas. El término “sustancias psicoactivas” engloba tanto las drogas lícitas (alcohol, tabaco, cafeína, ansiolíticos, etc) como las ilícitas (cannabis, LSD, cocaína, heroína, etc)&lt;ref&gt;El Gato y La Caja - Un libro sobre drogas [https://elgatoylacaja.com.ar/sobredrogas/prologo-y-nota-introductoria/]&lt;/ref&gt;
 
-Hasta '''246 millones de personas''' de entre 15 y 64 años declararon haber consumido estupefacientes ilegales en el año anterior, lo que supone '''1 de cada 20 personas de edad adulta'''. Sólo 1 de cada 10 consumidores tiene problemas de drogodependencia. &lt;code&gt;FUENTE&lt;/code&gt;(''ONU'')
+A nivel global, el '&lt;nowiki/&gt;''narcotráfico''' genera '''ganancias de 500 mil millones al año''', lo que equivale al '''8% del comercio mundial.''' El valor total de ventas al por menor de drogas ilícitas a nivel mundial fue de US$320.000 millones en 2003, equivalente al '''0,9% del PIB mundial''' &lt;ref&gt;''UNODC, Informe Mundial sobre las Drogas 2005''&lt;/ref&gt;'''.'''  Estas ganancias extraordinarias se basan en la ilegalidad de la producción y comercialización de las drogas. Si a esto sumáramos las ganancias obtenidas por el tráfico de armas, de personas y de blancas asociado al tráfico de drogas ilegales estamos hablando de un negocio de 800 mil millones al año, concentrado en un oligopolio de tan solo en 11 grupos económicos ilegales a nivel mundial&lt;ref&gt;''Jean de Maillard, Atlas de la criminalidad financiera''&lt;/ref&gt;.
 
-Luego de 34 anos de tolerancia con las drogas, el '''5% de lxs holandesxs de entre 15 a 64 años fumó cannabis durante el último año''' (por '''debajo de la media europea''' que es de 6.8%) , lxs francesxs registraron una prevalencia del 9%, lxs españolxs del 10% y lxs italianxs del 14.6% . &lt;code&gt;FUENTE&lt;/code&gt; (''Observatorio Europeo de las Drogas y las Toxicomanías, OEDT, Unión Europea'')
+El '''cannabis''' sigue siendo la droga que '''más se consume en el mundo.''' De hecho fue la droga que más se consumió en 2016: 192 millones de personas la consumieron al menos una vez en el último año.&lt;ref&gt;Informe Mundial Sobre Las Drogas (2018)[https://www.unodc.org/wdr2018/prelaunch/WDR18_ExSum_Spanish.pdf]&lt;/ref&gt;
+
+&lt;br /&gt;
+[[Archivo:Grafica consumo mundial.jpg|alt=Consumo mundial en el año 2016|miniaturadeimagen|502x502px|Consumo mundial en el año 2016&lt;ref name=":0" /&gt;]]
+
+
+
+Unos '''275 millones de personas''' en todo el mundo, es decir, aproximadamente el 5,6% de la población mundial de edades comprendidas entre los 15 y los 64 años, consumió drogas en al menos una ocasión en 2016. Unos '''31 millones de personas''' que consumen drogas padecen trastornos derivados de ello, lo que significa que ese consumo es perjudicial hasta el punto de que podrían necesitar tratamiento. Según las estimaciones iniciales, 13,8 millones de jóvenes de 15 y 16 años consumieron cannabis en el año anterior en todo el mundo, lo que equivale a una proporción del 5,6%.&lt;ref name=":0"&gt;UNODC (2018), Informe mundial sobre las drogas
+
+https://www.unodc.org/wdr2018/prelaunch/WDR18_ExSum_Spanish.pdf&lt;/ref&gt;
+
+Luego de 34 años de tolerancia con las drogas, el '''5% de lxs holandesxs de entre 15 a 64 años fumó cannabis durante el último año''' (por '''debajo de la media europea''' que es de 6.8%) , lxs francesxs registraron una prevalencia del 9%, lxs españolxs del 10% y lxs italianxs del 14.6% . &lt;ref&gt;Observatorio Europeo de las Drogas y las Toxicomanías (2017), Informe Europeo sobre Drogas 2017: Tendencias y novedades, Oficina de Publicaciones de la Unión Europea, Luxemburgo
+
+http://www.emcdda.europa.eu/system/files/publications/4541/TDAT17001ESN.pdf&lt;/ref&gt;
 
 '''México''' pasó de 8.2 asesinatos cada 100.000 habitantes (2007, fecha en la que inicia su guerra contra las drogas ) a cifras que alcanzaron los '''24 asesinatos cada 100.000 habitantes'''. En algunos estados como '''Guerrero''', esta cifra llegó a '''67 asesinatos cada 100.000 habitantes''' (el promedio global es de 5.3).
+=='''Cannabis'''==
+El término define una especie del reino vegetal, del orden de los rosales, familia cannabaceas, que comprende, fundamentalmente, tres sub-especies: Cannabis sativa sativa, Cannabis sativa indica y Cannabis sativa ruderalis. Se hibridan entre sí con facilidad, tanto de forma espontánea en la naturaleza como por acción selectiva del hombre para lograr plantas más acordes con los usos a los que se destina el cultivo. ¿Qué la hace tan relevante? Su importancia se debe al contenido en aceites terpénicos, de los que el más conocido y famoso es el delta–9-tetrahidrocannabinol, ('''THC'''), la sustancia declarada ilegal.
 
-En Argentina &lt;code&gt;DATOS&lt;/code&gt;
-=='''Tabaco y Alcohol'''==
-La cifra anual de muertes ligadas al consumo de tabaco en el mundo se incrementará de los seis millones actuales a ocho millones de personas en 2030, y el 80% de esos fallecimientos se producirán en los países de bajos y medianos ingresos (Instituto Nacional del Cáncer de Estados Unidos y la Organización Mundial de la Salud). Las muertes asociadas directamente al consumo y sobredosis de drogas ilícitas es de 6.000 víctimas anuales para América Latina y el Caribe
+Investigaciones recientes experimental, comienzan a reconocerla como un '''medicamento''' por sus efectos clínicos de eliminar o reducir las náuseas y los vómitos inducidos por la quimioterapia y como analgésico en el tratamiento del cáncer y de la esclerosis múltiple, con efecto benéfico en algunos casos de epilepsia, caracterizada por convulsiones y también se menciona su utilidad para el tratamiento del glaucoma&lt;ref&gt;Observatorio Argentino de Drogas, Una mirada específica sobre la problemática del consumo y abuso de Marihuana (septiembre 2011).[http://www.observatorio.gov.ar/media/k2/attachments/miradaZmarihuana-.pdf]&lt;/ref&gt;
 
 =='''Prohibicionismo'''==
 La lógica imperante de la prohibición del uso de psicoactivos ha demostrado su inevitable fracaso. &lt;code&gt;DATOS SOBRE ESE FRACASO&lt;/code&gt; El discurso anclado en una moral pública prohibicionista no hace más que alimentar el entramado regional del negocio del narcotráfico, los mercados ilegales de sustancias prohibidas y la persecución a los usuarios, con todas las consecuencias que de esto se derivan. 
@@ -509,24 +567,36 @@ El prohibicionismo redunda en el sostenimiento de una estructura atravesada por 
 =='''Legalización del cannabis en otros países'''==
 La legalización aparece como una solución más sensata y realista.   
 
-Holanda  
+'''Holanda'''  
+
+http://unmundocondrogas.com/holanda-2/  
 
 &lt;code&gt;DATOS&lt;/code&gt;  
 
-Canadá  
+'''Canadá'''  
 
 &lt;code&gt;DATOS&lt;/code&gt;  
 
-Uruguay  
+'''Uruguay'''  
+
+http://unmundocondrogas.com/uruguay2/
+
+https://www.ircca.gub.uy/  
 
 &lt;code&gt;DATOS&lt;/code&gt;  
 
-Los primeros datos estadísticos surgidos de Uruguay muestran la disminución de delitos y del peso del narcotráfico luego de la regulación del cannabis.  
+Los primeros datos estadísticos surgidos de Uruguay muestran la disminución de delitos y del peso del narcotráfico luego de la regulación del cannabis.    
 
+=='''Ley de Cannabis Medicinal (27.350)'''==
+&lt;br /&gt;
 =='''Producción de aceite de cannabis en Jujuy'''==
-&lt;code&gt;EXPLICAR LEY USO MEDICINAL&lt;/code&gt;
+El Ministerio de Seguridad argentino habilitó el primer centro destinado a la elaboración de cannabis medicinal del país. Funcionará en la '''provincia de Jujuy''' y estará encargado de realizar estudios científicos, medicinales y terapéuticos.
 
-ley 27.350,  no contemplar auto-cultivo, ni cese de persecución
+Se trata del primer espacio dispuesto para el estudio e investigación del uso medicinal de la marihuana y sus derivados desde que se sancionara la '''ley 27.350''' en el país sudamericano en 2017. En su primer artículo, la ley establece que su objetivo es “establecer un marco regulatorio para la investigación médica y científica del uso medicinal, terapéutico y/o paliativo del dolor, de la planta de cannabis y sus derivados”. 
+
+La '''polémica''' surge a partir que una empresa del hijo del gobernador será la encargada del proyecto: "Cannabis Avatara” . Dicha empresa trabaja en asociación con “Green Leaf Farms International”, una firma privada radicada en '''Estados Unidos que aportará fondos para el proyecto'''.
+
+Valeria Salech, presidenta de '''Mamá Cultiv'''a (asociación civil precursora del proyecto legislativo de la ley de cannabis medicinal) , '''criticó''' la creación del centro en la provincia de Jujuy. Para ella el proyecto sería una suerte de excusa para exportar la producción. “Lo anunciaron con bombos y platillos como si fuera una buena noticia que el Ministerio de Seguridad autorizó un predio en Jujuy para un cultivo importado. No puedo encuadrarlo en una buena noticia porque se van a dar suelos argentinos para el cultivo de cannabis '''cuyos fines son la exportación de la producción''', entonces ¿qué pasa con nosotras que hace años venimos pidiendo que se nos de autorización a las ciudadanas argentinas que tenemos un familiar con algún problema que la medicina alopática no puede resolver? Es una sordera estatal”, declaró.&lt;ref&gt;France 24, "Argentina: polémico debut en la regulación estatal del cannabis medicinal" (2019)[https://www.france24.com/es/20190210-argentina-cannabis-medicinal-marihuana]&lt;/ref&gt;
 
 =='''Glosario Básico'''==
 &lt;u&gt;'''DROGA''':&lt;/u&gt; sustantivo profundamente ambiguo e impreciso. Por un lado, incluye sustancias tales como el ibuprofeno o la penicilina y, por el otro, suele excluir sustancias como la nicotina y el alcohol. Es '''preferible usar SUSTANCIAS PSICOACTIVAS''' (de uso legal o ilegal) para referirse a aquellas sustancias que, una vez ingeridas, modifican y alteran el funcionamiento del cerebro '''inhibiendo el dolor, modificando el estado anímico o alterando  las percepciones'''.
@@ -561,46 +631,76 @@ ley 27.350,  no contemplar auto-cultivo, ni cese de persecución
 
 *Informe Mundial sobre las Drogas.2017 (Naciones Unidas contra la Droga y el Delito ) https://www.unodc.org/wdr2017/field/WDR_Booklet1_Exsum_Spanish.pdf
 
-*El problema de las drogas en las Americas, la economia del narcotrafico OEA http://www.cicad.oas.org/drogas/elinforme/informeDrogas2013/laEconomicaNarcotrafico_ESP.pdf</text>
-      <sha1>sttxx3eg9rgruzmqetxsshy8qfl7ude</sha1>
+*El problema de las drogas en las Americas, la economia del narcotrafico OEA http://www.cicad.oas.org/drogas/elinforme/informeDrogas2013/laEconomicaNarcotrafico_ESP.pdf
+*Organización de los Estados Americanos (2013), "El problema de las drogas en las Américas" http://fileserver.idpc.net/library/Informe-OEA_El-problema-de-las-drogas-en-las-Americas.pdf
+*Organización de los Estados Americanos, OEA (2012), "Escenarios para el problema de drogas en Las Américas 2013-2025" http://fileserver.idpc.net/library/Informe-OEA_Escenarios-para-el-problema-de-las-drogas.pdf
+
+=='''Referencias'''==
+&lt;references /&gt;</text>
+      <sha1>2h3gd84dwjw4txsvrp2q5zpus3rf1f3</sha1>
     </revision>
   </page>
   <page>
     <title>Vivienda</title>
     <ns>0</ns>
-    <id>33</id>
+    <id>19</id>
     <revision>
-      <id>184</id>
-      <parentid>179</parentid>
-      <timestamp>2019-07-23T22:50:00Z</timestamp>
+      <id>153</id>
+      <parentid>152</parentid>
+      <timestamp>2019-07-31T23:41:16Z</timestamp>
       <contributor>
-        <username>Agustin Frizzera</username>
-        <id>5</id>
+        <username>ValeLisciani</username>
+        <id>10</id>
       </contributor>
+      <comment>/* Material Adicional */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="4374">&lt;br /&gt;
+      <text xml:space="preserve" bytes="17556">&lt;br /&gt;
 {{Instrucciones}}
 =='''Problemática / Causa Común'''==
 Dificultad de acceso a y permanencia en una vivienda
 
 =='''Contexto'''==
-El acceso de la vivienda a través de un alquiler es cada vez más importante en la medida en que el acceso a la vivienda propia se aleja más. &lt;code&gt;EVOLUCIÓN VIVIENDA "EN PROPIEDAD"-"EN ALQUILER"&lt;/code&gt; Sin embargo, las condiciones de los contratos de alquiler se establecen con deficiente regulación y en detrimento directo de los derechos de lxs inquilinxs, que deben aceptar cláusulas abusivas para acceder a un alquiler.
+Cada vez más argentinxs vivimos en ciudades. Según el censo de 2010, el país tenía 40,8 millones de habitantes y 12,17 millones de hogares.  El 92% de estos hogares está establecido en ciudades &lt;ref&gt;Censo nacional de población, hogares y viviendas 2010 : censo del Bicentenario : resultados definitivos, Serie B nº 2. - 1a ed. - Buenos Aires : Instituto Nacional de Estadística y Censos - INDEC, 2012
 
-Durante los últimos años, la problemática se ha visto profundizada a causa de que los aumentos en los precios de los alquileres han superado a los aumentos en las paritarias &lt;code&gt;FUENTE&lt;/code&gt;. Como consecuencia, los hogares destinan mayor porcentaje del ingreso al alquiler &lt;code&gt;MÁS DATOS&lt;/code&gt;, lo que lleva a muchos a cohabitar incrementándose así el hacinamiento &lt;code&gt;MÁS DATOS&lt;/code&gt;.  
+https://www.indec.gob.ar/ftp/cuadros/poblacion/censo2010_tomo1.pdf&lt;/ref&gt;.
 
-De esta manera, dentro del contexto actual de crisis económica, la falta de regulación de los alquileres impacta fuertemente a los sectores medios y populares. &lt;code&gt;MÁS DATOS&lt;/code&gt; 
+En las ciudades, la tasa de propiedad ha descendido dramáticamente entre 1996 y 2010, acompañado por un aumento de la vivienda de alquiler y el aumento de población residiendo en villas y asentamientos. En números, la tasa pasó de 77% de hogares propietarios a 69%. '''Entonces, el acceso de la vivienda a través de un alquiler es cada vez más importante en la medida en que el acceso a la vivienda propia se aleja más.'''
+
+Sin embargo, las condiciones de los contratos de alquiler se establecen con deficiente regulación y en detrimento directo de los derechos de lxs inquilinxs, que deben aceptar cláusulas abusivas para acceder a un alquiler.
+
+Durante los últimos años, la problemática se ha visto profundizada a causa de que los aumentos en los precios de los alquileres han superado a los aumentos en las paritarias. Como consecuencia, los hogares destinan mayor porcentaje del ingreso al alquiler, lo que lleva a muchos a cohabitar incrementándose así el hacinamiento.  La 3° Encuesta Nacional a Inquilinos dio como resultado que el porcentaje del ingreso destinado al alquiler alcanza el '''47% en promedio'''. En algunas regiones, como Córdoba,  que tiene los alquileres más caros en relación al salario, los inquilinos destinan el 50% de sus ingresos en el pago del alquiler .&lt;ref&gt;Web: Habitar Argentina (11 de Septiembre de 2018), "Alquiler residencial en la Argentina. Problemática, estado del debate y propuestas para una ley de regulación nacional y diseño de políticas"
+
+http://www.habitarargentina.org.ar/2018/09/alquiler-residencial-en-la-argentina-problematica-estado-del-debate-y-propuestas-de-para-una-ley-de-regulacion-nacional-y-el-diseno-de-politicas/&lt;/ref&gt;&lt;ref&gt;Web: Inquilinos Agrupados, "Jóvenes y adultos mayores, las principales víctimas de no tener una Ley de Alquileres"
+
+http://www.inquilinosagrupados.com.ar/jovenes-y-adultos-mayores-las-principales-victimas-de-no-tener-una-ley-de-alquileres/&lt;/ref&gt;  
+
+De esta manera, dentro del contexto actual de crisis económica, la falta de regulación de los alquileres impacta fuertemente a los sectores medios y populares.  
 
 =='''Causas'''==
-La alta incidencia que tiene el sector de la construcción en la economía y en la creación de empleos junto con el factor cultural simbólico por el cual la propiedad privada es un elemento propio y distintivo de la pertenencia a la clase media ha hecho que la política pública habitacional en Argentina se oriente hacia el acceso a la propiedad de la vivienda. &lt;code&gt;FUENTE&lt;/code&gt; 
+Las políticas habitacionales llevadas adelante en Argentina para brindar una solución acceso a la vivienda, estuvieron históricamente relacionadas con políticas de construcción de unidades de vivienda nuevas a ser adjudicadas en propiedad individual. La alta incidencia que tiene el sector de la construcción en la economía y en la creación de empleos junto con el factor cultural simbólico de la propiedad ha hecho que la política pública habitacional en Argentina se oriente hacia este tipo de soluciones. Sin embargo,  en los últimos años este tipo de políticas demostraron no ser efectivas para brindar soluciones habitacionales por sus limitaciones tanto en cantidad de hogares como en su abordaje cultural.
 
-Actualmente, no hay una regulación de alquileres que de cuenta de manera satisfactoria la realidad de una gran parte de la población para quienes la vivienda propia no es una posibilidad ni en el corto ni el largo plazo.  &lt;code&gt;ENUNCIAR PROBLEMAS DE LEGISLACIÓN ACTUAL&lt;/code&gt; 
+Teniendo en cuenta el proceso de inquilinización que está atravesando Argentina -donde aumentó más de 7 puntos porcentuales la cantidad de inquilinos en los últimos 20 años&lt;ref&gt;Instituto Nacional de Estadística y Censos (INDEC) (Mayo 2019), Indicadores de condiciones de vida de los hogares en 31 aglomerados urbanos. Segundo semestre 2018
 
-Entre estos problemas, es posible mencionar, por ejemplo, un plazo mínimo de alquiler de dos años que para muchos significa tener que mudarse cuando no se puede afrontar el nuevo aumento. &lt;code&gt;MÁS PROBLEMAS&lt;/code&gt;
+ https://www.indec.gob.ar/uploads/informesdeprensa/eph_indicadores_hogares_02_18C09991E48B.pdf&lt;/ref&gt;- el alquiler debe dejar de ser considerado meramente como un estadio transitorio hacia ser propietario y empezar a ser pensado como una tendencia actual de acceder a la vivienda .
+
+Actualmente, no hay una regulación de alquileres que de cuenta de manera satisfactoria la realidad de una gran parte de la población para quienes la vivienda propia no es una posibilidad ni en el corto ni el largo plazo.  En primer lugar, el plazo de los contratos de alquiler de dos años hace que lxs inquilinxs se encuentren  ante la situación de mudarse en reiteradas ocasiones, perjudicando su integración en el barrio, alterando sus relaciones sociales y su vida cotidiana en general, y  modificar las rutinas laborales o el establecimiento educativo de los niños, niñas y adolescentes&lt;ref name=":2"&gt;Web: Inquilinos agrupados (18 de Febrero 2019), "Punto por punto: en qué consiste el proyecto de Ley de Alquileres"
+
+http://www.inquilinosagrupados.com.ar/ley-nacional-de-alquileres/&lt;/ref&gt;. En segundo lugar, la frecuencia con la que se tiene que renovar el contrato de alquiler, obliga a lxs inquilinxs a contar con ahorro suficiente para afrontar depósitos, seguros de caución (en caso de no contar con garantía propietaria) y comisiones (salvo algunas jurisdicciones -como CABA- donde la paga el dueño).
+
+Otros problemas son los requisitos que tienen que  cumplir lxs inquilinxs para acceder a la vivienda. En mayor parte de los casos, lxs dueñxs y las inmobiliarias piden garantías propietaria familiar, recibos de sueldo de alto nivel y depósitos de dinero. Estos requisitos excluyen una gran parte de la población inquilina que tiene que volverse hacia alquileres informales.
+
+La falta de regulación también lleva a que, a nivel nacional, más del  90% de los contratos de alquiler son en negro, es decir que no están registrados ante un organismo de control &lt;ref name=":2" /&gt;.  Esto se  se traduce en una evasión impositiva millonaria y habilita la violación de derechos inquilinos, así como también dificulta el acceso a la justicia en caso de vulneración de derechos.
+
+Al mismo tiempo, como fue señalado con anterioridad, las  inmobiliarias piden una comisión - o gastos administrativos-  al inquilino al momento de firmar el contrato. Esta comisión se agrega a depósitos elevados y al primer mes de alquiler. Así, el primer mes puede llegar a costar tres veces más que el alquiler en si, lo que impide lxs inquilinxs formalizar el contrato aunque tengan los ingresos para pagar el alquiler cada mes.
+&lt;br /&gt;
 =='''Consecuencias'''==
 Esta situación ha profundizado la asimetría entre propietarios e inquilinos por la que estos últimos deben atenerse a contratos abusivos que erosionan gravemente su calidad de vida. Entre las consecuencias que tiene esta falta de regulación se encuentra que: 
 
-*Lxs inquilinxs deben pagar mucho más de lo que les corresponde para entrar en un alquiler. &lt;code&gt;FUENTE&lt;/code&gt;
+*Lxs inquilinxs deben pagar mucho más de lo que les corresponde para entrar en un alquiler.  &lt;code&gt;FUENTE&lt;/code&gt;
+*Debido a las dificultades de cumplir con los requisitos para alquilar, muchxs inquilinxs tienen que alquilar de manera informal lugares que deberían ser solución temporales pero se convierten en soluciones a medio o largo plazo. Así, según el censo 2010 del INDEC, 12% de lxs inquilinxs alquilan piezas o cupos en pensiones o hosteles y 2% alquilen viviendas precarias. &lt;ref&gt;Natalia Cosacov, "Alquileres e inquilinos en la Ciudad de Buenos Aires. Una radiografía", Laboratorio de Políticas Públicas, Noviembre de 2012. https://www.researchgate.net/publication/297760059_Alquileres_e_inquilinos_en_la_Ciudad_de_Buenos_Aires_Una_radiografia
+
+&lt;span class="fs2"&gt;&lt;/span&gt;&lt;/ref&gt;  Según el Programa de Atención a Inquilinos de la Defensoría del Pueblo de la Ciudad Autónoma de Buenos Aires, en mayo 2019, 57% de la oferta de alquileres en  CABA son alquileres tradicionales, por 43% de alquileres temporales&lt;ref name=":0"&gt;Denfensoría del Pubelo de la Ciudad de Buenos Aires, ''Relevamiento Integral del Mercado de Alquileres'', Junio 2019.http://www.defensoria.org.ar/wp-content/uploads/2019/06/informe-inquilinos.pdf&lt;/ref&gt;. En tantas proporciones, no se trata más de una oferta exclusivamente turísticas sino de un nuevo mercado más rentable para los propietarios e inmobiliarias que responde a la brecha entre legislación de alquileres tradicionales y capacidad de lxs inquilinxs a cumplirlas&lt;ref name=":0" /&gt;.  Los hogares que tienen que alquiler viviendas temporarias se encuentran en situaciones aún más inestables. Los contratos son de tres a seis meses y pueden generar gastos a cada renovación. Además los precios de los alquileres temporarios exceden de más de 50% los precios de los alquileres tradicionales &lt;ref name=":0" /&gt;.
 *Firman contratos en los que los propietarios renuncian a responsabilidades que redundan en incluso más gastos para los inquilinos. &lt;code&gt;¿EJEMPLOS?&lt;/code&gt; &lt;code&gt;FUENTE&lt;/code&gt;
 *Incrementos de alquiler con plazos arbitrarios.&lt;code&gt;¿EJEMPLOS?&lt;/code&gt; &lt;code&gt;FUENTE&lt;/code&gt;
 *&lt;code&gt;¿EVOLUCIÓN DE TASA DE EMANCIPACIÓN?&lt;/code&gt;
@@ -613,16 +713,29 @@ Esta situación genera inestabilidad y presión económica sobre quienes se ven 
 
 =====En el país:=====
 
-*92% de la población vive en entornos urbanos.&lt;ref&gt;https://www.infobae.com/2015/06/05/1733496-informe-deficit-habitacional-la-argentina/&lt;/ref&gt;
+*Hay 12,17 millones de hogares
+*92% de la población vive en entornos urbanos.&lt;ref&gt;Olguin, Ignacio Javier (5 de junio de 2015), "Informe: Déficit habitacional en la Argentina" Infobae
 
-*Entre 3,5 y 4 millones de familias tienen problemas habitacionales.&lt;ref&gt;''&lt;nowiki&gt;https://www.lanacion.com.ar/politica/crisis-habitacional-uno-de-cada-tres-hogares-tiene-problemas-de-vivienda-nid2121533&lt;/nowiki&gt;'' 
+https://www.infobae.com/2015/06/05/1733496-informe-deficit-habitacional-la-argentina/&lt;/ref&gt;
 
-&lt;br /&gt;&lt;/ref&gt;
+*Entre 3,5 y 4 millones de familias tienen problemas habitacionales.&lt;ref&gt;Cabot, Diego (30 de Marzo de 2018), "Crisis habitacional: uno de cada tres hogares tiene problemas de vivienda". La Nación
+
+https://www.lanacion.com.ar/politica/crisis-habitacional-uno-de-cada-tres-hogares-tiene-problemas-de-vivienda-nid2121533&lt;br /&gt;&lt;/ref&gt;
+*Hay 4228 barrios informales (villas y asentamientos) donde residen 3.5 millones de personas&lt;ref&gt;Renabap, "Relevamiento Nacional de Barrios Populares Informe General Período 08/2016 a 12/2017"
+
+https://zuletasintecho.files.wordpress.com/2018/04/resumen-informe-de-gestic3b3n-renabap-ac3b1o-2017-docx.pdf&lt;/ref&gt;
 *&lt;code&gt;MAS DATOS&lt;/code&gt;
 
-=====En CABA:&lt;ref&gt;http://www.defensoria.org.ar/noticias/el-deficit-habitacional-en-la-ciudad-autonoma-de-buenos-aires-informe-especial-de-la-defensoria/&lt;/ref&gt;=====
+&lt;br /&gt;
+[[Archivo:Promedio de Hogares Inquilinos a Nivel Nacional.png|centro|https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf?sfns=mo[https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf]|alt=]]&lt;ref&gt;https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf?sfns=mo&lt;/ref&gt;[[Archivo:Porcentaje de hogares que alquilan su vivienda en las principales ciudades argentinas 2003 y 2018..png|centro|[https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf]]]
 
-*11 % de los hogares de la ciudad presentan hacinamiento.
+&lt;ref&gt;https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf?sfns=mo&lt;/ref&gt;
+=====En CABA:&lt;ref name=":1"&gt;Defensoría del pueblo CABA (21 de Septiembre de 2015), "Informe de déficit habitacional"
+
+http://www.defensoria.org.ar/noticias/el-deficit-habitacional-en-la-ciudad-autonoma-de-buenos-aires-informe-especial-de-la-defensoria/&lt;/ref&gt;=====
+
+*11 % de los hogares de la ciudad presentan hacinamiento&lt;ref name=":1" /&gt;.
+*6% viven en villas, asentamientos o núcleos habitacionales transitorios&lt;ref name=":1" /&gt;. En la Comunas 4 y 8 se concentran el mayor número de villas y asentamientos de la ciudad. En la Comuna 4 se localizan 8 villas y asentamientos, con una población que asciende las 18.815 familias (2016). En la Comuna 8, se concentran 18 villas y asentamientos, que corresponden a 37.726 familias. &lt;code&gt;FUENTE&lt;/code&gt;
 *&lt;code&gt;MAS DATOS&lt;/code&gt;
 
 ====Problemática de Alquileres====
@@ -630,23 +743,164 @@ Esta situación genera inestabilidad y presión económica sobre quienes se ven 
 =====En el país:=====
 Crecimiento de la tasa de inquilinos y concentración del proceso en las ciudades:
 
-*Cerca del 19% del país alquila. En los centros urbanos llega a superar el 30%.
+*La tasa de inquilinos estaba de 11% en 2001, de 15% en 2010&lt;ref&gt;Infraestructura Habitacional de los Hogares de la Provincia de Córdoba&lt;nowiki/&gt;https://datosestadistica.cba.gov.ar/dataset/b5768aa8-b95c-4660-b44e-1c3e12d58f9e/resource/100cccaf-a226-4918-bab5-74f9c9382413/download/desd_informe_infraestructura_habitacional_2014.pdf&lt;/ref&gt;  y está actualmente alrededor de 19% &lt;code&gt;FUENTE&lt;/code&gt;.
+*La tasa de inquilinos en los centros urbanos llega a superar el 30%.
+*Los inquilinos destinan alrededor de un 40% de sus ingresos al pago del alquiler. &lt;code&gt;FUENTE&lt;/code&gt;
 *&lt;code&gt;MAS DATOS&lt;/code&gt;
 
 =====En CABA:=====
 
-*32,1% de inquilinos. &lt;ref&gt;http://www.defensoria.org.ar/noticias/el-deficit-habitacional-en-la-ciudad-autonoma-de-buenos-aires-informe-especial-de-la-defensoria/&lt;/ref&gt;
+*32,1% de inquilinos. &lt;ref name=":1" /&gt;
+*El valor promedio del alquiler de un medio ambiente es de $ 11.992 y el Gobierno de la Ciudad de Buenos Aires considera que la Canasta Básica Total (CBT), que define la linea de pobreza, para una persona viviendo sola en 2019 es de $ 10.84.5&lt;ref name=":0" /&gt;. Una persona debería contar con $ 22.837 al mes para vivir en Buenos Aires. Sin embargo, 50% de los porteños tiene ingresos menores a $ 20.000&lt;ref name=":0" /&gt;.
+*40% de las consultas del Programa de Atención a Inquilinos de la Defensoría del Pueblo son inquilinos que no pueden más pagar el alquiler, las expensas y los gastos de su vivienda&lt;ref&gt;Programa de Atención a Inquilinos de la Defensoría del Pueblo, "CABA: Aumentaron las consultas de inquilinos ante la dificultad para pagar alquiler, expensas y servicios". ANRed
+
+https://www.anred.org/?comunicado=caba-40-de-los-inquilinos-presenta-dificultades-para-pagar-el-alquiler-las-expensas-y-los-servicios&lt;/ref&gt;.
 *&lt;code&gt;MAS DATOS&lt;/code&gt;
 
+[[Archivo:Hogares rentista e inquilinos.png|centro|miniaturadeimagen|https://gallery.mailchimp.com/e9c6f62a4dc825f6a9dab4e88/files/fbdd39ad-b784-40dc-a4b4-f9c2acbf1724/2019.04.04_Debate_en_torno_al_proyecto_Ley_de_Alquileres.pdf]]
+[[Archivo:Inquilinos Ingresos.png|centro|miniaturadeimagen|https://gallery.mailchimp.com/e9c6f62a4dc825f6a9dab4e88/files/fbdd39ad-b784-40dc-a4b4-f9c2acbf1724/2019.04.04_Debate_en_torno_al_proyecto_Ley_de_Alquileres.pdf]]
+&lt;br /&gt;
 =='''Acceso al crédito - Créditos UVA'''==
 &lt;code&gt;DATOS CREDITOS UVA&lt;/code&gt;
 
-== '''Material Adicional''' ==
+&lt;br /&gt;
+
+=='''Material Adicional'''==
+
+=====Proyectos, Programas y Políticas en relación a la problemática del Alquiler=====
+'''En Argentina:'''
+
+*'''''Proyecto de Soluciones Urbanas- Alquileres Justos, Barrio de La Boca, Ciudad de Buenos Aires. Organización: Hábitat para la Humanidad Argentina.''''' Objetivo: servir a familias que viven alquilando en condiciones precarias en los conventillos, inquilinatos y hoteles de la ciudad de Buenos Aires. Con el proyecto se busca que las familias tengan acceso a alquileres justos, se recuperen inmuebles urbanos subutilizados para ponerlos en alquiler, concientizar a las familias sobre la importancia de la vivienda adecuada para su mejor desarrollo, su derecho a un alquiler justo y motivando a las familias a buscar soluciones y oportunidades para acceder  a un alquiler adecuado a través de procesos de capacitación, información y acompañamiento.&lt;ref&gt;Web: Hábitat para la humanidad argentina
+
+http://hpha.org.ar/es/&lt;/ref&gt; &lt;ref&gt;[https://issuu.com/hphargentina/docs/alquileres_justos._soluciones_urban_0778b7de975e77 Alquileres Justos - Soluciones Urbanas para Buenos Aires - Hábitat para la Humanidad Argentina] &lt;/ref&gt;
+*'''''Polo Integral de la Mujer en situación de violencia. Ministerio de Justicia y Derechos Humanos. Secretaría de lucha contra la Violencia de la Mujer y Trata de Personas. Provincia de Córdoba.''''' Objetivo: acompañar a mujeres que estén expuestas a situaciones de violencia de género a través de aportes económicos específicos para el acceso a la vivienda en la modalidad de alquiler, para poder salir del ámbito en que está sufriendo la situación de violencia. &lt;ref&gt;Web: Polo integral de la mujer en situación de violencia
+
+https://polomujer.cba.gov.ar/institucional/&lt;/ref&gt;
+
+'''En la Región:''' 
+
+*'''Uruguay: ''Programa de Alquiler Social + Recuperación y Puesta en Valor de Inmuebles para Alquiler Social en la Ciudad Vieja. Ministerio de Vivienda, Ordenamiento Territorial y Medio Ambiente, Intendencia de Montevideo.''''' Objetivo: El programa piloto dispondrá de edificios y predios en áreas centrales para la rehabilitación e instrumentará un sistema de alquiler público.&lt;ref&gt;(21 de junio 2019), "Ministerio de Vivienda e Intendencia de Montevideo construirán 120 soluciones habitacionales para alquiler social"
+
+http://www.presidencia.gub.uy/comunicacion/comunicacionnoticias/ministerio-de-vivienda-convenio-con-intendencia-montevideo-alquiler-social&lt;/ref&gt;
+*'''Brasil: ''Fondo Inmobiliario Comunitario para el Alquiler. Organización: FICA''.''' Objetivo: &lt;ref&gt;[https://www.fundofica.org/ Fundo FICA]&lt;/ref&gt;
+
+'''En Estados Unidos:''' 
+
+Nueva York. &lt;code&gt;AGREGAR&lt;/code&gt;
+
+'''En Europa:''' 
+
+Holanda, Alemania, España, otros. &lt;code&gt;AGREGAR&lt;/code&gt;
+
+'''Portugal: ''Regulación de precios de alquileres.''''' Objetivo: limitar el precio de los alquileres en función de la zonificación, superficie del inmueble e ingresos familiares. Generar incentivos fiscales para los arrendatarios. &lt;ref&gt;LaPandereta.es, "Portugal da un paso histórico y limita los alquileres a 675 euros para la clase media"
+
+https://www.lapandereta.es/portugal-da-un-paso-historico-y-limita-los-alquileres-a-675-euros-para-la-clase-media/&lt;/ref&gt;&lt;ref&gt;Diário da República electrónico - Decreto-Lei n. ° 68/2019 - Cria o Programa de Arrendamento Acessível
+
+https://dre.pt/web/guest/pesquisa/-/search/122373682/details/maximized?filterEnd=2019-07-31&amp;filterStart=2019-05-15&amp;q=Programa+de+Arrendamento+Acess%C3%ADvel&amp;filterAction=TRUE&amp;fqs=+Programa+de+Arrendamento+Acess%C3%ADvel+&amp;perPage=25&lt;/ref&gt;
+
+
 &lt;code&gt;AGREGAR&lt;/code&gt;
 
 =='''Referencias'''==
 &lt;references /&gt;</text>
-      <sha1>n346d9nbqr5s5lz2b9z3kr7qkdme5cn</sha1>
+      <sha1>dkcje8bdmyo4ff93g2c46n3i69ko479</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Transparencia</title>
+    <ns>0</ns>
+    <id>20</id>
+    <revision>
+      <id>156</id>
+      <parentid>119</parentid>
+      <timestamp>2019-08-01T23:14:41Z</timestamp>
+      <contributor>
+        <username>ValeLisciani</username>
+        <id>10</id>
+      </contributor>
+      <comment>/* Definición de Lobby */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="6404">{{Instrucciones}}
+
+=='''Problemática/ Causa Común'''==
+Regulación del lobby.
+
+=='''Contexto'''==
+De acuerdo al Informe del Latinobarómetro 2017, el 73% de los ciudadanos en Argentina cree que su país está gobernado por grupos poderosos que solo piensan en su propio interés, mientras que sólo el 23% cree que Argentina está gobernada para bien de todas las personas. &lt;ref name=":0"&gt;OECD (2019), Estudio de la OCDE sobre Integridad en Argentina: Lograr un cambio sistémico y sostenido, Estudios de la OCDE sobre Gobernanza Pública, OECD Publishing, Paris.
+
+https://www.argentina.gob.ar/sites/default/files/ocde_argentina_estudio_de_integridad_2018.pdf&lt;/ref&gt;
+
+El "lobby" es considerado una actividad legítima en la que actores del sector privado peticionan ante las autoridades para influir en la toma de decisiones, redacción de leyes o instrumentación de políticas públicas. Son las condiciones en las que esta actividad se lleva adelante es la que determina si es lícita o no.
+
+Transparentar los procesos de lobby es altamente necesario, entre otras cuestiones, porque:
+
+*La ciudadanía tiene derecho a conocer los intereses privados que influyen en la toma de decisiones de quienes les representan, ya que las regulaciones impactan directa e indirectamente en sus vidas.
+
+*Todos los actores tienen derecho a ser escuchados en condición de igualdad más allá del poder económico e influencia política que detenten.
+
+Actualmente está vigente en Argentina una [http://archivo.anticorrupcion.gob.ar/documentos_relacionados/ANEXOIIIyIV_ReglamentoGestiondeIntereses.pdf Ley de Publicidad de la Gestión de los Intereses] que rige para el Poder Ejecutivo y que podría ampliar su alcance y profundizar su implementación con una regulación que establezca de manera clara, precisa, sistemática y homogénea las obligaciones y responsabilidades de todos los actores involucrados.
+
+=='''Definición de Lobby'''==
+El lobby es una actividad profesionalizada que tiene puestos laborales específicos dentro de las empresas. Su importancia e influencia es de gran importancia pero la regulación actual no está desarrollada en la misma medida. &lt;code&gt;FUENTE&lt;/code&gt; - &lt;code&gt;AGREGAR MÁS&lt;/code&gt; 
+
+''"El lobby es una práctica a través de la cual, representantes de intereses particulares argumentan a favor de ellos frente a los tomadores de decisión. Es importante señalar que en términos teóricos la gestión de interés y el lobby tienen definiciones distintas: mientras que quien realiza un proceso de lobby es un tercero, profesional que gestiona el interés de un grupo frente al funcionario o legislador, la gestión de intereses puede definirse como “cualquier gestión que, basándose en una o varias actitudes compartidas, lleva adelante ciertas reivindicaciones ante los demás gestores de la sociedad…” (Bobbio, 1994: 728)''&lt;ref&gt;Bobbio, Matteucci, Pasquino, Diccionario de Política, México, 1994.&lt;/ref&gt;''"''&lt;ref&gt;Araujo Maria Fernanda, Braguinsky Eugenia (2009), "Apuntes para una definición del lobby y la gestión de intereses en la Argentina." CIPPEC
+
+https://www.cippec.org/wp-content/uploads/2017/03/1976.pdf&lt;/ref&gt;
+
+=='''Legislación en otros países'''==
+
+===Chile===
+En Chile, “el lobby es una actividad legítima, por la cual una persona, organización o empresa intentar influenciar en la toma de decisiones de una autoridad o funcionario, ya sea que reciba una remuneración por realizar dichas gestiones o no".&lt;ref&gt;Ciudadano Inteligente - &lt;nowiki&gt;http://leydelobby.cl/index.html&lt;/nowiki&gt;: &lt;/ref&gt; 
+
+Se considera lobby las reuniones con autoridades o funcionarios para intentar obtener las siguientes decisiones:
+
+*Elaboración, dictación, modificación, derogación o rechazo de actos administrativos, proyectos de leyes, leyes y otras decisiones.
+*Elaboración, tramitación, aprobación, modificación, derogación o rechazo de acuerdos, declaraciones o decisiones del Congreso, sus miembros o comisiones.
+*Celebración, modificación o terminación de contratos
+*Diseño, implementación y evaluación de políticas, planes y programas.
+*No se adopten los precedentes.
+
+El portal [https://www.infolobby.cl “Info Lobby”]  manejado por el Consejo para la Transparencia (CPLT) en Chile  “pone a disposición del público los registros de agenda pública y la nómina sistematizada de lobistas y gestores de intereses particulares”.&lt;ref&gt;Chile, página web "Info Lobby"
+
+https://www.infolobby.cl&lt;/ref&gt; 
+
+===Perú===
+&lt;code&gt;AGREGAR&lt;/code&gt;
+
+===México===
+&lt;code&gt;AGREGAR&lt;/code&gt;
+
+===Irlanda===
+&lt;code&gt;&lt;nowiki&gt;https://www.lobbying.ie/&lt;/nowiki&gt;&lt;/code&gt;
+
+===Unión Europea===
+&lt;code&gt;&lt;nowiki&gt;https://lobbyfacts.eu/&lt;/nowiki&gt;&lt;/code&gt;
+&lt;br /&gt;
+=='''Proyectos de Ley en Argentina'''==
+
+*Hoy existen cinco proyectos de ley vigentes (cuatro en Diputados y uno en el Senado). &lt;code&gt;¿CUALES SON?&lt;/code&gt; - &lt;code&gt;¿QUÉ ESTABLECEN?&lt;/code&gt;
+
+La OCDE propone 5 ejes para fomentar la acción y la transparencia en las actividades de lobby: &lt;ref name=":0" /&gt; 
+
+*Argentina podría fortalecer el marco normativo existente en materia de lobby extendiendo su alcance subjetivo más allá del Poder Ejecutivo y asegurando la transparencia de cualquier tipo de actividad de lobby que pueda tener lugar en la práctica
+*La mesa de Coordinación sobre Acceso a la Información podría también asegurar la coordinación de la implementación de la normativa sobre lobby y administrar una única plataforma en línea
+*Para mejorar la percepción del lobby entre los ciudadanos, Argentina podría promover mayor participación de partes interesadas en el debate y la implementación de las normativas
+*Argentina podría incrementar la responsabilidad del sector privado y promover la autorregulación complementaria
+*Argentina debería introducir sanciones efectivas para el caso de incumplimiento de las normas de lobby y hacer que esta información sea pública
+
+=='''Material Adicional'''==
+&lt;code&gt;AGREGAR&lt;/code&gt;
+
+https://www.argentina.gob.ar/anticorrupcion/plan-nacional
+
+https://www.cippec.org/publicacion/regulacion-del-lobby-modificacion-del-reglamento-del-senado-de-la-nacion/
+
+Doxarquia, “Apuntes sobre el nuevo Proyecto de Ley de Lobby del PE Argentino (Expte 04-PE-2017)”, publicado el 21/04/2017, &lt;nowiki&gt;https://doxarquia.wordpress.com/2017/04/21/apuntes-sobre-el-nuevo-proyecto-de-ley-de-lobby-del-pe-argentino-expte-04-pe-2017/&lt;/nowiki&gt; : 
+
+==Referencias==
+&lt;references /&gt;</text>
+      <sha1>bzsoc4jz06m13t7r5yghuz9ja3id18a</sha1>
     </revision>
   </page>
 </mediawiki>
