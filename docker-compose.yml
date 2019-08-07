@@ -3,7 +3,7 @@ version: '3'
 services:
     web:
         build: .
-        restart: on-failure
+        restart: no
         depends_on:
             - parsoid
         ports:
@@ -29,7 +29,7 @@ services:
             - MW_PARSOID_WIKI_DOMAIN=web
     parsoid:
         image: thenets/parsoid:0.10
-        restart: on-failure
+        restart: no
         environment:
             - PARSOID_DOMAIN_web=http://web/api.php
 networks:
