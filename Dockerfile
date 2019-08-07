@@ -47,8 +47,7 @@ WORKDIR /var/www/html
 
 RUN echo ServerName web>> /etc/apache2/apache2.conf 
 
-COPY images images
-RUN ls -R images
+COPY icons images/icons
 COPY LocalSettings.php LocalSettingsINIT.php
 ENTRYPOINT if [ ! -f LocalSettings.php ]; then \
 		sleep 17; \
