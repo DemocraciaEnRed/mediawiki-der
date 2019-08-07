@@ -57,16 +57,16 @@
     <ns>8</ns>
     <id>11</id>
     <revision>
-      <id>55</id>
-      <parentid>31</parentid>
-      <timestamp>2019-07-26T13:43:46Z</timestamp>
+      <id>163</id>
+      <parentid>162</parentid>
+      <timestamp>2019-08-02T20:20:31Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
       <model>css</model>
       <format>text/css</format>
-      <text xml:space="preserve" bytes="3057">/* Los estilos CSS colocados aquí se aplicarán a todas las apariencias */
+      <text xml:space="preserve" bytes="3814">/* Los estilos CSS colocados aquí se aplicarán a todas las apariencias */
 
 /* esconder "Herramientas wiki" */
 #site-tools {display:none;}
@@ -94,20 +94,33 @@ body.ns-0 #ca-edit {display:none;}
 /* ícono usuarie */
 #personal h2 {background-image: url(/images/CausasComunes_Usuarie_Small.png);}
 
-/* ícono campanita muestra lo mismo que el de notificaciones */
-li#pt-notifications-alert {display: none;}
-
-/* ícono bandeja de notificaciones */
+/* ícono notificaciones normales */
 #pt-notifications-notice .mw-echo-notifications-badge::before {
-  background-image: url(/images/CausasComunes_Notificación_Small.png);
+  /*background-image: url(/images/CausasComunes_Bandeja_Small.png);*/
+  background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Ctitle%3E tray %3C/title%3E %3Cpath d=%22M17 1H3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 12h-4l-1 2H8l-1-2H3V3h14z%22/%3E %3C/svg%3E");
+  background-size: 19px;
   width: 25px;
   height: 25px;
-  opacity:1;
+  opacity: 0.35;
 }
 #pt-notifications-notice .mw-echo-notifications-badge.mw-echo-notifications-badge-all-read {opacity:1;}
 /* fix bug  */
+#pt-notifications-notice .mw-echo-notifications-badge::before {top:1002px;}
 @media screen and (min-width: 851px) {
-  #pt-notifications-notice .mw-echo-notifications-badge::before {top:1002px;}
+  #pt-notifications-notice .mw-echo-notifications-badge::before {top:1005px;}
+}
+
+/* ícono paginas modificadas */
+#pt-notifications-alert .mw-echo-notifications-badge::before {
+  background-image: url(/images/CausasComunes_Notificación_Small.png);
+  width: 25px;
+  height: 25px;
+  opacity: 1;
+}
+#pt-notifications-alert .mw-echo-notifications-badge.mw-echo-notifications-badge-all-read {opacity:1;}
+/* fix bug  */
+@media screen and (min-width: 851px) {
+  #pt-notifications-alert .mw-echo-notifications-badge::before {top:1002px;}
 }
 
 /* no me pasaron in ícono de search que pueda ir bien, modifico el que está */
@@ -167,7 +180,7 @@ body {background: #f3f3f3;}
   border-radius: 20px;
   padding: 1px 7px;
 }</text>
-      <sha1>mmhmzou3txkk8yk49aj1nffsckjqmd2</sha1>
+      <sha1>mft54rwzzh3bn1kymwfa19vtj4pio0c</sha1>
     </revision>
   </page>
   <page>
@@ -201,20 +214,18 @@ body {background: #f3f3f3;}
     <ns>0</ns>
     <id>1</id>
     <revision>
-      <id>35</id>
-      <parentid>34</parentid>
-      <timestamp>2019-07-25T13:31:04Z</timestamp>
+      <id>161</id>
+      <parentid>35</parentid>
+      <timestamp>2019-08-02T20:06:59Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <minor/>
-      <comment>1 revisión importada</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="191">'''Bienvenide a la wiki de Causas Comunes'''
+      <text xml:space="preserve" bytes="192">'''Bienvenide a la wiki de Causas Comunes'''
 
-Por favor ingrese a alguno de los artículos de las causas:
+Por favor ingrese a alguno de los artículos de las causas: 
 
 *[[Género]]
 *[[Ambiente]]
@@ -222,7 +233,7 @@ Por favor ingrese a alguno de los artículos de las causas:
 *[[Drogas]]
 *[[Vivienda]]
 *[[Transparencia]]</text>
-      <sha1>57hrq12zugtbipemour4bysj5b9knpo</sha1>
+      <sha1>p24flpavjvna5hk5qnarpd7jfkjhn8j</sha1>
     </revision>
   </page>
   <page>
@@ -230,16 +241,17 @@ Por favor ingrese a alguno de los artículos de las causas:
     <ns>0</ns>
     <id>12</id>
     <revision>
-      <id>141</id>
-      <parentid>112</parentid>
-      <timestamp>2019-07-31T20:39:12Z</timestamp>
+      <id>175</id>
+      <parentid>174</parentid>
+      <timestamp>2019-08-06T00:47:16Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>ValeLisciani</username>
+        <id>10</id>
       </contributor>
+      <comment>/* Contenidos promovidos por la ESI */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="4485">{{Instrucciones}}
+      <text xml:space="preserve" bytes="21619">{{Instrucciones}}
 
 =='''Problemática / Causa Común'''==
 Implementación de la Educación Sexual Integral, a nivel nacional. 
@@ -267,6 +279,8 @@ La evidencia demuestra que en aquellos países en los cuales se implementó la e
 
 http://sedici.unlp.edu.ar/bitstream/handle/10915/57118/Documento_completo.pdf-PDFA.pdf?sequence=3&amp;isAllowed=y&lt;/ref&gt;  &lt;code&gt;'''MÁS DATOS'''&lt;/code&gt;
 
+&lt;br /&gt;
+
 =='''Embarazos adolescentes en Argentina'''==
 En la Argentina hay 700 mil nacimientos por año. El 16% proviene de madres adolescentes de entre 15 y 19 años (en algunas provincias equivale al 25%) y más de 3000 son de niñas de 10 a 13 años. El 69% de esas mujeres adolescentes no planearon ese embarazo. Los embarazos no deseados suelen ser mayor entre las mujeres del 20% de los hogares más pobres, en particular las que tienen menor escolaridad y viven en áreas rurales quienes, sin acceso a métodos anticonceptivos, están más expuestas al embarazo no deseado.&lt;ref&gt;UNFPA Argentina, "Datos sobre embarazo adolescente en la Argentina"
 
@@ -276,17 +290,149 @@ En la Ciudad de Buenos Aires, el 31% de los 200 jóvenes encuestados no recibió
 
 https://issuu.com/lauragvelasco/docs/informe_esi_ultima_version&lt;/ref&gt; 
 
-&lt;code&gt;'''¿DATOS A NIVEL NACIONAL? ¿HISTÓRICOS?'''&lt;/code&gt; 
+&lt;code&gt;'''¿DATOS A NIVEL NACIONAL? ¿HISTÓRICOS?'''&lt;/code&gt;
+=='''[https://web.archive.org/web/20180328174148/http://www.me.gov.ar/me_prog/esi/doc/lineamientos.pdf Contenidos promovidos por la ESI]'''==
 
+*'''''Para el nivel inicial:''''' se promueven hábitos de cuidado del cuerpo, se enseña a reconocer la intimidad propia y ajena, a desarrollar comportamientos de autoprotección y tanto a expresar el afecto como a respetar los sentimientos y necesidades de los demás. También se incluyen ‘nuevas’ formas de pensar los vínculos entre niñas y niños. “Propicia un uso igualitario del aula y del patio entre varones y mujeres, como así también de los juegos y juguetes en la medida en que considera que éstos no son ‘exclusivamente de varones’ o ‘exclusivamente de mujeres’”.
+
+*'''''Para el nivel primario:''''' además de continuar trabajando con los ejes del nivel inicial, se introduce el conocimiento de diferentes modos de organizar la vida social en distintos contextos y tiempos, problematizando los roles de género y las relaciones entre mujeres y varones en la organización familiar.
+
+*'''''Para el nivel secundario:''''' Se busca garantizar a los adolescentes acceso a información sobre los marcos normativo y jurídico que garantizan sus derechos en general y sus derechos sexuales y reproductivos en particular. También se les proporciona conocimiento de cómo obtener los recursos necesarios para ejercer su sexualidad con responsabilidad, para prevenir infecciones de transmisión sexual y decidir cuál es el mejor método anticonceptivo. Además, en esta instancia se busca fortalecer los procesos de construcción de autonomía, que posibilitan el respeto por la diversidad de identidades sin prejuicios derivados de la orientación sexual, la identidad de género, la apariencia física, las diferencias étnicas, culturales, etcétera. &lt;ref name=":0" /&gt;
+
+Con la [https://www.argentina.gob.ar/sites/default/files/anexo_resolucion_cfe_340_18_0.pdf Resolución 340] aprobada en 2018, se señalan cinco ejes conceptuales que deben ser abordados mediante la ESI, y [https://www.argentina.gob.ar/sites/default/files/eje-reconocer-la-perspectiva-de-genero.pdf la perspectiva de género] es uno de ellos.
+
+¿Es esta la única definición de Educación Sexual? ¿Es esta la única manera de implementar educación sexual en las escuelas? No, claro que no. Nos estamos refiriendo a un modelo que toma la perspectiva de género como uno de sus pilares y comprende a la sexualidad de un modo integral que abarca no sólo lo anatómico y biológico, y la vemos como una entre otras estrategias que ayuda a construir una sociedad con más equidad de género. 
+
+Podemos hacer foco en cómo prevenir el VIH, una de las asociaciones habituales a la educación sexual es justamente la prevención de infecciones de transmisión sexual. En este marco, otra estrategia es la llamada ABC: Abstinencia, Fidelidad, Condones (en inglés: Abstinence, Be faithful, use a Condom), que surge como opción superadora a modelos sólo basados en la abstinencia y que ha tenido bastante popularidad en los años 90 sobre todo a partir de su aplicación en Uganda y la disminución de la prevalencia del VIH en el país. Lo que se identificó en ese caso es que disminuyó la cantidad de parejas sexuales, aumentó el uso del condón y disminuyó la prevalencia del VIH, pero no hay consenso sobre el peso de cada uno de esos factores así como de otros que influyeron en el caso de Uganda como pueden ver [https://apps.who.int/iris/bitstream/handle/10665/43453/WHO_TRS_938_eng.pdf;jsessionid=099AD552EC407F8A1BE88C5688168787?sequence=1 acá], [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1564179/ acá] y [https://www.guttmacher.org/sites/default/files/pdfs/pubs/compilations/agionabc.pdf acá]. 
+
+Es esperable que las ITS se reduzcan si las personas no tienen relaciones sexuales o las tienen con una sola pareja. Pero lo que el modelo de educación sexual integral viene a plantear es que '''la sexualidad no se trata sólo de un comportamiento posible de modelar sino de una forma de ser y vincularse que incluye aspectos emocionales y psicológicos y que se dan en un contexto social e histórico específico'''. Atendiendo esa complejidad damos también lugar a la diversidad y al respeto hacia las diferentes vivencias y elecciones, bajo el paraguas de la educación sexual integral podemos estar tanto quienes hacemos el amor con una sola pareja como quienes tenemos sexo con varias. La educación sexual integral facilita que cada persona reconozca sus deseos y los de los demás, los pueda expresar y respetar.
+
+El consenso en torno a la relevancia de la educación sexual integral se vio validado en nuestra región en el año 2008 con la firma de la Declaración Ministerial [http://www.unesco.org/new/fileadmin/MULTIMEDIA/FIELD/Santiago/pdf/declaracion-prevenir-educacion-espanol.pdf “Prevenir con Educación”] por parte de ministros de educación y salud de 31 países. Reconociendo que la educación sexual integral es parte de la solución a la epidemia de VIH, el grado de avance sobre los compromisos asumidos pasa a ser parte del problema.
+
+=='''[http://www.senado.gov.ar/parlamentario/comisiones/verExp/3272.18/S/PL Proyecto de reforma sobre la Ley de Educación Sexual Integral]'''==
+Actualmente, la ESI es obligatoria para todos los establecimientos educativos (incluso los de gestión privada), pero existe la posibilidad de aplicarla de manera discrecional ya que hay un artículo en la ley (el 5°) que permite a cada institución educativa adaptar los contenidos de la ESI a su “ideario institucional” y a “las convicciones de sus miembros”. Como consecuencia, en Septiembre 2018, Odarda María Magdalena impulsó un proyecto de reforma, el cual busca, entre otras cosas, cerrar esa posibilidad para que la ESI y sus contenidos sean genuinamente accesibles, de modo que nadie sea privado de aprenderlos, vaya a la escuela que vaya.
+
+[http://www.senado.gov.ar/parlamentario/comisiones/verExp/3272.18/S/PL El proyecto] apunta, con todas sus contribuciones, a actualizar el marco de derechos de la ESI, considerando las leyes aprobadas desde 2006 que tienen que ver con sus contenidos, y garantizar que los contenidos mínimos establecidos por el programa sean obligatorios en todas las escuelas, limitando la posibilidad de que no se implementen en virtud de las adaptaciones al “ideario institucional” y las “convicciones de los miembros” de la escuela.&lt;ref name=":0"&gt;Minoldo, Sol (8 de Octubre de 2018), "Mejor hablar de ciertas cosas". El Gato y la Caja
+
+https://elgatoylacaja.com.ar/noticias/mejor-hablar-de-ciertas-cosas/&lt;/ref&gt;
+
+A continuación, se detallan las modificaciones artículo por artículo:
+
+'''El artículo 1:'''
+
+Agrega que la educación sexual debe ser respetuosa de la diversidad sexual y de género, con carácter formativo, basada en conocimientos científicos y laicos. También, para que en adelante se mantenga actualizada la ley, agrega que los contenidos de la ley deben articularse “de forma congruente con los derechos reconocidos en las leyes vigentes”.
+
+'''El artículo 2:'''
+
+Actualiza el marco legal de las leyes cuyo cumplimiento orientan los lineamientos de la ESI, añadiendo las leyes de Matrimonio Igualitario, de Parto Humanizado, de Prevención y Sanción de la Trata de Personas y Asistencia a sus Víctimas; y de Identidad de Género.
+
+'''El artículo 3:'''
+
+Modifica la parte en que refiere a igualdad de trato y oportunidades, propone afirmar esa igualdad en general, y ya no solo “para varones y mujeres”, por lo que la aclaración es eliminada. Además, se añade dentro de ese objetivo “la no discriminación y un acceso igualitario a la Educación Sexual Integral para las diversas identidades de género y orientaciones sexuales”.
+
+'''El artículo 5:'''
+
+La modificación de este artículo es el eje central de la controversia porque es, en definitiva, el que elimina la vía para evitar en algunas escuelas la implementación de la ESI y los contenidos del programa. Mientras el artículo de la ley original permite a cada institución adaptar la propuesta de ESI a su ideario institucional y a las convicciones de sus miembros, el proyecto propone establecer como obligatorios los contenidos de la ley en todos los casos, de modo que “deberán incluirse en la currícula y modalidad de todos los niveles educativos de forma obligatoria, constituyéndose en disposiciones de orden público, independientemente de la modalidad, entorno o ámbito de cada institución educativa, sea de gestión pública o privada”.
+
+'''El artículo 7:'''
+
+Este artículo refiere a la comisión interdisciplinaria de especialistas en la temática para asesorar en la definición de los lineamientos curriculares básicos de la ESI, y el proyecto de reforma propone añadir a la comisión la responsabilidad de sugerir preguntas que sirvan como parámetro para para evaluar la enseñanza y aprendizaje de ESI.
+
+'''El artículo 9:'''
+
+El proyecto propone añadir un artículo, el 9 bis, que implementa un sistema de monitoreo sobre la aplicación de la ESI y sus resultados&lt;ref name=":0" /&gt;
 =='''"Con mis hijos no te metas"'''==
-&lt;code&gt;'''Movimiento de resistencia'''&lt;/code&gt;
+En este contexto, surgió un movimiento opuesto a la idea de la reforma, denominado #ConMisHijosNoTeMetas, apoyándose en la idea de que son los padres quienes deben definir los contenidos de educación sexual que estudiarán sus hijxs.
 
+Este grupo, se apoya sobre la idea de que el Estado intenta impartir ‘ideología de género’, imponiendo contenidos morales por encima de la posibilidad de las familias de educar libre y exclusivamente en sus convicciones. Porque es justo aclarar que la campaña anti-ESI no propone que desaparezca la educación sexual de las escuelas, sino que apunta a que se imparta una determinada educación sexual, cuyos contenidos sean elegidos y supervisados por los padres y no por el Estado.&lt;ref name=":0" /&gt;
+
+===¿Ideología de género?===
+Uno de los argumentos para rechazar la ESI es que parte de sus contenidos promueven mera ideología, a la que se refieren como ‘ideología de género’.  
+
+¿En qué consiste esa ‘ideología de género’? Básicamente en plantear que, en las sociedades humanas, las identidades y roles sexuales no son biológicamente determinados de manera absoluta. Desde la perspectiva anti-ESI, sugerir que lo que implica ser mujer o varón no es un dato inherente a la naturaleza es algo completamente ‘anticientífico’. Según su visión, es la naturaleza la que, '''de forma ahistórica''', establece cómo es (o debe ser) una mujer y cómo un varón. Además, se considera que cualquier propuesta que suponga ‘desviarse’ de ‘lo natural’ es moralmente opuesta al ‘bien’.
+
+Esto es incorrecto ya que la biología no puede responder sobre cuestiones morales y políticas, ni tampoco puede explicar fenómenos sociales en su totalidad. Las características entendidas como "naturales" tienen un carácter inmutable y definitivo, el cual es incompatible con la evolución y el dinamismo. Por último, es un problema pensar que el hecho de proporcionar cierta información a niños, niñas y adolescentes implica una imposición ideológica, ya que finalmente, lo mas parecido a imponer una ideología y a "negar la posibilidad de elegir", es mostrar la realidad de manera parcial, o bien, patologizar o negar ciertas realidades. &lt;ref name=":0" /&gt;
+
+===¿Estado totalitario?===
+Dicha mirada insiste en un derecho "de los padres", que contrapone al derecho del Estado, y plantea que este último, al querer impartir educación sexual, invade o impone creencias y valores individuales y familiares, por lo que es identificado como un "Estado totalitario".
+
+Esta lógica es incorrecta, ya que el involucramiento del Estado en esta temática se da en función de los '''derechos de los niños''', por tanto el mismo se involucra en tanto garante de estos derechos. No se trata de una lista de derechos que los padres pueden decidir cuando usar y cuando reclamar, porque son de los '''niños en tanto que titulares'''. 
+
+Por otro lado, existe un enorme marco legal de derechos humanos, derechos del niño y leyes nacionales que respaldan la necesidad de aplicar la ESI:
+{| class="wikitable"
+|+
+| colspan="1" |[https://www.un.org/es/universal-declaration-human-rights/ Declaración Universal de los Derechos Humanos]
+|-
+| colspan="1" |[http://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/36208/norma.htm Convención Interamericana para Prevenir, Sancionar y Erradicar la Violencia contra las Mujeres (Convención de Belém do Pará).]
+|-
+| colspan="1" |'''[https://www.buenosaires.gob.ar/sites/gcaba/files/ley23179.pdf Ley 23.179/85]'''
+Convención sobre la eliminación de todas las formas de discriminación contra la mujer (CEDAW).
+|-
+| colspan="1" |'''[http://www.trabajo.gov.ar/downloads/trabajoinfantilno/ley23849.pdf Ley 23.849/90]'''
+Convención sobre los derechos del niño (CDN) de 1990 Nacional.
+|-
+| colspan="1" |'''[http://servicios.infoleg.gob.ar/infolegInternet/resaltaranexos/0-4999/199/norma.htm Ley 23.798/90]'''
+Ley Nacional de SIDA. Decreto reglamentario nº 1244 de 1991.
+|-
+| colspan="1" |Constitución Nacional Art. 75 inc. 22 y 23 – Reforma de 1994
+|-
+| colspan="1" |'''[https://www.oas.org/dil/esp/Ley_de_Proteccion_contra_la_Violencia_Familiar_Argentina.pdf Ley 24.417/94]'''
+Protección contra la violencia familiar.
+|-
+| colspan="1" |'''[https://www.buenosaires.gob.ar/sites/gcaba/files/ley25273.pdf Ley 25.273/00]'''
+Régimen de inasistencia para alumnas embarazadas.
+|-
+| colspan="1" |'''[http://servicios.infoleg.gob.ar/infolegInternet/anexos/70000-74999/74073/norma.htm Ley 25.584/02]'''
+Prohibición en los establecimientos de educación pública de toda acción institucional que impida el inicio o continuidad del ciclo escolar a alumnas embarazadas.
+|-
+| colspan="1" |'''[http://servicios.infoleg.gob.ar/infolegInternet/anexos/110000-114999/110778/norma.htm Ley 26.061/02]'''
+Protección Integral de los derechos de niños/as y adolescentes.
+|-
+| colspan="1" |'''[http://servicios.infoleg.gob.ar/infolegInternet/anexos/75000-79999/79831/norma.htm Ley 25.673/03]'''
+Creación del Programa Nacional de Salud Sexual y Procreación Responsable.
+|-
+| colspan="1" |'''[https://www.argentina.gob.ar/sites/default/files/2003_ley25808_arg_0.pdf Ley 25.808/03]'''
+Modificación del art.1 de la ley 25.584.
+|-
+| colspan="1" |'''[http://servicios.infoleg.gob.ar/infolegInternet/anexos/120000-124999/121222/norma.htm Ley 26.150/06]'''
+Ley del Programa Nacional de Educación Sexual.
+|-
+| colspan="1" |'''[http://servicios.infoleg.gob.ar/infolegInternet/anexos/115000-119999/119260/norma.htm Ley 26.130/06]'''
+Ley Nacional de anticoncepción quirúrgica.
+|-
+| colspan="1" |'''[http://servicios.infoleg.gob.ar/infolegInternet/anexos/140000-144999/140100/norma.htm Ley 26.364/08]'''
+Prevención y sanción de la trata de personas y asistencia a sus víctimas.
+|-
+| colspan="1" |'''[http://servicios.infoleg.gob.ar/infolegInternet/anexos/150000-154999/152155/norma.htm Ley 26.485/09]'''
+Ley de protección integral para prevenir, sancionar, la violencia contra las mujeres en los ámbitos de relaciones interpersonales.
+|-
+| colspan="1" |'''[http://servicios.infoleg.gob.ar/infolegInternet/anexos/165000-169999/169608/norma.htm Ley 26618/10]'''
+Matrimonio Civil.
+|-
+| colspan="1" |'''[http://servicios.infoleg.gob.ar/infolegInternet/anexos/195000-199999/197860/norma.htm Ley 26743/12]'''
+Identidad de género.
+|-
+| colspan="1" |'''[http://servicios.infoleg.gob.ar/infolegInternet/anexos/215000-219999/216700/norma.htm Ley 26862/13]'''
+Acceso integral a los procedimientos y técnicas médico-asistenciales de reproducción médicamente asistida y reglamentación.
+|-
+| colspan="1" |'''[https://www.suteba.org.ar/download/marcos-normativos-54093.pdf Ley 26892/13]'''
+Ley para la promoción de la convivencia y el abordaje de la conflictividad social en instituciones educativas.
+|-
+| colspan="1" |'''[http://servicios.infoleg.gob.ar/infolegInternet/verNorma.do%3Bjsessionid=B0C085E2C3A038470BB7710D2B267E8F?id=257439 Ley 27234/15]'''
+Educar en igualdad: Prevención y erradicación de la violencia de género.
+|}
+&lt;br /&gt;
 =='''Material adicional'''==
-&lt;code&gt;'''AGREGAR'''&lt;/code&gt;
+'''Iniciativas estatales'''
+
+*Las jornadas « '''[https://www.argentina.gob.ar/educacion/esi/historia/vida-escuela Es parte de la vida, es parte de la escuela]''' » (2012) : jornadas de formación (tres días), una Jornada Institucional específica para acciónes de capacitación docente y mesas de seguimiento en las escuelas participantes.
+*El programa « '''[https://www.argentina.gob.ar/sites/default/files/cartilla_educar_en_igualdad_0.pdf Educar en igualdad]''' » en las escuelas primarias, secundarias y terciarias de todos los niveles y modalidades (ya sean de gestión estatal o privada).
+*'''[https://infod.educacion.gob.ar/cursos/145 Los cursos virtuales]''' de ESI
+*El '''[https://www.argentina.gob.ar/sites/default/files/res-cfe-n-322-17-596786adaaaad.pdf Plan Nacional de Prevención del Embarazo No Intencional en la Adolescencia]''', coordinada por la SENNAF en la que participan los Ministerios de Educación, Salud, Desarrollo Social y la Fundación Cippec (Resolución 322/17 del Consejo Federal de Educación.
 
 =='''Referencias'''==
 &lt;references /&gt;</text>
-      <sha1>ccd8cb16qgg9qaqrjhnwm1byag4njby</sha1>
+      <sha1>1xti10sgpr6cvxbgvyervnsxfwxy68j</sha1>
     </revision>
   </page>
   <page>
@@ -343,9 +489,9 @@ Las consecuencias de la falta de regulación y control de agroquímicos provocan
     <ns>0</ns>
     <id>14</id>
     <revision>
-      <id>145</id>
-      <parentid>144</parentid>
-      <timestamp>2019-07-31T22:19:31Z</timestamp>
+      <id>188</id>
+      <parentid>187</parentid>
+      <timestamp>2019-08-06T23:30:38Z</timestamp>
       <contributor>
         <username>ValeLisciani</username>
         <id>10</id>
@@ -353,7 +499,7 @@ Las consecuencias de la falta de regulación y control de agroquímicos provocan
       <comment>/* Material Adicional */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="19864">{{Instrucciones}}
+      <text xml:space="preserve" bytes="25079">{{Instrucciones}}
 
 =='''Problemática/Causa Común'''==
 Derechos laborales de trabajadoras y trabajadores de "plataformas digitales de servicios". 
@@ -438,7 +584,7 @@ https://drive.google.com/file/d/1QZRxBunuHHoPxlgKwEgcSu9n2VqChbC9/view&lt;/ref&g
 &lt;code&gt;'''DESARROLLAR ¿QUE ESTABLECE EL FALLO?'''&lt;/code&gt;
 
 ===='''''Rappi, Glovo y PedidosYa'''''====
-En el mes de abril del 2019, la Justicia porteña le ordenó al Gobierno de la Ciudad que prohíba la actividad de las empresas de delivery Rappi, Glovo y PedidosYa en todo el territorio porteño, hasta tantos sus repartidores cumplan con las medidas de seguridad exigidas por el Código de Tránsito y Transporte de la Ciudad.&lt;ref name=":5"&gt;Fallo emitido por Andrés Gallardo, del Juzgado N°2 en lo Contencioso Administrativo y Tributario
+'''En el mes de abril del 2019''', la Justicia porteña le ordenó al Gobierno de la Ciudad que prohíba la actividad de las empresas de delivery Rappi, Glovo y PedidosYa en todo el territorio porteño, hasta tantos sus repartidores cumplan con las medidas de seguridad exigidas por el Código de Tránsito y Transporte de la Ciudad.&lt;ref name=":5"&gt;Fallo emitido por Andrés Gallardo, del Juzgado N°2 en lo Contencioso Administrativo y Tributario
 
 https://es.scribd.com/document/405786909/El-fallo-que-prohibe-el-delivery-en-bicicleta#from_embed&lt;/ref&gt;
 
@@ -454,9 +600,19 @@ De esto se estableció que el servicio de mensajería urbana y reparto a domicil
 
 El fallo entiende por requisitos legales: 1)   Que todos sus repartidores circulen utilizando casco, 2) que la caja portaobjetos esté anclada a la moto y/o bicicleta y no en la espalda del repartidor, 3) que los repartidores cuenten con seguro de vida y accidentes, 4) que posean libreta sanitaria, 5) que los vehículos cuenten con adecuada señalización nocturna (luminosa y refractaria). &lt;ref name=":5" /&gt;
 
-El 19 de Julio del corriente año, la Cámara Nacional de Apelaciones del Trabajo revocó esta sentencia asegurando que “Es claro que esta sala se encuentra imposibilitada de calificar el vínculo entre las partes, porque ello implicaría anticipar el criterio con el que solamente corresponde resolver cuando el expediente pueda volver al tribunal para dictar una sentencia definitiva, que establezca en toda su extensión los derechos de las partes (..) Dada esa imposibilidad de calificar el vinculo, no cabe otra solución - se reitera, en este momento del trámite del expediente- que dejar provisoriamente sin efecto la medida dictada en primera instancia."&lt;ref&gt;Fallo emitido por la Cámara Nacional de Apelaciones del Trabajo - Sala IX 
+'''El 19 de Julio del corriente año''', la Cámara Nacional de Apelaciones del Trabajo revocó esta sentencia asegurando que “Es claro que esta sala se encuentra imposibilitada de calificar el vínculo entre las partes, porque ello implicaría anticipar el criterio con el que solamente corresponde resolver cuando el expediente pueda volver al tribunal para dictar una sentencia definitiva, que establezca en toda su extensión los derechos de las partes (..) Dada esa imposibilidad de calificar el vinculo, no cabe otra solución - se reitera, en este momento del trámite del expediente- que dejar provisoriamente sin efecto la medida dictada en primera instancia."&lt;ref&gt;Fallo emitido por la Cámara Nacional de Apelaciones del Trabajo - Sala IX 
 
 https://cij.gov.ar/scp/include/showFile.php?acc=showFAR&amp;tipo=fallo&amp;id=240111268&amp;origen=SGU&lt;/ref&gt;
+
+'''El pasado 2 de agosto del corriente año''', el juez Gallardo emitió [https://es.scribd.com/document/420585151/Resolucion-Envios-Ya-1#from_embed una resolución] (apoyándose en el fallo del mes de Abril), en el cual resuelve:
+
+*Evitar que las empresas del rubro continúen prestando servicios hasta tanto regularicen la situación de los empleados, dando pleno cumplimiento con toda la legislación laboral y previsional aplicable, y acrediten haber previsto a los repartidores con los elementos de seguridad necesarios.
+*Intimar a las empresas a gestionar ante las autoridades las libretas sanitarias de los repartidores y se los registre ante el UTRAMyC.
+*Aplicar sanciones a las empresas y a los funcionarios públicos que no cumplan con las disposiciones legales vigentes
+*Otro de los puntos que aborda el fallo, versa sobre requerir a estas empresas que presenten en el plazo de 2 (dos) días la nómina del personal afectado al servicio de reparto, acreditando su correcta registración en cumplimiento de las normas laborales y previsionales vigentes y haber entregado a cada conductor el caso y la indumentaria con bandas reflectivas, la caja portaobjetos con sistema de ajuste al vehículo, comprobante de póliza de seguros personales y de riesgos del trabajo, copia de las libretas sanitarias.&lt;ref&gt;Fallo Juez Gallardo
+
+https://es.scribd.com/document/420585151/Resolucion-Envios-Ya-1#from_embed&lt;/ref&gt;
+
 ==='''En Europa'''===
 
 ===='''''Uber'''''====
@@ -495,10 +651,42 @@ https://web.mijefeesunaapp.cl/&lt;/ref&gt;
 =='''Material Adicional'''==
 [https://academicworks.cuny.edu/gc_etds/2794/ Lee, Do J., "Delivering Justice: Food Delivery Cyclists in New York City" (2018). CUNY Academic Works.]
 
-[https://www.ilo.org/global/topics/future-of-work/publications/WCMS_662541/lang--es/index.htm &lt;nowiki&gt;Comisión Mundial sobre el Futuro del Trabajo: Trabajar para un futuro más prometedor [Resumen]&lt;/nowiki&gt;]&lt;br /&gt;
+=== ¿Trabajo del Futuro/Futuro del trabajo? ===
+Según la Comisión Mundial sobre el Futuro del Trabajo nuevas fuerzas están transformando el mundo del trabajo. Las transiciones implicadas en esta evolución piden que se tomen medidas enérgicas.&lt;ref name=":6"&gt;[https://www.ilo.org/global/topics/future-of-work/publications/WCMS_662541/lang--es/index.htm &lt;nowiki&gt;Comisión Mundial sobre el Futuro del Trabajo: Trabajar para un futuro más prometedor [Resumen]&lt;/nowiki&gt;]&lt;/ref&gt;
+
+Los avances tecnológicos –la inteligencia artificial, la automatización y la  robótica– crearán nuevos puestos de trabajo, pero quienes van a perder sus trabajos en esta transición podrían ser los menos preparados para aprovechar las nuevas oportunidades. Las competencias de hoy no se ajustarán a los trabajos de mañana y las nuevas competencias adquiridas pueden quedar desfasadas rápidamente. La ecologización de nuestras economías creará millones de puestos de trabajo a medida que adoptemos prácticas sostenibles y tecnologías limpias; en cambio, otros puestos de trabajo desaparecerán cuando los países vayan reduciendo progresivamente sus industrias basadas en el carbón y en el uso intensivo de los recursos. La evolución demográfica no es un factor desdeñable. Si bien es cierto que el aumento de la población juvenil en algunas regiones del mundo y el envejecimiento de la población en otras pueden ejercer presión sobre los mercados de trabajo y los sistemas de la seguridad social, estos cambios abren nuevas vías que nos brindan la posibilidad de contar con sociedades activas, basadas en los cuidados y la inclusión.&lt;ref name=":6" /&gt;
+
+La comisión Mundial sobre el Futuro del Trabajo, propone un programa centrado en las personas que fortalezca el contrato social, situando a las personas y el trabajo que realizan en el centro de las políticas económicas y sociales y de la práctica empresarial, bajo las siguientes pautas: 
+
+'''Aumentar la inversión en las capacidades de las personas'''
+
+• El derecho a un aprendizaje a lo largo de la vida que permita a las personas adquirir competencias, perfeccionarlas y reciclarse profesionalmente.
+
+• Incrementar las inversiones en las instituciones, las políticas y las estrategias que presten apoyo a las personas a lo largo de las transiciones que entraña el futuro del trabajo.
+
+• Aplicar un programa transformador y mensurable para la igualdad de género.
+
+• Proporcionar protección social universal desde el nacimiento hasta la vejez.
+
+'''Aumentar la inversión en las instituciones del trabajo''' 
+
+• Establecer una Garantía Laboral Universal. '''Todos los trabajadores, con independencia de su acuerdo contractual o situación laboral, deberían disfrutar de derechos fundamentales del trabajo''', un «salario vital adecuado» (Constitución de la OIT, 1919), límites máximos respecto a las horas de trabajo y protección en relación con la seguridad y la salud en el trabajo. Los convenios colectivos o la legislación 4 pueden aumentar este piso de protección social. Esta propuesta contribuye también a que se reconozca la seguridad y la salud en el trabajo como uno de los principios y derechos fundamentales del trabajo.
+
+• Ampliar la soberanía sobre el tiempo.
+
+• Garantizar la representación colectiva de los trabajadores y los empleadores a través del diálogo social como bien público, promovido activamente a través de políticas públicas.
+
+• Encauzar y administrar la tecnología en favor del trabajo decente. Esto significa que los trabajadores y directivos han de diseñar la concepción del puesto de trabajo.
+
+'''Incrementar la inversión en trabajo decente y sostenible''' 
+
+• Incentivos para promover inversiones en áreas clave en favor del trabajo decente y sostenible.
+
+• Remodelar las estructuras de incentivos empresariales en pro de estrategias de inversión a largo plazo, y explorar indicadores suplementarios de desarrollo humano y bienestar. &lt;ref name=":6" /&gt;
+
 =='''Referencias'''==
 &lt;references /&gt;</text>
-      <sha1>a41w0p1lumlkyrpzmargi962cn6lya6</sha1>
+      <sha1>51y24hg7z9rhf0wpbr69nt75nj3r51n</sha1>
     </revision>
   </page>
   <page>
@@ -506,9 +694,9 @@ https://web.mijefeesunaapp.cl/&lt;/ref&gt;
     <ns>0</ns>
     <id>15</id>
     <revision>
-      <id>149</id>
-      <parentid>148</parentid>
-      <timestamp>2019-07-31T23:08:31Z</timestamp>
+      <id>186</id>
+      <parentid>149</parentid>
+      <timestamp>2019-08-06T23:12:41Z</timestamp>
       <contributor>
         <username>ValeLisciani</username>
         <id>10</id>
@@ -516,7 +704,7 @@ https://web.mijefeesunaapp.cl/&lt;/ref&gt;
       <comment>/* Legalización del cannabis en otros países */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="13713">{{Instrucciones}}
+      <text xml:space="preserve" bytes="13648">{{Instrucciones}}
 
 =='''Problemática / Causa Común'''==
 Regulación de la producción, comercialización, y tenencia para consumo del cannabis
@@ -619,7 +807,7 @@ Valeria Salech, presidenta de '''Mamá Cultiv'''a (asociación civil precursora 
 
 *Video entrevista al Dr. Carlos Damin https://photos.app.goo.gl/A2dZevbQgJjsN1SG3
 
-*Lugo Potamio, marioneta qu habla d drogas qu vimos durante el conversatorio.  https://www.youtube.com/channel/UCaUA0uz6DfwYObE6TKyCbEg
+*Lugo Potamio. https://www.youtube.com/channel/UCaUA0uz6DfwYObE6TKyCbEg
 
 *Un libro sobre drogas  https://elgatoylacaja.com.ar/sobredrogas/
 
@@ -637,7 +825,7 @@ Valeria Salech, presidenta de '''Mamá Cultiv'''a (asociación civil precursora 
 
 =='''Referencias'''==
 &lt;references /&gt;</text>
-      <sha1>2h3gd84dwjw4txsvrp2q5zpus3rf1f3</sha1>
+      <sha1>2ju0sv556u8f918g6szhhjz7l8ugson</sha1>
     </revision>
   </page>
   <page>
@@ -645,17 +833,17 @@ Valeria Salech, presidenta de '''Mamá Cultiv'''a (asociación civil precursora 
     <ns>0</ns>
     <id>19</id>
     <revision>
-      <id>153</id>
-      <parentid>152</parentid>
-      <timestamp>2019-07-31T23:41:16Z</timestamp>
+      <id>189</id>
+      <parentid>183</parentid>
+      <timestamp>2019-08-07T00:54:20Z</timestamp>
       <contributor>
-        <username>ValeLisciani</username>
-        <id>10</id>
+        <username>AgustinFrizzera</username>
+        <id>4</id>
       </contributor>
-      <comment>/* Material Adicional */</comment>
+      <comment>/* Consecuencias */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="17556">&lt;br /&gt;
+      <text xml:space="preserve" bytes="28545">&lt;br /&gt;
 {{Instrucciones}}
 =='''Problemática / Causa Común'''==
 Dificultad de acceso a y permanencia en una vivienda
@@ -669,7 +857,7 @@ En las ciudades, la tasa de propiedad ha descendido dramáticamente entre 1996 y
 
 Sin embargo, las condiciones de los contratos de alquiler se establecen con deficiente regulación y en detrimento directo de los derechos de lxs inquilinxs, que deben aceptar cláusulas abusivas para acceder a un alquiler.
 
-Durante los últimos años, la problemática se ha visto profundizada a causa de que los aumentos en los precios de los alquileres han superado a los aumentos en las paritarias. Como consecuencia, los hogares destinan mayor porcentaje del ingreso al alquiler, lo que lleva a muchos a cohabitar incrementándose así el hacinamiento.  La 3° Encuesta Nacional a Inquilinos dio como resultado que el porcentaje del ingreso destinado al alquiler alcanza el '''47% en promedio'''. En algunas regiones, como Córdoba,  que tiene los alquileres más caros en relación al salario, los inquilinos destinan el 50% de sus ingresos en el pago del alquiler .&lt;ref&gt;Web: Habitar Argentina (11 de Septiembre de 2018), "Alquiler residencial en la Argentina. Problemática, estado del debate y propuestas para una ley de regulación nacional y diseño de políticas"
+Durante los últimos años, la problemática se ha visto profundizada a causa de que los aumentos en los precios de los alquileres han superado a los aumentos en las paritarias. Como consecuencia, los hogares destinan mayor porcentaje del ingreso al alquiler, lo que lleva a muchos a cohabitar incrementándose así el hacinamiento.  La 3° Encuesta Nacional a inquilinxs dio como resultado que el porcentaje del ingreso destinado al alquiler alcanza el '''47% en promedio'''. En algunas regiones, como Córdoba,  que tiene los alquileres más caros en relación al salario, los inquilinxs destinan el 50% de sus ingresos en el pago del alquiler .&lt;ref&gt;Web: Habitar Argentina (11 de Septiembre de 2018), "Alquiler residencial en la Argentina. Problemática, estado del debate y propuestas para una ley de regulación nacional y diseño de políticas"
 
 http://www.habitarargentina.org.ar/2018/09/alquiler-residencial-en-la-argentina-problematica-estado-del-debate-y-propuestas-de-para-una-ley-de-regulacion-nacional-y-el-diseno-de-politicas/&lt;/ref&gt;&lt;ref&gt;Web: Inquilinos Agrupados, "Jóvenes y adultos mayores, las principales víctimas de no tener una Ley de Alquileres"
 
@@ -680,7 +868,7 @@ De esta manera, dentro del contexto actual de crisis económica, la falta de reg
 =='''Causas'''==
 Las políticas habitacionales llevadas adelante en Argentina para brindar una solución acceso a la vivienda, estuvieron históricamente relacionadas con políticas de construcción de unidades de vivienda nuevas a ser adjudicadas en propiedad individual. La alta incidencia que tiene el sector de la construcción en la economía y en la creación de empleos junto con el factor cultural simbólico de la propiedad ha hecho que la política pública habitacional en Argentina se oriente hacia este tipo de soluciones. Sin embargo,  en los últimos años este tipo de políticas demostraron no ser efectivas para brindar soluciones habitacionales por sus limitaciones tanto en cantidad de hogares como en su abordaje cultural.
 
-Teniendo en cuenta el proceso de inquilinización que está atravesando Argentina -donde aumentó más de 7 puntos porcentuales la cantidad de inquilinos en los últimos 20 años&lt;ref&gt;Instituto Nacional de Estadística y Censos (INDEC) (Mayo 2019), Indicadores de condiciones de vida de los hogares en 31 aglomerados urbanos. Segundo semestre 2018
+Teniendo en cuenta el proceso de inquilinización que está atravesando Argentina -donde aumentó más de 7 puntos porcentuales la cantidad de inquilinxs en los últimos 20 años&lt;ref&gt;Instituto Nacional de Estadística y Censos (INDEC) (Mayo 2019), Indicadores de condiciones de vida de los hogares en 31 aglomerados urbanos. Segundo semestre 2018
 
  https://www.indec.gob.ar/uploads/informesdeprensa/eph_indicadores_hogares_02_18C09991E48B.pdf&lt;/ref&gt;- el alquiler debe dejar de ser considerado meramente como un estadio transitorio hacia ser propietario y empezar a ser pensado como una tendencia actual de acceder a la vivienda .
 
@@ -690,18 +878,18 @@ http://www.inquilinosagrupados.com.ar/ley-nacional-de-alquileres/&lt;/ref&gt;. E
 
 Otros problemas son los requisitos que tienen que  cumplir lxs inquilinxs para acceder a la vivienda. En mayor parte de los casos, lxs dueñxs y las inmobiliarias piden garantías propietaria familiar, recibos de sueldo de alto nivel y depósitos de dinero. Estos requisitos excluyen una gran parte de la población inquilina que tiene que volverse hacia alquileres informales.
 
-La falta de regulación también lleva a que, a nivel nacional, más del  90% de los contratos de alquiler son en negro, es decir que no están registrados ante un organismo de control &lt;ref name=":2" /&gt;.  Esto se  se traduce en una evasión impositiva millonaria y habilita la violación de derechos inquilinos, así como también dificulta el acceso a la justicia en caso de vulneración de derechos.
+La falta de regulación también lleva a que, a nivel nacional, más del  90% de los contratos de alquiler son en negro, es decir que no están registrados ante un organismo de control &lt;ref name=":2" /&gt;.  Esto se  se traduce en una evasión impositiva millonaria y habilita la violación de derechos inquilinxs, así como también dificulta el acceso a la justicia en caso de vulneración de derechos.
 
-Al mismo tiempo, como fue señalado con anterioridad, las  inmobiliarias piden una comisión - o gastos administrativos-  al inquilino al momento de firmar el contrato. Esta comisión se agrega a depósitos elevados y al primer mes de alquiler. Así, el primer mes puede llegar a costar tres veces más que el alquiler en si, lo que impide lxs inquilinxs formalizar el contrato aunque tengan los ingresos para pagar el alquiler cada mes.
+Al mismo tiempo, como fue señalado con anterioridad, las  inmobiliarias piden una comisión - o gastos administrativos-  al inquilinx al momento de firmar el contrato. Esta comisión se agrega a depósitos elevados y al primer mes de alquiler. Así, el primer mes puede llegar a costar tres veces más que el alquiler en si, lo que impide lxs inquilinxs formalizar el contrato aunque tengan los ingresos para pagar el alquiler cada mes.
 &lt;br /&gt;
 =='''Consecuencias'''==
-Esta situación ha profundizado la asimetría entre propietarios e inquilinos por la que estos últimos deben atenerse a contratos abusivos que erosionan gravemente su calidad de vida. Entre las consecuencias que tiene esta falta de regulación se encuentra que: 
+Esta situación ha profundizado la asimetría entre propietarios e inquilinxs por la que estos últimos deben atenerse a contratos abusivos que erosionan gravemente su calidad de vida. Entre las consecuencias que tiene esta falta de regulación se encuentra que: 
 
 *Lxs inquilinxs deben pagar mucho más de lo que les corresponde para entrar en un alquiler.  &lt;code&gt;FUENTE&lt;/code&gt;
-*Debido a las dificultades de cumplir con los requisitos para alquilar, muchxs inquilinxs tienen que alquilar de manera informal lugares que deberían ser solución temporales pero se convierten en soluciones a medio o largo plazo. Así, según el censo 2010 del INDEC, 12% de lxs inquilinxs alquilan piezas o cupos en pensiones o hosteles y 2% alquilen viviendas precarias. &lt;ref&gt;Natalia Cosacov, "Alquileres e inquilinos en la Ciudad de Buenos Aires. Una radiografía", Laboratorio de Políticas Públicas, Noviembre de 2012. https://www.researchgate.net/publication/297760059_Alquileres_e_inquilinos_en_la_Ciudad_de_Buenos_Aires_Una_radiografia
+*Debido a las dificultades de cumplir con los requisitos para alquilar, muchxs inquilinxs tienen que alquilar de manera informal lugares que deberían ser solución temporales pero se convierten en soluciones a medio o largo plazo. Así, según el censo 2010 del INDEC, 12% de lxs inquilinxs alquilan piezas o cupos en pensiones o hostales y 2% alquilen viviendas precarias. &lt;ref&gt;Natalia Cosacov, "Alquileres e inquilinos en la Ciudad de Buenos Aires. Una radiografía", Laboratorio de Políticas Públicas, Noviembre de 2012. https://www.researchgate.net/publication/297760059_Alquileres_e_inquilinos_en_la_Ciudad_de_Buenos_Aires_Una_radiografia
 
-&lt;span class="fs2"&gt;&lt;/span&gt;&lt;/ref&gt;  Según el Programa de Atención a Inquilinos de la Defensoría del Pueblo de la Ciudad Autónoma de Buenos Aires, en mayo 2019, 57% de la oferta de alquileres en  CABA son alquileres tradicionales, por 43% de alquileres temporales&lt;ref name=":0"&gt;Denfensoría del Pubelo de la Ciudad de Buenos Aires, ''Relevamiento Integral del Mercado de Alquileres'', Junio 2019.http://www.defensoria.org.ar/wp-content/uploads/2019/06/informe-inquilinos.pdf&lt;/ref&gt;. En tantas proporciones, no se trata más de una oferta exclusivamente turísticas sino de un nuevo mercado más rentable para los propietarios e inmobiliarias que responde a la brecha entre legislación de alquileres tradicionales y capacidad de lxs inquilinxs a cumplirlas&lt;ref name=":0" /&gt;.  Los hogares que tienen que alquiler viviendas temporarias se encuentran en situaciones aún más inestables. Los contratos son de tres a seis meses y pueden generar gastos a cada renovación. Además los precios de los alquileres temporarios exceden de más de 50% los precios de los alquileres tradicionales &lt;ref name=":0" /&gt;.
-*Firman contratos en los que los propietarios renuncian a responsabilidades que redundan en incluso más gastos para los inquilinos. &lt;code&gt;¿EJEMPLOS?&lt;/code&gt; &lt;code&gt;FUENTE&lt;/code&gt;
+&lt;span class="fs2"&gt;&lt;/span&gt;&lt;/ref&gt;  Según el Programa de Atención a inquilinxs de la Defensoría del Pueblo de la Ciudad Autónoma de Buenos Aires, en mayo 2019, 57% de la oferta de alquileres en  CABA son alquileres tradicionales, por 43% de alquileres temporales&lt;ref name=":0"&gt;Denfensoría del Pueblo de la Ciudad de Buenos Aires, ''Relevamiento Integral del Mercado de Alquileres'', Junio 2019.http://www.defensoria.org.ar/wp-content/uploads/2019/06/informe-inquilinos.pdf&lt;/ref&gt;. En tantas proporciones, no se trata más de una oferta exclusivamente turísticas sino de un nuevo mercado más rentable para los propietarios e inmobiliarias que responde a la brecha entre legislación de alquileres tradicionales y capacidad de lxs inquilinxs a cumplirlas&lt;ref name=":0" /&gt;.  Los hogares que tienen que alquiler viviendas temporarias se encuentran en situaciones aún más inestables. Los contratos son de tres a seis meses y pueden generar gastos a cada renovación. Además los precios de los alquileres temporarios exceden de más de 50% los precios de los alquileres tradicionales &lt;ref name=":0" /&gt;.
+*Firman contratos en los que los propietarios renuncian a responsabilidades que redundan en incluso más gastos para lxs inquilinxs. &lt;code&gt;¿EJEMPLOS?&lt;/code&gt; &lt;code&gt;FUENTE&lt;/code&gt;
 *Incrementos de alquiler con plazos arbitrarios.&lt;code&gt;¿EJEMPLOS?&lt;/code&gt; &lt;code&gt;FUENTE&lt;/code&gt;
 *&lt;code&gt;¿EVOLUCIÓN DE TASA DE EMANCIPACIÓN?&lt;/code&gt;
 
@@ -741,29 +929,70 @@ http://www.defensoria.org.ar/noticias/el-deficit-habitacional-en-la-ciudad-auton
 ====Problemática de Alquileres====
 
 =====En el país:=====
-Crecimiento de la tasa de inquilinos y concentración del proceso en las ciudades:
+Crecimiento de la tasa de inquilinxs y concentración del proceso en las ciudades:
 
-*La tasa de inquilinos estaba de 11% en 2001, de 15% en 2010&lt;ref&gt;Infraestructura Habitacional de los Hogares de la Provincia de Córdoba&lt;nowiki/&gt;https://datosestadistica.cba.gov.ar/dataset/b5768aa8-b95c-4660-b44e-1c3e12d58f9e/resource/100cccaf-a226-4918-bab5-74f9c9382413/download/desd_informe_infraestructura_habitacional_2014.pdf&lt;/ref&gt;  y está actualmente alrededor de 19% &lt;code&gt;FUENTE&lt;/code&gt;.
-*La tasa de inquilinos en los centros urbanos llega a superar el 30%.
-*Los inquilinos destinan alrededor de un 40% de sus ingresos al pago del alquiler. &lt;code&gt;FUENTE&lt;/code&gt;
+*La tasa de inquilinxs estaba de 11% en 2001, de 15% en 2010&lt;ref&gt;Infraestructura Habitacional de los Hogares de la Provincia de Córdoba&lt;nowiki/&gt;https://datosestadistica.cba.gov.ar/dataset/b5768aa8-b95c-4660-b44e-1c3e12d58f9e/resource/100cccaf-a226-4918-bab5-74f9c9382413/download/desd_informe_infraestructura_habitacional_2014.pdf&lt;/ref&gt;  y está actualmente alrededor de 19% &lt;code&gt;FUENTE&lt;/code&gt;.
+*La tasa de inquilinxs en los centros urbanos llega a superar el 30%.
+*Según una encuesta realizada por "inquilinos Agrupados", se estima que un inquilinx destina en promedio un 45% de sus ingresos en el pago del alquiler.  Si analizamos los datos por provincia, '''Córdoba''' –con 46,7%- es la que registra un mayor porcentaje de los ingresos que se destinan al pago del alquiler, seguida de '''San Juan''' (46,2%), '''Provincia de Buenos Aires''' (45,6%) y Ciudad de Buenos Aires (44,6%).&lt;ref name=":5"&gt;Inquilinos Agrupados, "El 45% de un salario se destina al pago del alquiler"
+
+http://www.inquilinosagrupados.com.ar/el-45-de-un-salario-se-destina-al-pago-del-alquiler/&lt;/ref&gt;
+*Si tomamos en cuenta también el pago de las expensas, los impuestos y los servicios, un inquilinx destina entre el 60% y el 70% de sus ingresos en mantener su vivienda alquilada.&lt;ref name=":5" /&gt;
+*Existe una enorme evasión impositiva en el mercado inmobiliario, ya que el 78,3% de los encuestados afirmó que la inmobiliaria o el propietario no le extienden una factura al momento de pagar el alquiler. Ese promedio nacional, aumenta en provincias como '''San Juan (94,2%)''', '''CABA (84,5%)''' y '''Provincia de Buenos Aires (79,9%)'''.&lt;ref name=":5" /&gt;
+*Más del 70% de lxs inquilinxs no tienen expectativas de poder acceder a la vivienda propia, y este porcentaje se eleva a mas del 80% entre lxs que hace más de 10 años que alquilan. El 64% de lxs inquilinxs averiguó por créditos hipotecarios. &lt;ref name=":6"&gt;Primera encuesta a Inquilinos - Federación de Inquilinos Nacional (Febrero 2018)&lt;/ref&gt;
+*El 87% de lxs inquilinxs está preocupado por el precio del alquiler, pero existen otras preocupaciones como los requisitos económicos para ingresar (61%), comisión inmobiliaria (59%) y las garantías (45%).
+*Entre lxs inquilinxs existe la percepción de que el Estado no tiene políticas especificas para el sector, ni control efectivo sobre las inmobiliarias. &lt;ref name=":6" /&gt;
+*El 25% de lxs inquilinxs que participaron de la encuesta manifestó que sufrió en algún momento de dificultad para alquilar por tener hijxs. Este alto porcentaje discrimina especialmente a las madres solteras o separadas que conviven con hijxs y no tienen vivienda propia. El 28% de las inquilinas que conviven con hijxs, en relación con el 19% de los inquilinxs que participaron de la encuesta, denuncian la dificultad de alquilar por tener hijxs. &lt;ref name=":6" /&gt;
 *&lt;code&gt;MAS DATOS&lt;/code&gt;
 
 =====En CABA:=====
 
-*32,1% de inquilinos. &lt;ref name=":1" /&gt;
-*El valor promedio del alquiler de un medio ambiente es de $ 11.992 y el Gobierno de la Ciudad de Buenos Aires considera que la Canasta Básica Total (CBT), que define la linea de pobreza, para una persona viviendo sola en 2019 es de $ 10.84.5&lt;ref name=":0" /&gt;. Una persona debería contar con $ 22.837 al mes para vivir en Buenos Aires. Sin embargo, 50% de los porteños tiene ingresos menores a $ 20.000&lt;ref name=":0" /&gt;.
-*40% de las consultas del Programa de Atención a Inquilinos de la Defensoría del Pueblo son inquilinos que no pueden más pagar el alquiler, las expensas y los gastos de su vivienda&lt;ref&gt;Programa de Atención a Inquilinos de la Defensoría del Pueblo, "CABA: Aumentaron las consultas de inquilinos ante la dificultad para pagar alquiler, expensas y servicios". ANRed
+*32,1% de inquilinxs. &lt;ref name=":1" /&gt;
+*El valor promedio del alquiler de un medio ambiente es de $ 11.992 y el Gobierno de la Ciudad de Buenos Aires considera que la Canasta Básica Total (CBT), que define la linea de pobreza, para una persona viviendo sola en 2019 es de $ 10.845&lt;ref name=":0" /&gt;. Una persona debería contar con $ 22.837 al mes para vivir en Buenos Aires. Sin embargo, 50% de los porteños tiene ingresos menores a $ 20.000&lt;ref name=":0" /&gt;.
+*40% de las consultas del Programa de Atención a inquilinxs de la Defensoría del Pueblo son inquilinxs que no pueden más pagar el alquiler, las expensas y los gastos de su vivienda&lt;ref&gt;Programa de Atención a Inquilinos de la Defensoría del Pueblo, "CABA: Aumentaron las consultas de inquilinos ante la dificultad para pagar alquiler, expensas y servicios". ANRed
 
 https://www.anred.org/?comunicado=caba-40-de-los-inquilinos-presenta-dificultades-para-pagar-el-alquiler-las-expensas-y-los-servicios&lt;/ref&gt;.
+*Según el informe del Observatorio de Vivienda de la Ciudad de Buenos Aires "Indicadores socioeconómicos y mercado inmobiliario", tomando como período de referencia el de Junio 2019, el precio promedio de alquiler (en pesos) es de $21071 para 3 ambientes (con una variación interanual de +31.6%), $15212 para un 2 ambientes (con variación interanual del +30,5%) y $11532 para el caso de un monoambiente (variación interanual +33,9%). &lt;ref name=":3"&gt;Observatorio de Vivienda de la Ciudad de Buenos Aires (Agosto 2019) "Indicadores socioeconómicos y mercado inmobiliario"&lt;/ref&gt;
+*A la hora de alquilar, solo en el 11,78% de los casos se aceptan seguro de caución y 5,53% son ofrecidos por dueño directo. Por otro lado, solo en el 2,23% de los casos se aceptan recibos de salario como garantía.&lt;ref name=":3" /&gt;
+*Tomando el primer trimestre del año como período de referencia, encontramos que el alquiler medio (3 ambientes) representa un 33,11% del ingreso medio del hogar. &lt;ref name=":3" /&gt;
+
 *&lt;code&gt;MAS DATOS&lt;/code&gt;
 
 [[Archivo:Hogares rentista e inquilinos.png|centro|miniaturadeimagen|https://gallery.mailchimp.com/e9c6f62a4dc825f6a9dab4e88/files/fbdd39ad-b784-40dc-a4b4-f9c2acbf1724/2019.04.04_Debate_en_torno_al_proyecto_Ley_de_Alquileres.pdf]]
-[[Archivo:Inquilinos Ingresos.png|centro|miniaturadeimagen|https://gallery.mailchimp.com/e9c6f62a4dc825f6a9dab4e88/files/fbdd39ad-b784-40dc-a4b4-f9c2acbf1724/2019.04.04_Debate_en_torno_al_proyecto_Ley_de_Alquileres.pdf]]
-&lt;br /&gt;
-=='''Acceso al crédito - Créditos UVA'''==
-&lt;code&gt;DATOS CREDITOS UVA&lt;/code&gt;
+[[Archivo:Inquilinos Ingresos.png|centro|miniaturadeimagen|https://gallery.mailchimp.com/e9c6f62a4dc825f6a9dab4e88/files/fbdd39ad-b784-40dc-a4b4-f9c2acbf1724/2019.04.04_Debate_en_torno_al_proyecto_Ley_de_Alquileres.pdf]]&lt;br /&gt;
+
+===Alquiler temporario===
+En un contexto en donde existe un estancamiento de los márgenes de ganancia que deja el modelo tradicional de alquiler, sumado a las altas rentas que pagan los alquileres temporales, en la Ciudad de Buenos Aires ha crecido la venta de propiedades pequeñas, ubicadas en barrios céntricos/turísticos, para ser destinados a la renta temporaria a través de plantaformas llamadas "colaborativas". Uno de los grandes factores que influye para que exista una gran diferencia de rentabilidad de ambos alquileres, es el aumento del dolar. La época de oro del alquiler temporal en el país se dio entre el 2004 y 2009, llegando a un punto de caída en el 2011, a consecuencia del "cepo". Actualmente esta actividad esta creciendo fuertemente, centralizandose en los barrios de Palermo y Recoleta, principalmente.&lt;ref name=":4"&gt;Quiroga, Carla y Glikman, Andrea (3 de Agosto de 2019), "Alquiler temporario: qué debe tener un departamento para que se rente rapido". La Nación
+
+https://www.lanacion.com.ar/propiedades/alquiler-temporario-que-debe-tener-un-departamento-para-que-se-rente-rapido-nid2273746&lt;/ref&gt;
+
+Según la [http://www2.cedom.gob.ar/es/legislacion/normas/leyes/ley4632.html Ley de Registro de Propiedades de Alquiler Temporario Turístico], que rige en la Ciudad de Buenos Aires, deben estar inscriptos quienes posean cuatro o mas propiedades utilizadas para este fin, pero actualmente solo hay 280 inscriptos. Esto es un número bajo, si se tiene en cuenta que se ofrecen por Airbnb y Booking.com alrededor de 71700 alojamientos no tradicionales, que incluyen casas y departamentos. Según un relevamiento de Airbnb, un anfitrión típico en la Argentina obtuvo ingresos por $59000 durante 2018.&lt;ref name=":4" /&gt;
+
+De acuerdo con el sitio [https://www.airdna.co/ AirDNA] -que recopila información de 10 millones de lugares publicados en las plataformas Airbnb y HomeAway-, en la ciudad de Buenos Aires hay 14.127 lugares disponibles -lejos de los 280 que inscriptos-, de los cuales el 74 por ciento corresponde a departamentos o casas enteras, seguido de habitaciones privadas (23%) y habitaciones compartidas (3%). Y la facturación promedio para alguien que alquila su propiedad a través de estas vías es de US$677 mensuales.&lt;ref name=":4" /&gt;
+
+Un dato que prueba el éxito del negocio es el aumento de los interesados: según un informe realizado por Mercado Libre, la demanda para esta categoría creció un 21,3 por ciento en mayo respecto al mismo período del año anterior. El mismo relevamiento ratificó el análisis de los brokers, los mayores crecimientos de visitas se observaron en las viviendas más pequeñas, es decir de uno o dos ambientes. En este sentido, este tipo de propiedades registraron crecimientos del 25 y 28 por ciento, respectivamente.&lt;ref name=":4" /&gt;
 
 &lt;br /&gt;
+
+=='''Acceso al crédito - Créditos UVA'''==
+El acceso a la propiedad de la vivienda a través de un crédito hipotecario en Argentina ha sido materia de debate desde hace años. Durante el gobierno de Macri primó la posición que sostiene que los créditos  hipotecarios deberían indexarse por inflación. Fue así que surgió el crédito UVA. [http://www.bcra.gob.ar/SistemasFinancierosYdePagos/Politica_financiera_crediticia.asp La Unidad de Valor Adquisitivo (UVA)] se toma como referencia para actualizar el valor del capital adeudado y los intereses a pagar según el Coeficiente de Estabilización de Referencia (CER) que se rige por la evolución del Indice de Precios al Consumidor (IPC) que elabora el INDEC. En Resumen, las cuotas y el capital se ajustan por inflación.
+
+Desde su surgimiento en abril de 2016 hasta fin de abril de 2019, en el sistema bancario se otorgaron préstamos hipotecarios UVA por un total de $ 150.172,95 millones, equivalentes a 6.714,25 millones de UVA y a U$S 7.050,42 millones. El máximo se dió en el mes de marzo de 2018, otorgándose un monto de $ 13.937 millones (equivalentes a U$S 678,49 millones / 622,86 millones de UVA). A partir de ese mes se inicia una continua caída de los montos otorgados, pasando en diciembre de 2018 a otorgarse$2.692 millones (equivalentes a U$S 69,38 millones / 88,36 millones de UVA), lo que representa una caída del 81% en relación a los montos otorgados en pesos en marzo de ese año y del 90% en relación a su equivalencia en dólares estadounidenses&lt;ref&gt;Centro de Economía Política Argetina (CEPA) (22 de Mayo de 2019), "Préstamos hipotecarios UVA: análisis de la situación actual de los hipotecados y evolución del mercado"
+
+https://centrocepa.com.ar/informes/210-prestamos-hipotecarios-uva-analisis-de-la-situacion-actual-de-los-hipotecados-y-evolucion-del-mercado.html&lt;/ref&gt;. 
+
+Según la Jefatura de Gabinete de Ministros, a Enero de 2019 se habían otorgado 132.000 créditos hipotecarios UVA, de los cuales 31.000 (24% del total) se realizaron a través del [https://www.argentina.gob.ar/interior/procrear ProCreAr], una política pública federal desplegada por la Secretaría de Vivienda de la Nación. Este programa toma el nombre de un programa del gobierno anterior, pero los créditos son distintos, ya que el actual programa ingresa a sus beneficiarios directamente en un crédito hipotecario UVA. De los 101.000 restantes (76%) unos 74.000 se encuentran en manos de bancos públicos, liderados por el Banco de la Nación Argentina&lt;ref&gt;Informe N° 118 - Honorable Cámara de Diputados de la Nación
+
+https://www.argentina.gob.ar/sites/default/files/informe_118_-_hcdn.rar&lt;/ref&gt;&lt;ref&gt;Informe N° 117 - Honorable Cámara de Diputados de la Nación
+
+https://www.argentina.gob.ar/sites/default/files/informe_117_-_hsn.pdf&lt;/ref&gt;
+
+En un país con una historia inflacionaria como tiene la Argentina, los préstamos a largo plazo ajustados por inflación, sin cláusulas que limiten ese ajuste, ponen a los deudores en una situación de vulnerabilidad. Sobre todo, cuando el salario evoluciona muy por debajo de ese ajuste, como ocurrió en 2016, en 2018 y en lo que va del 2019. Este sistema de crédito sobreendeudó a los hipotecados UVA de forma pasiva, sin que se hiciera nada para merecerlo. A las familias los bancos y el Gobierno Nacional les informaron que el porcentaje de cuota-ingreso inicial (30%, 25% en muchos casos, o el que fuere) se mantendría estable y sería el que pagarían de ahí en adelante. Esa información fue publicidad engañosa, una práctica denunciable judicialmente en el marco del derecho del consumidor. Como las cuotas ajustaron por inflación y los salarios no, y la parte del salario destinada a la cuota se volvió cada vez mayor&lt;ref&gt;Federico Wahlberg, (25 de Abril de 2019), "Pesadilla en cuotas: el drama de los hipotecados UVA". Perfil
+
+https://www.perfil.com/noticias/opinion/opinion-federico-wahlberg-pesadilla-en-cuotas-el-drama-de-los-hipotecados-uva-economia.phtml&lt;/ref&gt;
+
+La consecuencia para todos los hipotecados UVA es que se destina un porcentaje cada vez mayor de los ingresos a pagar las cuotas, y que se debe cada vez mas. Esto implica que cada vez mas familias dejen de consumir productos de la canasta básica, que comiencen a acumular otras deudas para no dejar de pagar el crédito (expensas, luz, gas, tarjetas de crédito) y algunas aun así caen en mora, corriendo el riesgo de que los bancos ejecuten la hipoteca y pierdan sus casas.
+
+Esto demuestra que los créditos hipotecarios indexados por inflación no fueron diseñados para ser pagables, no fueron diseñados acorde a las necesidades de los hipotecados, y por tal motivo implican un fracaso de la política pública de vivienda basada en este tipo de crédito. Se vuelve necesaria una política que suprima la indexación por inflación de los créditos hipotecarios y compense a quienes se encuentran hoy sobreendeudados por el sistema UVA.&lt;br /&gt;
 
 =='''Material Adicional'''==
 
@@ -803,7 +1032,7 @@ https://dre.pt/web/guest/pesquisa/-/search/122373682/details/maximized?filterEnd
 
 =='''Referencias'''==
 &lt;references /&gt;</text>
-      <sha1>dkcje8bdmyo4ff93g2c46n3i69ko479</sha1>
+      <sha1>6pnuydqx1gxom9cgnjchi64dmq2nxe8</sha1>
     </revision>
   </page>
   <page>
