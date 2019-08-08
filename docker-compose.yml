@@ -3,7 +3,7 @@ version: '3'
 services:
     web:
         build: .
-        restart: no
+        restart: on-failure
         depends_on:
             - parsoid
         ports:
@@ -27,9 +27,10 @@ services:
             #- PHP_ERROR_REPORTING=E_ALL & ~E_DEPRECATED & ~E_STRICT #prod
             - MW_PARSOID_URL=http://parsoid:8000
             - MW_PARSOID_WIKI_DOMAIN=web
+            - MW_NOTIFY_USERS=Admin,AgustinFrizzera,ValeLisciani
     parsoid:
         image: thenets/parsoid:0.10
-        restart: no
+        restart: on-failure
         environment:
             - PARSOID_DOMAIN_web=http://web/api.php
 networks:

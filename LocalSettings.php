@@ -195,12 +195,7 @@ wfLoadExtension( 'Cite' );
 $wgEditNotifyAlerts = array(
 	array(
 		'action' => array( 'create', 'edit' ),
-		'users' => array( 'AgustinFrizzera', 'ValeLisciani' )
-	),
-	array(
-		'action' => 'edit',
-		'page' => 'Testeo',
-		'users' => array( 'ejemplo' )
-	),
+		'users' => explode(',', getenv( 'MW_NOTIFY_USERS' ))
+	)
 );
 wfLoadExtension( 'EditNotify' );
