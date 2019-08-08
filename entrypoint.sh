@@ -24,9 +24,9 @@ then
 
   mv LocalSettingsINIT.php LocalSettings.php
   php maintenance/update.php --quick
-  php maintenance/populateContentModel.php --wiki=somewiki --ns=1 --table=revision
-  php maintenance/populateContentModel.php --wiki=somewiki --ns=1 --table=archive
-  php maintenance/populateContentModel.php --wiki=somewiki --ns=1 --table=page
+  php maintenance/populateContentModel.php --ns=1 --table=revision
+  php maintenance/populateContentModel.php --ns=1 --table=archive
+  php maintenance/populateContentModel.php --ns=1 --table=page
 fi
 
 mv /opt/icons /var/www/html/images/icons
