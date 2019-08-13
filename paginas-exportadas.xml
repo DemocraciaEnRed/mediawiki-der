@@ -57,16 +57,16 @@
     <ns>8</ns>
     <id>11</id>
     <revision>
-      <id>163</id>
-      <parentid>162</parentid>
-      <timestamp>2019-08-02T20:20:31Z</timestamp>
+      <id>190</id>
+      <parentid>163</parentid>
+      <timestamp>2019-08-07T15:52:46Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
       <model>css</model>
       <format>text/css</format>
-      <text xml:space="preserve" bytes="3814">/* Los estilos CSS colocados aquí se aplicarán a todas las apariencias */
+      <text xml:space="preserve" bytes="3868">/* Los estilos CSS colocados aquí se aplicarán a todas las apariencias */
 
 /* esconder "Herramientas wiki" */
 #site-tools {display:none;}
@@ -85,18 +85,18 @@ body.ns-0 #ca-edit {display:none;}
 #catlinks-sidebar {display:none;}
 
 /* ícono menú hamburguesa */
-#site-navigation h2 {background-image: url(/images/CausasComunes_Menu_Small.png);}
+#site-navigation h2 {background-image: url(/images/icons/CausasComunes_Menu_Small.png);}
 /* fix bug  */
 @media screen and (min-width: 851px) and (max-width: 1099px) {
   #site-navigation h2 {background-image: none;}
 }
 
 /* ícono usuarie */
-#personal h2 {background-image: url(/images/CausasComunes_Usuarie_Small.png);}
+#personal h2 {background-image: url(/images/icons/CausasComunes_Usuarie_Small.png);}
 
 /* ícono notificaciones normales */
 #pt-notifications-notice .mw-echo-notifications-badge::before {
-  /*background-image: url(/images/CausasComunes_Bandeja_Small.png);*/
+  /*background-image: url(/images/icons/CausasComunes_Bandeja_Small.png);*/
   background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Ctitle%3E tray %3C/title%3E %3Cpath d=%22M17 1H3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 12h-4l-1 2H8l-1-2H3V3h14z%22/%3E %3C/svg%3E");
   background-size: 19px;
   width: 25px;
@@ -112,7 +112,7 @@ body.ns-0 #ca-edit {display:none;}
 
 /* ícono paginas modificadas */
 #pt-notifications-alert .mw-echo-notifications-badge::before {
-  background-image: url(/images/CausasComunes_Notificación_Small.png);
+  background-image: url(/images/icons/CausasComunes_Notificación_Small.png);
   width: 25px;
   height: 25px;
   opacity: 1;
@@ -124,7 +124,7 @@ body.ns-0 #ca-edit {display:none;}
 }
 
 /* no me pasaron in ícono de search que pueda ir bien, modifico el que está */
-/*#searchButton {background-image: url(/images/CausasComunes_Busqueda_Small.png);}*/
+/*#searchButton {background-image: url(/images/icons/CausasComunes_Busqueda_Small.png);}*/
 #searchButton, #mw-searchButton {opacity:0.4;}
 
 /* logo */
@@ -133,7 +133,7 @@ body.ns-0 #ca-edit {display:none;}
   color: transparent !important;
 }
 #p-logo-text {
-  background-image: url(images/logo-wiki.png);
+  background-image: url(images/icons/logo-wiki.png);
   background-repeat: no-repeat;
   background-size: 204px 35px;
 }
@@ -147,17 +147,17 @@ body.ns-0 #ca-edit {display:none;}
 /* fonts generales */
 @font-face {
   font-family:'Barlow';
-  src: url(images/Barlow-Regular.ttf) format('truetype');
+  src: url(images/icons/Barlow-Regular.ttf) format('truetype');
   font-weight: 400;
 }
 @font-face {
   font-family:'Barlow';
-  src: url(images/Barlow-Medium.ttf) format('truetype');
+  src: url(images/icons/Barlow-Medium.ttf) format('truetype');
   font-weight: 500;
 }
 @font-face {
   font-family:'Barlow';
-  src: url(images/Barlow-SemiBold.ttf) format('truetype');
+  src: url(images/icons/Barlow-SemiBold.ttf) format('truetype');
   font-weight: 600;
 }
 body{
@@ -172,7 +172,7 @@ body {background: #f3f3f3;}
 #mw-footer-container li, #mw-footer-container a {color:black;}
 #mw-content-container {border-bottom: solid 4px #900;}
 
-/* bloques de código utilizados para dar avisos tipo FUENTE o MAS DATOS (la segunda regla es para el visualeditor) */
+/* bloques de código utilizados para dar avisos tipo MAS DATOS o FUENTE (la segunda regla es para el visualeditor) */
 #mw-content-text code, #bodyContent code {
   background-color: #eadd7f;background-color: #e6c94d;
   /*font-weight: bold;*/
@@ -180,7 +180,7 @@ body {background: #f3f3f3;}
   border-radius: 20px;
   padding: 1px 7px;
 }</text>
-      <sha1>mft54rwzzh3bn1kymwfa19vtj4pio0c</sha1>
+      <sha1>bdtzb7jlduix8mq70sa4tnfy928pk2w</sha1>
     </revision>
   </page>
   <page>
@@ -241,17 +241,17 @@ Por favor ingrese a alguno de los artículos de las causas:
     <ns>0</ns>
     <id>12</id>
     <revision>
-      <id>175</id>
-      <parentid>174</parentid>
-      <timestamp>2019-08-06T00:47:16Z</timestamp>
+      <id>220</id>
+      <parentid>175</parentid>
+      <timestamp>2019-08-09T18:55:42Z</timestamp>
       <contributor>
         <username>ValeLisciani</username>
         <id>10</id>
       </contributor>
-      <comment>/* Contenidos promovidos por la ESI */</comment>
+      <comment>/* ¿Estado totalitario? */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="21619">{{Instrucciones}}
+      <text xml:space="preserve" bytes="21653">{{Instrucciones}}
 
 =='''Problemática / Causa Común'''==
 Implementación de la Educación Sexual Integral, a nivel nacional. 
@@ -356,9 +356,9 @@ Esto es incorrecto ya que la biología no puede responder sobre cuestiones moral
 ===¿Estado totalitario?===
 Dicha mirada insiste en un derecho "de los padres", que contrapone al derecho del Estado, y plantea que este último, al querer impartir educación sexual, invade o impone creencias y valores individuales y familiares, por lo que es identificado como un "Estado totalitario".
 
-Esta lógica es incorrecta, ya que el involucramiento del Estado en esta temática se da en función de los '''derechos de los niños''', por tanto el mismo se involucra en tanto garante de estos derechos. No se trata de una lista de derechos que los padres pueden decidir cuando usar y cuando reclamar, porque son de los '''niños en tanto que titulares'''. 
+Esta lógica es incorrecta, ya que el involucramiento del Estado en esta temática se da en función de los '''derechos de los niños''', por tanto el mismo se involucra en tanto garante de estos derechos. No se trata de una lista de derechos que los padres pueden decidir cuando usar y cuando reclamar, porque son de los '''niños en tanto que titulares'''.&lt;ref name=":0" /&gt; 
 
-Por otro lado, existe un enorme marco legal de derechos humanos, derechos del niño y leyes nacionales que respaldan la necesidad de aplicar la ESI:
+Por otro lado, existe un enorme marco legal de derechos humanos, derechos del niño y leyes nacionales que respaldan la necesidad de aplicar la ESI:&lt;ref name=":0" /&gt;
 {| class="wikitable"
 |+
 | colspan="1" |[https://www.un.org/es/universal-declaration-human-rights/ Declaración Universal de los Derechos Humanos]
@@ -432,7 +432,7 @@ Educar en igualdad: Prevención y erradicación de la violencia de género.
 
 =='''Referencias'''==
 &lt;references /&gt;</text>
-      <sha1>1xti10sgpr6cvxbgvyervnsxfwxy68j</sha1>
+      <sha1>1q072zvw8pqp7o6aq431zyeqx79pox5</sha1>
     </revision>
   </page>
   <page>
@@ -440,33 +440,105 @@ Educar en igualdad: Prevención y erradicación de la violencia de género.
     <ns>0</ns>
     <id>18</id>
     <revision>
-      <id>104</id>
-      <parentid>82</parentid>
-      <timestamp>2019-07-30T20:57:21Z</timestamp>
+      <id>259</id>
+      <parentid>245</parentid>
+      <timestamp>2019-08-12T20:29:31Z</timestamp>
       <contributor>
-        <username>La vuelta al mundo</username>
-        <id>7</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <comment>/* GEIs (gases de efecto invernadero) */</comment>
+      <comment>/* Carrera por reducción de emisiones GEI */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="3699">{{Instrucciones}}
+      <text xml:space="preserve" bytes="19878">{{Instrucciones}}
 
-=='''Contexto'''==
-El sistema global de producción, distribución y consumo está genera impactos ecológicos devastadores y alimenta una sociedad cada vez más desigual. El 10% más rico de la población del planeta genera el 45% de las emisiones de CO2, mientras el 50% más pobre genera solo el 10%. Sin embargo quienes más sufren las consecuencias de los fenómenos derivados, inundaciones, sequías o el aumento de enfermedades, como el dengue, serán los más estratos más vulnerables. 
+=='''Problemática / Causa Común'''==
+=='''Contexto global'''==
+Desde el período preindustrial, y especialmente a partir de la segunda mitad del siglo XX, la pérdida de biodiversidad (y '''degradación ambiental''') y el calentamiento global (síntoma más claro del '''colapso climático''') ocasionado directa e indirectamente por la actividad  humana '''(antropoceno''') han aumentado a un ritmo jamás visto en ninguna otra época de la historia planetaria. Las causas  principales son el '''modelo de producción''' de '''energía de base fósil''' y el '''modelo de producción y consumo lineales.'''  
 
-El ambiente no es un problema de “lujo” sino el terreno en donde encontramos raíces profundas de la desigualdad. Crear y soñar un nuevo sistema productivo es prioridad. En una situación de crisis climática y ecológica, repensar la manera en la que nos relacionamos con nuestros recursos es fundamental. Necesitamos un cambio de matriz energética que a la vez genere trabajo y motorice la economía como respuesta al cambio climático. Necesitamos crear las bases para una transición a un modelo productivo agroecológico como respuesta a la inequidad y los problemas de salud ambiental que genera el sector agropecuario.
+La pérdida de biodiversidad es la disminución o desaparición de la diversidad biológica, entendida como la variedad de seres vivos que habitan el planeta. La principal consecuencia el empobrecimiento o '''simplificación de los ecosistemas''' de los que de manera directa e indirecta dependemos para alimentarnos y obtener servicios y  recursos. Todo esto sucede mientras  desaparece el '''patrimonio genético''' que contiene valiosísima información aún no explorada.&lt;ref&gt;WWF. 2018. Living Planet Report - 2018: Aiming Higher. Grooten, M. and Almond, R.E.A.(Eds). WWF, Gland, Switzerland.
 
-En Argentina, los grandes productores agropecuarios recurren a un modelo basado en una cantidad de agroquímicos exagerada y sin controles, cuyos efectos sufren quienes los  aplican y quienes circundan las tierras fumigadas como escuelas y pueblos rurales. 
+https://wwf.panda.org/knowledge_hub/all_publications/living_planet_report_2018/&lt;/ref&gt;
 
-=='''Problemática/Causa común'''==
+La principal causa del calentamiento global (y de toda la crisis climática) es la '''emisión creciente''' de grandes cantidades de '''gases de efecto invernadero (GEI)''' como consecuencia del '''crecimiento de la población''' y el '''aumento del consumo''' per cápita de bienes, servicios y energía asociada de origen fósil (petróleo, gas, carbón, etc)
 
-*Ley de zonas buffer/regulación de agroquímicos.
-*Ley de fomento de renovables con inclusión social.
-*Ley de etiquetado de alimentos.
+La actividad humana en general y ciertos países e industrias en particular están demandando cantidades de  recursos que sobrepasan la capacidad de la Tierra para regenerarlos ('''sobregiro ecológico'''). 
+
+Hay amplio consenso científico e internacional sobre la inviabilidad a corto plazo del actual modelo. La escala de los impactos potenciales es incierta pero incluyen '''escasez de agua dulce''', '''modificaciones radicales''' en las condiciones de '''producción de alimentos''', aumento del número de muertes por '''inundaciones, tormentas, olas de calor''' y '''sequías''', aumento de '''enfermedades tropicales''' como dengue, zika,  chikunguyna , '''desplazamientos''' masivos de personas y  aumento de '''conflictos fronterizos.''' 
+
+Según el Panel Intergubernamental del Cambio Climático (IPCC) la oportunidad de revertir las proyecciones se achica dramáticamente a causa de la incapacidad de las grandes economías para implementar un '''plan de reducción  de emisiones efectivo'''.  Se  calcula que  para mantener el aumento de la temperatura te tan solo 1,5°C y 2°C. se requiere una '''reducción de emisiones a escala global de un 50% para el 2020 y del 100% para el 2050'''.&lt;ref&gt;AEMET y OECC 2018. Cambio Climático: Calentamiento Global de 1,5ºC. Agencia Estatal de Meteorología y Oficina Española de Cambio Climático. Ministerio para la Transición Ecológica, Madrid.
+
+https://www.miteco.gob.es/es/cambio-climatico/temas/el-proceso-internacional-de-lucha-contra-el-cambio-climatico/ipcc_informe_especial_15pdf_tcm30-485656.pdf&lt;/ref&gt;
+
+==='''Por qué se establece el techo de 2 C?'''===
+El Panel Intergubernamental sobre el Cambio Climático (IPCC por sus siglas en inglés) ha proporcionado diferentes escenarios . Si no se hace nada, y el mundo avanza en su curso actual (BAU), estará encaminado al aumento de temperatura global en promedio de cuatro grados centígrados al final de este siglo. Con las emisiones de carbono que han sido bombeadas en el aire hasta la fecha (calentamiento global de 0.85 grados)  ya se han  producido grandes efectos: casi la mitad de la capa permanente de hielo del ártico se ha derretido, millones árboles de acre en el oeste americano han muerto por plagas relacionadas con el calentamiento y algunos de los glaciares más importantes de Antártida occidental, que contienen decenas de miles de millas cúbicas de hielo, han comenzado a desintegrarse.Incluso si los niveles de CO2 dejaran de aumentar mañana el mundo seguirá calentándose en 0.5 grados . (inercia), por cerca de [https://www.un.org/sustainabledevelopment/wp-content/uploads/2015/10/COP21-FAQ-ES.pdf 0.5 grados]. Mas allá de ese umbral (Punto crítico de irreversibilidad)  se proyectan bucles de retroalimentación negativa que acelerarían el proceso y empeorarían los escenarios.
+[[Archivo:IPCC .png|miniaturadeimagen|alt=|centro|Probabilidad de riesgos según aumento de la temperatura (IPCC).]]
+
+'''Responsabilidades comunes pero diferenciadas''' 
+
+A partir de este principio,el mayor compromiso lo deben asumir los países desarrollados por su responsabilidad histórica en el calentamiento global ya que han sido emisores históricos de gases de efecto invernadero.Las naciones desarrolladas deben asumir  el liderazgo en la reducción de emisiones de carbono y adoptar mayores compromisos financieros , de transferencia tecnológica y de capacidades con los países en vías de desarrollo para apoyar su adaptación y  mitigación de emisiones.
+
+
+
+'''Abordajes al problema''':
+
+Las principales estrategias frente a la degradación ambiental y la pérdida de biodiversidad son las conservación , la regeneración ambiental y frente al cambio climático la  Mitigación y adaptación
+
+'''Conservación ambiental:'''  comprende un conjunto de acciones tendientes a cuidar a través de  un manejo, uso y cuidado responsable de los distintos ecosistemas , flora y fauna.
+
+'''Regeneración ambiental:'''  Recuperación activa de ecosistemas y hábitats terrestres o fluviales tendientes a mejorar y recuperar  la Biodiversidad perdida.
+
+'''Mitigación''' son aquellas acciones que están encaminadas a reducir y limitar las emisiones de gases de efecto invernadero
+
+'''Adaptación''' son las acciones que se basan en reducir la vulnerabilidad ante los efectos derivados del cambio climático.
+
+
+'''Soluciones:''' 
+
+[https://www.ipcc.ch/report/srccl/ El colapso climático y ecosistémico es de tal  dimensión y rapidez que será necesario pero no suficiente '''suprimir las emisiones de GEI'''.  Se precisa entre otras cosas  '''combatir la deforestación y la desertización'''. Mientras hay acciones con impactos positivos inmediatos como la '''conservación de ecosistemas''' en turberas, humedales, praderas, manglares y bosques, que guardan enormes cantidades de GEI otras intervenciones también imprescindibles como la '''reforestación y regeneración de ecosistemas''' , precisan  décadas para ser efectivas. También se requieren transformaciones profundas en  la '''producción y consumo  de alimentos basado en “dietas equilibradas” de origen vegetal''', como cereales secundarios, legumbres, frutas y verduras. Se incluyen también '''alimentos de origen animal''', pero producidos de manera sostenible con '''bajas emisiones.'''] 
+
+==='''Carrera por reducción de emisiones GEI'''===
+Argentina  propuso una reducción mínima del 15% en las emisiones de GEI al año 2030 (con respecto a las emisiones proyectadas en su Business as usual" (BAU)) y una reducción máximo del 30% (15 puntos porcentuales adicionales) siempre y cuando se cuente con "financiamiento internacional adecuado y predecible", " apoyo a la transferencia, la innovación y el desarrollo de tecnologías", así como también " apoyo a la creación de capacidades".&lt;ref&gt;Laura Rocha (29 de Octubre de 2016). "La argentina reducirá un 18% la emision de gases para 2030". La Nación&lt;/ref&gt;[[Archivo:COmpromisos nacionales de reducción de emisiones .png|miniaturadeimagen|alt=|centro|Nivel de compromiso en reducción de emisiones GEI (Energy climate intelligence unit).|509x509px]]
+&lt;br /&gt;
+[[Archivo:CO2 ARGENTINA.png|miniaturadeimagen|alt=|centro|673x673px]]
+
+&lt;br /&gt;
+
+=='''Principales problemas ambientales de Argentina'''==
+'''Cambio climático:''' La participación de la Argentina en las emisiones globales es menor al 1% aunque. tuvieron en promedio un aumento anual de 0,9 %. Los principales sectores que contribuyen a las emisiones son: el agro y deforestación (44 %), la energía (27 %), el transporte (13 %), la industria (12 %), los residuos (4 %)%. En casi todo el territorio nacional se observa un aumento en la temperatura promedio (entre 0,5 y 1°C), fundamentalmente en la denominada “diagonal árida” (Noroeste, Centro, Cuyo y Patagonia) y la intensificación del régimen de lluvias.  Las principales  consecuencias locales  de este fenómeno global es el '''deshielo glaciar''', las '''inundaciones por el aumento de las precipitaciones''', las '''sequías''' y las '''olas de calor'''. Los grandes centros urbanos y periurbanos son especialmente vulnerables a las inundaciones.&lt;ref name=":1"&gt;Secretaría de Ambiente y Desarrollo Sustentable - Presidencia de la Nación (2017) "Informe del estado del ambiente"
+
+https://www.argentina.gob.ar/sites/default/files/informedelambiente2017.pdf&lt;/ref&gt; En el 2013 , en la Ciudad de La Plata llovieron 400 mm acumulados en cuatro horas dejando un saldo de 89 muertos por la inundación)&lt;ref&gt;Wikipedia - Inundación en La Plata 2013 
+
+https://es.wikipedia.org/wiki/Inundaci%C3%B3n_en_La_Plata_de_2013&lt;/ref&gt; y a las olas de calor que afectan principalmente a niños y adultos mayores. En diciembre del 2013 una ola de calor sin precedentes afectó gran parte de todo el territorio nacional.&lt;ref&gt;Wikipedia - Ola de calor en Argentina en 2013
+
+https://es.wikipedia.org/wiki/Ola_de_calor_en_Argentina_en_2013&lt;/ref&gt;  
+
+'''Contaminación de las aguas:''' Las aguas residuales provenientes de la agricultura , las  industrias y domicilios son descargadas en ríos del país y representan la primera fuente de contaminación de los reservorios de agua dulce. Detergentes , Aceites y grasas , Plásticos , Metales pesados , Petróleo y sus derivados , Fertilizantes , Plaguicidas son los principales contaminantes. Este problema no hace sino acrecentar el elevado déficit de agua potable existente. En los cursos de agua disponibles son vertidos también desechos sólidos industriales, agrícolas y urbanos, sin que se estén ejecutando programas de prevención y gestión para la conservación del vital líquido. Los pronósticos de escasez de agua en los próximos años en el país son alarmantes. Por nivel de contaminación, extensión territorial y cantidad de población afectada la cuenca Matanza Riachuelo es el principal problema de contaminación de Aguas del país. &lt;ref name=":1" /&gt;'' '' 
+
+'''Manejo y disposición de desechos sólidos:''' Argentina produce cada año unas 14 000 000 de toneladas de desechos sólidos, que son depositadas en rellenos sanitarios y basurales clandestinos. Hay un manejo inadecuado de estos residuos provenientes de las industrias, el comercio, los hospitales y los hogares, entre otras fuentes. La mitad de esta basura podría ser reciclada y aprovechada si existieran programas de reutilización. Los depósitos de basura en los rellenos sanitarios provocan un gran problema sanitario por la propagación de enfermedades y  filtraciones que terminan contaminando los cursos de agua subterráneos. En el país hay cerca de 3000 basurales a cielo abierto, ubicados en el 70 % de las entidades municipales con poblaciones inferiores a los 10 000 habitantes. El resto está cercano a poblaciones con más de 100 000 habitantes.&lt;ref name=":1" /&gt;
+
+'''Deforestación y desertificación''':  &lt;nowiki&gt;''&lt;/nowiki&gt;Argentina se encuentra en emergencia forestal. En 2014 el Panel Intergubernamental de Cambio Climático (IPCC) advirtió que Argentina representa  el 4,3% de la deforestación global y que en la última década fue “la principal fuente de emisiones de carbono del norte argentino”. Un informe de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) ubicó a Argentina entre los diez países que más desmontaron entre 1990 y 2015: se perdieron 7,6 millones de hectáreas, a razón de 300.000 hectáreas al año. Cabe señalar que el 80% de la deforestación se concentra en cuatro provincias del norte: Santiago del Estero, Salta, Formosa y Chaco. Las principales causas de la pérdida de bosques son el avance de la frontera agropecuaria (soja transgénica y ganadería intensiva) y los incendios. La sanción, a fines de 2007, de la Ley de Bosques (26.331) fue un logro sin precedentes y un ejemplo de la importancia de la participación de la sociedad civil, que presionó al Congreso Nacional mediante un millón y medio de firmas. No obstante, a once años de su aprobación, su efectiva implementación enfrenta dificultades que deben ser resueltas de manera urgente. Es importante destacar que todas las provincias realizaron el Ordenamiento Territorial de sus Bosques Nativos (OTBN), los cuales prohíben los desmontes en el 80% de las zonas forestales (Categorías I – Rojo y II – Amarillo). Sin embargo, los OTBN de Formosa, Corrientes, Córdoba y Buenos Aires fueron muy cuestionados por organizaciones sociales. Según datos oficiales, desde la sanción de la Ley de Bosques hasta fines de 2017 se deforestaron 2,6 millones de hectáreas, de las cuales más de 840 mil eran bosques protegidos. Desde 2014 se registra una importante disminución de la deforestación&lt;nowiki&gt;''&lt;/nowiki&gt;&lt;ref&gt;Greenpeace (Enero 2019), "Deforestación en el norte de Argentina. Informe anual 2018"
+
+https://greenpeace.org.ar/pdf/Deforestacion-norte-Argentina-Informe-Anual-2018.pdf?_ga=2.96377689.437242051.1565231407-530204217.1559657945&lt;/ref&gt;
+
+'''Contaminación atmosférica:''' Las emanaciones de gases tóxicos provenientes de las industrias en general y las del sector químico y los hidrocarburos en particular , son la primera causa de contaminación del aire y la atmósfera. A estas emanaciones se juntan el transporte urbano y sus permanentes emisiones. En  Argentina según un informe de la OMS citado por la Asociacion Toxicologica Argentina  (2012) se producen 10.000  muertes al año causadas por alguna enfermedad relacionada con la contaminación del aire siendo la enfermedad más común que se desarrolla como consecuencia de esta contaminación la cardiopatía isquémica&lt;ref name=":0"&gt;Asociación Toxicológica Argentina, "85 chicos mueren cada año en Argentina por la contaminación del aire"
+
+https://toxicologia.org.ar/85-chicos-mueren-ano-argentina-la-contaminacion-del-aire/&lt;/ref&gt; – “El aire en Argentina tiene una media anual de 13 µg/m3 de [https://www.ecologistasenaccion.org/17842/que-son-las-pm25-y-como-afectan-a-nuestra-salud/ partículas PM2,5] (las partículas en suspensión de menos de 2,5 micras )  Es 30% más del nivel considerado seguro por la OMS” y “El aire de en Buenos Aires tiene una media anual de 14 µg/m3 de partículas PM2,5. Es 40% más del nivel considerado seguro por la OMS”. Y por último, un dato todavía más preocupante, la OMS dice que en Argentina, 85 chicos mueren al año por enfermedades vinculadas a la contaminación del aire.&lt;ref name=":0" /&gt;
+
+
+'''Agroquímicos:'''  En los últimos 30 años Argentina siguió la tendencia mundial de incorporar nuevas tecnologías para aumentar el rendimiento de sus cultivos, recurriendo a la expansión de la frontera agrícola, la tecnificación y, en particular, el uso intensivo de agroquímicos aplicado a cultivos y pasturas. En 1996 comienza en nuestro país la implantación de la semilla transgénica de la '''soja rr''' que se combina con la denominada “siembra directa” (método de siembra en el que las semillas se plantan directamente en la tierra, sin previo arado), que si bien ha facilitado el laboreo y permite disminuir la erosión de los suelos trajo  aparejado mayor uso del glifosato, un herbicida que es utilizado en cantidades cada vez mayores, con inmensos impactos sociales y ambientales. &lt;ref&gt;Lavaca.org (24/03/2011) "15 años de soja: La prueba del delito"
+
+https://www.lavaca.org/notas/15-anos-de-soja-la-prueba-del-delito/&lt;/ref&gt;    
+
+*Efectos de los Agroquímicos en la Salud: La Organización Mundial de la Salud (OMS) estima que cada año se producen 25 millones de intoxicaciones por venenos agroquímicos en el mundo, y alrededor de 20.000 muertes provocadas por ellas, calculándose que el 99% ocurren en las naciones “en desarrollo”. En su comienzo el glifosato fue catalogado como levemente tóxico. Desde el 2014   La IARC, el Centro Internacional de Investigaciones sobre el Cáncer​ (depende de la OMS y la ONU), lo incorpora dentro del grupo 2A, “el glifosato es probablemente una sustancia carcinogénica (que causa cáncer). Los residuos presentes en los cultivos consumidos como alimento tienen un potencial tóxico muy difícil de evaluar dado que las víctimas no se presentan como pacientes expuestos a fumigaciones pero se encuentran rastros de glifosato en orina en la mayoría de la población urbana.
+
+En la actualidad se utilizan unos  340 millones de litros anuales de Glifosato en Argentina según [https://www.facebook.com/Asociaci%C3%B3n-Argentina-de-Abogados-Ambientalistas-AAdeAA-151933911572/ AA de AA]
+
+El médico Damián Verzeñassi relevó 30 localidades de Santa Fe y Entre Ríos junto a un equipo de investigación. Realizaron más de 100.000 encuestas que vinculan el uso de agrotóxicos con las enfermedades en las localidades de esta región. Esos resultados indican que existe una suba a lo largo de los años de ciudadanos que padecen cáncer, hipertensión y malformaciones, en las zonas donde se fumiga a 100 metros del éjido urbano. "El relevamiento de 110 mil habitantes de 30 localidades dio cuenta del aumento de enfermedades oncológicas, malformaciones congénitas e hipotiroidismo debido al uso de plaguicida".
+
 
 =='''Causas'''==
-La problemática tienen todas una misma raíz. El modelo de producción distribución y consumo que concentra la riqueza al mismo tiempo que daña el ambiente. En cambio climático las que resuenan más en Argentina tienen son una matriz energética basada en energías fósiles, falta de más y mejor transporte público (trenes y subtes), altos niveles de desforestación y una elevada producción de carne en feed-lots. En cuanto a la problemática de los agroquímicos, las causas tienen que ver con una completa desregulación de los cuidados que hay que tener para aplicar esos insumos a la producción. Se utilizan litros de pesticidas tóxicos sin consideraciónes de protección ni de zonas donde se aplican, pero aún más sin ninguna clase de controles al respecto.
+La problemática tienen todas una misma raíz. El modelo de producción distribución y consumo que concentra la riqueza al mismo tiempo que daña el ambiente. En cambio climático las que resuenan más en Argentina tienen son una matriz energética basada en energías fósiles, falta de más y mejor transporte público (trenes y subtes), altos niveles de deforestación y una elevada producción de carne en feed-lots. En cuanto a la problemática de los agroquímicos, las causas tienen que ver con una completa desregulación de los cuidados que hay que tener para aplicar esos insumos a la producción. Se utilizan litros de pesticidas tóxicos sin consideraciones de protección ni de zonas donde se aplican, pero aún más sin ninguna clase de controles al respecto.
 
 =='''Consecuencias'''==
 Las consecuencias del cambio climático se pueden ver en detalle en los reportes del IPCC. Ya estamos transitando un aumento de entre 0.8 y 1,2 °C de temperatura media. Tenemos 10 años para bajar las emisiones a la mitad y 30 para tener un balance 0 de emisiones, si queremos mantener el aumento en 1,5°C de temperatura. La tendencia en cambio es de un aumento exponencial lo que nos acercaría a escenarios más catastróficos de aumentos de 3 a +5°C centígrados. Pero no solo aumenta la temperatura , también aumentarán las inundaciones, sequías, eventos extremos como tormentas y aumentará el nivel del mar. Todo esto afectará más a las personas mas vulnerables, que también sufriran más las las perdidas en la producción de comida que estos eventos traerán.
@@ -475,13 +547,13 @@ Las consecuencias de la falta de regulación y control de agroquímicos provocan
 
 =='''Datos relevantes'''==
 
-===GEIs (gases de efecto invernadero)===
 ===Gráficos/Datos numéricos===
-[[Archivo:Cuadro ambiente 1.png|centro|miniaturadeimagen|700x700px]]
-[[Archivo:Cuadro ambiente 2.png|centro|miniaturadeimagen|700x700px]]
-[[Archivo:Cuadro ambiente 3.png|centro|miniaturadeimagen|700x700px]]
-&lt;br /&gt;</text>
-      <sha1>f7uf3v86kb047ubdpgvl7r6ne2dxgkp</sha1>
+[[Archivo:Cuadro ambiente 12.png|centro|miniaturadeimagen|700x700px]]
+[[Archivo:Cuadro ambiente 22.png|centro|miniaturadeimagen|700x700px]]
+[[Archivo:Cuadro ambiente 32.png|centro|miniaturadeimagen|700x700px]]
+&lt;br /&gt;
+&lt;references /&gt;</text>
+      <sha1>i7o1c3vxa0vyfzvtbe87a3qti97cg0q</sha1>
     </revision>
   </page>
   <page>
@@ -489,17 +561,17 @@ Las consecuencias de la falta de regulación y control de agroquímicos provocan
     <ns>0</ns>
     <id>14</id>
     <revision>
-      <id>188</id>
-      <parentid>187</parentid>
-      <timestamp>2019-08-06T23:30:38Z</timestamp>
+      <id>260</id>
+      <parentid>258</parentid>
+      <timestamp>2019-08-13T01:41:20Z</timestamp>
       <contributor>
         <username>ValeLisciani</username>
         <id>10</id>
       </contributor>
-      <comment>/* Material Adicional */</comment>
+      <comment>/* En Ciudad de Buenos Aires */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="25079">{{Instrucciones}}
+      <text xml:space="preserve" bytes="35868">{{Instrucciones}}
 
 =='''Problemática/Causa Común'''==
 Derechos laborales de trabajadoras y trabajadores de "plataformas digitales de servicios". 
@@ -514,7 +586,7 @@ Casi el 90% de trabajadores de plataformas digitales terminó el secundario, y e
 https://www.cippec.org/publicacion/economia-de-plataformas-y-empleo-como-es-trabajar-para-una-app-en-argentina/&lt;/ref&gt;
 
 &lt;br /&gt;
-[[Archivo:Grafico trabajo nivel educativo.png|miniaturadeimagen|600x600px|https://www.cippec.org/wp-content/uploads/2019/05/Como-es-trabajar-en-una-app-en-Argentina-CIPPEC-BID-LAB-OIT.pdf|alt=|centro]]
+[[Archivo:Grafico trabajo nivel educativo2.png|miniaturadeimagen|600x600px|https://www.cippec.org/wp-content/uploads/2019/05/Como-es-trabajar-en-una-app-en-Argentina-CIPPEC-BID-LAB-OIT.pdf|alt=|centro]]
 
 =='''Caraterísticas de Trabajadorxs de Apps en Argentina'''==
 Según información extraída de “Economía de plataformas y empleo” de Javier Madariaga, César Buenadicha, Erika Molina, y Christoph Ernst&lt;ref name=":0"&gt;Weissman, Ivan (30 de Mayo de 2019). "Uber, Rappi y Glovo: la economía de plataformas ya emplea al 1% de los trabajadores argentinos" Redacción.
@@ -542,8 +614,13 @@ https://www.cippec.org/wp-content/uploads/2019/05/Como-es-trabajar-en-una-app-en
 ==='''Obra social'''===
 En lo que respecta a la obra social, más de la mitad de los trabajadores de plataformas digitales no cuenta con dicha cobertura (57.8%). Quienes sí cuentan con obra social, lo hacen gracias a sus aportes al monotributo en un 86.7%.&lt;ref name=":3" /&gt;
 
+==='''Posibles consecuencias ante proyecto de reforma labora'''l===
+El proyecto de reforma laboral presentado en el mes de noviembre del año 2017 por el poder ejecutivo, siendo los firmantes Alberto Jorge Triaca (Ministerio de Trabajo, Empleo y Seguridad), Marcos peña (Jefe de Gabinete de Ministros) y Mauricio Macri (Presidente de la Nación) [[Trabajo#cite%20note-7|[7]]] “Ratifica la instauración de las figuras del '''«trabajador autónomo económicamente vinculado»''' y del «trabajador independiente» con colaboradores, donde se las margina de la ley 20.744 que rige todas las relaciones laborales formales y las asimila a una '''variante del monotributo,''' con '''menores obligaciones para sus dadores de empleo'''. En el primer caso se ideó para aquellos prestadores de servicios (profesionales, en general) que tienen un cliente preponderante siempre y cuando la facturación para ese destino no supere el 80% del total- y que en la actualidad figuran como autónomos.” [[Trabajo#cite%20note-%3A4-8|[8]]]
+
+En caso de aplicarse esta reforma, los trabajadores de plataformas digitales podrían estar encuadrados bajo la categoría de “trabajador económicamente dependiente” o “trabajador autónomo económicamente vinculado”, definidos como "aquellas personas que '''presten servicios especializados''', realizando una actividad económica o profesional a tí­tulo oneroso '''de manera habitual personal y directa para una persona fí­sica o jurí­dica''' de la que '''dependan económicamente hasta el 80% de sus ingresos anuales'''"[[Trabajo#cite%20note-%3A4-8|[8]]]
+
 =='''¿Economía Colaborativa o Bajo Demanda?'''==
-[[Archivo:Plataformas.png|miniaturadeimagen|500x500px|https://www.cippec.org/wp-content/uploads/2019/05/Como-es-trabajar-en-una-app-en-Argentina-CIPPEC-BID-LAB-OIT.pdf]]
+[[Archivo:Plataformas2.png|miniaturadeimagen|500x500px|https://www.cippec.org/wp-content/uploads/2019/05/Como-es-trabajar-en-una-app-en-Argentina-CIPPEC-BID-LAB-OIT.pdf]]
 Plataformas como las mencionadas suelen presentarse como dispositivos de "economía colaborativa" cuando, en realidad, forman parte de lo que llamamos "economía bajo demanda".
 
 Según el informe de CIPPEC "Claves para entender la economía colaborativa y de plataformas en las ciudades": "La Economía Colaborativa la conforman aquellos modelos de producción, consumo o financiación que se basan en la intermediación entre la oferta y la demanda generada en relaciones entre iguales (P2P o B2B), o bien de particular a profesional, a través de plataformas digitales que no prestan el servicio subyacente, generando un mayor aprovechamiento de los bienes y recursos existentes pero infrautilizados". Entonces, la economía colaborativa “permite utilizar, compartir, intercambiar o invertir recursos o bienes, pudiendo existir o no una contraprestación monetaria entre los usuarios.”&lt;ref&gt;Programa de Ciudades de CIPPEC (2018). Ciudad digital: Claves para entender la Economía Colaborativa y de plataformas en ciudades, Buenos Aires: CIPPEC
@@ -556,15 +633,7 @@ https://www.cippec.org/publicacion/claves-para-entender-la-economia-colaborativa
 
 A manera de ejemplo, para entender la "economía colaborativa" se puede tomar el caso del Carpooling, en el que la plataforma genera un mayor aprovechamiento de los bienes y recursos existentes pero infrautilizados. En ella, lxs usuarixs comparten el costo del viaje, pero no generan utilidad. Por el contrario, en el caso de Uber, la plataformas funciona como intermediaria entre la oferta y la demanda, generada de profesional a consumidor. El conductor inicia su viaje solo cuando el usuario lo solicita, bajo una tarifa definida por la plataforma, generando utilidad a esta última y al conductor. 
 
-'''Posibles consecuencias ante proyecto de reforma labora'''l
-
-El proyecto de reforma laboral &lt;code&gt;'''AGREGAR DATOS: ¿CUÁL? ¿QUIEN LO PRESENTA? ¿CUÁNDO?'''&lt;/code&gt; &lt;ref&gt;Borrador de proyecto de reforma laboral argentina (2017)
-
-https://www.ncn.com.ar/wp-content/uploads/2017/11/reforma-laboral.pdf&lt;/ref&gt; “Ratifica la instauración de las figuras del '''«trabajador autónomo económicamente vinculado»''' y del «trabajador independiente» con colaboradores, donde se las margina de la ley 20.744 que rige todas las relaciones laborales formales y las asimila a una '''variante del monotributo,''' con '''menores obligaciones para sus dadores de empleo'''. En el primer caso se ideó para aquellos prestadores de servicios (profesionales, en general) que tienen un cliente preponderante siempre y cuando la facturación para ese destino no supere el 80% del total- y que en la actualidad figuran como autónomos.” &lt;ref name=":4"&gt;Noticias Congreso Nacional (15 de Noviembre 2017), "Los «trabajadores independientes», la clave en la nueva versión de la reforma laboral"
-
-https://www.ncn.com.ar/los-trabajadores-independientes-la-clave-en-la-nueva-version-de-la-reforma-laboral/&lt;/ref&gt;
-
-En caso de aplicarse esta reforma, los trabajadores de plataformas digitales podrían estar encuadrados bajo la categoría de “trabajador económicamente dependiente” o “trabajador autónomo económicamente vinculado”, definidos como "aquellas personas que '''presten servicios especializados''', realizando una actividad económica o profesional a tí­tulo oneroso '''de manera habitual personal y directa para una persona fí­sica o jurí­dica''' de la que '''dependan económicamente hasta el 80% de sus ingresos anuales'''"&lt;ref name=":4" /&gt;
+&lt;br /&gt;
 
 =='''Fallos Judiciales'''==
 
@@ -575,13 +644,23 @@ En caso de aplicarse esta reforma, los trabajadores de plataformas digitales pod
 
 http://www.saij.gob.ar/&lt;/ref&gt;
 
-&lt;code&gt;'''DESARROLLAR ¿QUE ESTABLECE EL FALLO?'''&lt;/code&gt;
+La primer sentencia emitida al respecto, surgió el 13 de abril del 2016, en donde la justicia dictaminó "Ordenar al GCBA que de modo inmediato arbitre las medidas necesarias para suspender cualquier actividad que desarrolle la empresa UBER B.V. o UBER TECHNOLOGIES INC. o cualquier sociedad bajo ese nombre, razón social y tipo de actividad descripta en la Ciudad Autónoma de Buenos Aires hasta tanto se dicte sentencia definitiva o se presente la hipótesis prevista en el art. 182 del CCAyT, debiendo informar en manera circunstanciada a este Juzgado, dentro del plazo de cinco (5) días, las medidas adoptadas. Por otro lado, se le requirió a la Agencia Gubernamental de Control, informar si la empresa conocida mundialmente como UBER ha presentado algún pedido de habilitación para el servicio de transporte público de pasajeros y, en caso afirmativo, informe desde qué fecha y remita los antecedentes administrativos o copia certificada de los mismos. También, se la intimó a la Administración Gubernamental de Ingresos Públicos para que indique si la empresa conocida mundialmente como UBER, cualquiera fuera su razón social, está registrada como contribuyente, desde qué fecha y cuál es su domicilio fiscal. Y por último, se requirió a la Secretaría de Transporte del GCBA, para que informe si la empresa conocida como UBER realizó alguna presentación para actuar en el rubro de transporte de pasajeros y, en su caso, remita las correspondientes actuaciones o copia certificada de éstas.&lt;ref&gt;Medida cautelar emitida por Victor Trionfetti - 13 de Abril de 2016
 
-Luego, "'''Un fallo revocó las condenas contra la empresa y sus directivos por el supuesto "uso lucrativo del espacio público sin autorización""'''&lt;ref&gt;Fallo emitido por La Sala III de la Cámara de Apelaciones en lo Penal, Contravencional y de Faltas de la Ciudad de Buenos Aires.
+https://ijudicial.gob.ar/wp-content/uploads/2016/04/cautelar-suspender-actividad-de-uber.-.pdf&lt;/ref&gt;
+
+Asimismo, en abril 2017, la justicia determinó la necesidad de: "PROCEDER A LA CLAUSURA/BLOQUEO PREVENTIVO en los términos del art. 29 de la ley 12, de la página web &lt;nowiki&gt;https://drive.www.uber.com/argentina&lt;/nowiki&gt; y las plataformas digitales, aplicaciones y todo otro recurso tecnológico que permita contratar y/o hacer uso de los servicios de transporte de pasajeros que ofrece la empresa UBER TECHNOLOGIES INC, UBER ARGENTINA SRL o UBER B.V. en todo el territorio de la República Argentina; hasta tanto cesen los motivos que dieran origen a la presente medida...”&lt;ref&gt;Causa nº 4790-42-16, caratulada “Incidente de apelación por clausura/bloqueo de página web en todo el país en autos NN (Uber) y otros s/ inf. arts. 83, 73 y 74 CC"
+
+https://documentop.com/causa-n-4790-42-16-caratulada-incidente-de-diario-judicial_5a26b0ca1723dd76d54ce1ef.html&lt;/ref&gt;
+
+El 30 de abril de este año, el titular del juzgado N° 15 en lo Contencioso Administrativo y Tributario de la Ciudad de Buenos Aires, Víctor Trionfetti, ampliando la [https://ijudicial.gob.ar/wp-content/uploads/2016/04/cautelar-suspender-actividad-de-uber.-.pdf medida cautelar emitida en el 2016], intimó a Uber con un plazo de 20 días para informar si ha presentado algún pedido de habilitación para el servicio de transporte público de pasajeros, y en ese caso, informar desde que fecha, remitiendo los certificados correspondientes. Por otro lado, instó al Jefe de Gabinete de Ministros de la CABA para que informe de manera detallada y en el plazo de veinte (20) días, cuáles han sido las medidas concretas adoptadas por la Administración destinadas a hacer efectiva la medida cautelar dictada en fecha 13/04/2016 -que se encuentra firme-, por la que ordenó al GCBA “… que de modo inmediato arbitre las medidas necesarias para suspender cualquier actividad que desarrolle la empresa UBER B.V. o UBER TECHNOLOGIES INC o cualquier sociedad bajo ese nombre, razón social y tipo de actividad descripta en la Ciudad Autónoma de Buenos Aires hasta tanto se dicte sentencia definitiva o se presente la hipótesis prevista en el art. 182 del CCAyT (…)”.&lt;ref&gt;Ampliación de medida cautelar - Victor Trionfetti - 30 de Abril 2019
+
+https://ijudicial.gob.ar/wp-content/uploads/2019/04/Sindicato-de-Peones-de-Taxis-de-la-Capital-Federal-y-otros-contra-GCBA-y-otros-sobre-otras-demandas-contra-la-autoridad-administrativa-1.pdf&lt;/ref&gt;
+
+Sin embargo, el 9 de Mayo del corriente año, los jueces Sergio Delgado, Jorge Atilio Franza y José Saez Apel emitieron un fallo beneficiando a Uber, en el cual resolvieron que la actividad de la empresa en la Ciudad de Buenos Aires no constituye una contravención en la causa por "uso indebido del espacio público con fines lucrativos". Según el juez Delgado “está permitido que cualquier conductor transite con su vehículo particular o el que le ha sido encomendado por las calles y avenidas libradas al uso automotor con o sin pasajeros". Sin embargo, aclaró que para que los conductores presten el servicio de transporte de pasajeros “deberán hacerlo con la habilitación y licencias respectivas". "De no hacerlo, no estarán usando ilegalmente el espacio público sino infringiendo las normas que impiden tales actividades sin licencia o habilitación"&lt;ref&gt;14 de mayo de 2019 "Un fallo a favor de Uber". Página 12
+
+https://www.pagina12.com.ar/193739-un-fallo-a-favor-de-uber&lt;/ref&gt;&lt;ref&gt;Fallo emitido por La Sala III de la Cámara de Apelaciones en lo Penal, Contravencional y de Faltas de la Ciudad de Buenos Aires.
 
 https://drive.google.com/file/d/1QZRxBunuHHoPxlgKwEgcSu9n2VqChbC9/view&lt;/ref&gt;
-
-&lt;code&gt;'''DESARROLLAR ¿QUE ESTABLECE EL FALLO?'''&lt;/code&gt;
 
 ===='''''Rappi, Glovo y PedidosYa'''''====
 '''En el mes de abril del 2019''', la Justicia porteña le ordenó al Gobierno de la Ciudad que prohíba la actividad de las empresas de delivery Rappi, Glovo y PedidosYa en todo el territorio porteño, hasta tantos sus repartidores cumplan con las medidas de seguridad exigidas por el Código de Tránsito y Transporte de la Ciudad.&lt;ref name=":5"&gt;Fallo emitido por Andrés Gallardo, del Juzgado N°2 en lo Contencioso Administrativo y Tributario
@@ -616,42 +695,66 @@ https://es.scribd.com/document/420585151/Resolucion-Envios-Ya-1#from_embed&lt;/r
 ==='''En Europa'''===
 
 ===='''''Uber'''''====
-“El TJUE (Tribunal de Justicia europeo) decidió que Uber es en esencia un servicio de transporte, y, por lo tanto, debe adecuarse a las reglas administrativas que cada Estado Miembro de la Unión Europea disponga respecto de la actividad.”&lt;ref&gt;Sentencia del Tribunal de Justicia europeo
+“El TJUE (Tribunal de Justicia europeo) decidió que Uber es en esencia un servicio de transporte, y, por lo tanto, debe adecuarse a las reglas administrativas que cada Estado Miembro de la Unión Europea disponga respecto de la actividad.”&lt;ref name=":8"&gt;Sentencia del Tribunal de Justicia europeo
 
-http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=198047&amp;pageIndex=0&amp;doclang=ES&amp;mode=req&amp;dir=&amp;occ=first&amp;part=1&amp;cid=698276&lt;/ref&gt;
+http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=198047&amp;pageIndex=0&amp;doclang=ES&amp;mode=req&amp;dir=&amp;occ=first&amp;part=1&amp;cid=698276&lt;/ref&gt;.
 
-&lt;code&gt;'''DESARROLLAR ¿QUE ESTABLECE EL FALLO?'''&lt;/code&gt;
+Según el tribunal de justicia europeo, Uber brinda un servicio de transporte, ya que es la empresa la que crea el servicio de transporte urbano, al cual uno accede a través de la app. Por otro lado, los conductores no son prestadores de servicios individuales, ni ofrecen un servicio que exista de manera independiente de Uber. Por otro lado, la plataforma determina la tarifa, la calidad del auto y del viaje, las normas de seguridad, método de evaluación, etc. Por lo que se infiere que no se trata de una mera intermediación entre una persona con una necesidad de transportarse, y un conductor dispuesto a realizarlo.
+
+“'''Deben interpretarse en el sentido de que ha de considerarse que un servicio de intermediación, como el del litigio principal, que tiene por objeto conectar, mediante una aplicación para teléfonos inteligentes, a cambio de una remuneración, a conductores no profesionales que utilizan su propio vehículo con personas que desean efectuar un desplazamiento urbano, está indisociablemente vinculado a un servicio de transporte y, por lo tanto, ha de calificarse de «servicio en el ámbito de los transportes», a efectos del artículo 58 TFUE, apartado 1. En consecuencia, un servicio de esta índole está excluido del ámbito de aplicación del artículo 56 TFUE, de la Directiva 2006/123 y de la Directiva 2000/31.”'''&lt;ref name=":8" /&gt;
 
 ===='''''Inglaterra: "caso Uber vs. Aslam"'''''&lt;ref&gt;Fallo Uber vs Aslam
 
 https://www.bailii.org/ew/cases/EWCA/Civ/2018/2748.html&lt;/ref&gt;====
-“El 28 de Octubre del 2016 el Tribunal Central de Empleos de Londres determinó que los choferes de Uber son empleados y por ende deben recibir los beneficios y las prestaciones como tales”. 
+Este fallo surge en el mes de diciembre del 2018, como respuesta a Uber, quien alegaba que los conductores solo se encontraban trabajando mientras realizaban transporte de pasajeros. Para refutar esto, el Tribunal se apoyó sobre la idea de que parte del servicio que Uber ofrece, se basa en la inmediatez en la que un conductor puede tomar su viaje. Para poder satisfacer esta demanda es necesario que en todo momento se encuentren conductores conectados, disponibles para tomar un viaje, es decir, sin estar transportando a un pasajero en ese momento. Esa disponibilidad del conductor es esencial para cumplir con el servicio que la app ofrece, por lo que esta "jornada pasiva" debería ser tenida en cuenta como tiempo trabajado. 
 
-“El Tribunal Laboral (employment tribunal), determinó que basta que una persona se encuentre conectada a la aplicación, en el territorio en que esta funciona, y disponible para aceptar la realización de servicios para que se encuentre trabajando.”&lt;ref&gt;Publicación de Julian A. de Diego (El Cronista), "Choferes de Uber son empleados en relación de dependencia, segun tribunales londinenses"
+Asi fue que el Tribunal Laboral (employment tribunal), determinó que basta que una persona se encuentre conectada a la aplicación, en el territorio en que esta funciona, y disponible para aceptar la realización de servicios para que se encuentre trabajando. &lt;ref&gt;Caso Uber vs Aslam
 
-https://www.cronista.com/columnistas/Choferes-de-Uber-son-empleados-en-relacion-de-dependencia-segun-tribunales-londinenses-20161129-0025.html&lt;/ref&gt;
+https://www.bailii.org/ew/cases/EWCA/Civ/2018/2748.html&lt;/ref&gt;
 
-&lt;code&gt;'''DESARROLLAR ¿QUE ESTABLECE EL FALLO?'''&lt;/code&gt;
 =='''Proyectos de legislación en otros países'''==
 
 ==='''Perú'''===
-Aproximadamente cerca de 420 mil jóvenes entre 15 y 19 años se encuentran sin empleo en el Perú. Según advierte un proyecto de ley del congresista Miguel Román Valdivia, muchos de ellos optan por dedicarse a trabajar en empresas que brindan servicios de delivery y courier.&lt;ref&gt;Paucar Albino, Jorge (6 de Julio del 2019), "Glovo, Rappi, Uber Eats: las razones para reconocer los derechos de los repartidores". LaMula.pe&lt;nowiki/&gt;https://redaccion.lamula.pe/2019/06/07/glovo-rappi-uber-eats-peru-lima-trabajadores-motorizados-ciclistas-derechos-laborales/jorgepaucar/&lt;/ref&gt;&lt;ref&gt;Proyecto de Ley promulgado por Miguel Roman Valdivia
+Aproximadamente cerca de 420 mil jóvenes entre 15 y 19 años se encuentran sin empleo en el Perú. Ante esta situación, muchos de ellos optan por dedicarse a trabajar en empresas que brindan servicios de delivery y courier.&lt;ref name=":4"&gt;Paucar Albino, Jorge (6 de Julio del 2019), "Glovo, Rappi, Uber Eats: las razones para reconocer los derechos de los repartidores". LaMula.pe&lt;nowiki/&gt;https://redaccion.lamula.pe/2019/06/07/glovo-rappi-uber-eats-peru-lima-trabajadores-motorizados-ciclistas-derechos-laborales/jorgepaucar/&lt;/ref&gt;
+
+En este contexto, surgieron dos proyectos de ley, uno propuesto por Miguel Roman Valdivia (Acción Popular), y otro propuesto por el congresista Manuel Demmert (Nuevo Perú), sosteniendo la necesidad de crear un régimen especial para que se establezca una relación de dependencia entre la empresa digital y el trabajador.&lt;ref name=":4" /&gt;
+
+Ambos documentos proponen firmas de contratos, que se les pague al menos la remuneración básica (930 soles) a los trabajadores, que la empresa brinde beneficios como seguro social de salud y de accidentes, y que se haga cargo y compense a usuarios y/o empleados en casos de pérdidas o robos.&lt;ref name=":4" /&gt;&lt;ref&gt;Proyecto de Ley promulgado por Miguel Roman Valdivia
 
 http://www.leyes.congreso.gob.pe/Documentos/2016_2021/Proyectos_de_Ley_y_de_Resoluciones_Legislativas/PL0414420190404.pdf&lt;/ref&gt;
 
-&lt;code&gt;'''DESARROLLAR ¿QUE PROPONE EL PROYECTO?'''&lt;/code&gt;
-
 ==='''Chile'''===
-“¿Por qué no pueden ser calificados como "emprendedores" o “emprendedoras” quienes trabajan para estas aplicaciones? Porque no definen sus tarifas, porque no tienen cómo llegar autónomamente a sus clientes, porque no tienen la posibilidad de “crecer” en su rubro, porque les cambian unilateralmente las condiciones, porque deben realizar su labor con implementos exclusivos de la aplicación y porque pueden ser desconectados de manera arbitraria por las aplicaciones”.&lt;ref&gt;Web "Mi jefe es una app", contiene proyecto de ley de Giorgio Jackson y Maite Orsini
+[https://web.mijefeesunaapp.cl/cms/wp-content/uploads/2019/03/Proyecto-de-Ley-mi-jefe-es-una-App.pdf Este proyecto de ley], presentado por Giorgio Jackson Drago y Maite Orsini Pascal, toma como uno de sus fundamentos la necesidad de revisar los conceptos asociados al derecho laboral, entendiendo que las tecnologías contemporáneas están automatizando y transformando labores, superando la capacidad de adaptación de los sistemas educativos, y suponiendo un desafío para las políticas públicas.&lt;ref name=":7"&gt;Web Mi Jefe es una App 
 
 https://web.mijefeesunaapp.cl/&lt;/ref&gt;
 
-&lt;code&gt;'''DESARROLLAR ¿QUE PROPONE EL PROYECTO?'''&lt;/code&gt;
+Dentro del mismo, se hace una distinción entre dos tipos de plataforma de trabajo:
+
+'''Sistemas de “trabajo en grupo” o “crowdwork”''': se trata de empresas que gestionan una plataforma la cual opera mediando entre un usuario que accede a un bien o servicio y un trabajador que lo ofrece. El rol de estas plataformas se limita a hacer coincidir a los trabajadores con los usuarios (por ejemplo, “Couchsurfing ”).
+
+'''Sistemas de “trabajo a pedido” o “work-on-demand”:''' se trata de empresas que ofrecen un servicio a través de una plataforma operada por trabajadores que tiene una relación formal con la empresa. Estas plataformas involucran tareas y trabajos tradicionales, físicos o del “mundo real” como por ejemplo un delivery. Estas empresas retienen el control sobre aspectos esenciales del trabajo, incluyendo el establecimiento de precios y estándares, la selección y administración de la fuerza laboral, entre otros. '''Este proyecto buscará regular este tipo de plataformas y no el primero.'''
+
+Otra definición que toma este proyecto, el cual también aplicará, es el de '''“plataformas austeras”''', cuyo modelo de negocio reside principalmente en la ausencia de activos, salvo el algoritmo y los datos. El monopolio de los datos para proveer la mediación, permite la existencia de tarifas dinámicas impuestas por la plataforma, lo que redunda en que mientras haya más personas disponibles para prestar el servicio, más bajos los tiempos de respuesta hacia el cliente final y más baja la paga a quien realiza el trabajo. El modelo se basa en una operación realizada por una red de “socios/trabajadores” que cuentan con independencia horaria. La externalización de dicha fuerza de trabajo, fuera de todo tipo de obligación laboral, les ha permitido ahorrar a estas plataformas “austeras” hasta en un 30% en dicho ítem.&lt;ref name=":7" /&gt;
+
+En este proyecto, también se explicitan los motivos por los cuales estos empleados son empleados en relación de dependencia, y porque no deben ser considerados “autónomos”:
+
+Es incorrecto clasificar a estos trabajadores como “socios” o “contratistas independientes”, y también es erróneo pensar que estas plataformas operan como intermediarios neutrales. Sobre estos empleados se aplican nuevas formas de control, y con ellas, aparecen nuevas formas de subordinación, ya que si el trabajador no sigue las “recomendaciones” sobre como prestar el servicio, puede ser fácilmente desactivado de la app. '''“¿Por qué no pueden ser calificados como "emprendedores" o “emprendedoras” quienes trabajan para estas aplicaciones? Porque no definen sus tarifas, porque no tienen cómo llegar autónomamente a sus clientes, porque no tienen la posibilidad de “crecer” en su rubro, porque les cambian unilateralmente las condiciones, porque deben realizar su labor con implementos exclusivos de la aplicación y porque pueden ser desconectados de manera arbitraria por las aplicaciones”.'''&lt;ref name=":7" /&gt;
+
+Algunas de las garantías que establecería esta ley son:
+
+*Jornada Autónoma
+*Seguridad laboral
+*Transparencia de la toma de decisiones y control de la arbitrariedad
+*Jornada Pasiva: No podrá ser inferior al sueldo mínimo aprobado por ley. (Se entenderá por jornada pasiva de trabajo el tiempo en que el trabajador se encuentra a disposición del empleador, es decir, conectado a la aplicación sin realizar labores, por causas que no le sean imputables).
+*De la terminación del contrato de trabajo y estabilidad en el empleo: Preaviso de 30 días en caso de despido, indemnización adecuada.
+*Derecho a sindicalización
+*De la tutela de derechos fundamentales: las y los trabajadores de este estatuto tendrán derecho a accionar por despidos injustificados, auto despido y tutela de derechos fundamentales.
+*De la observancia de este estatuto: las infracciones a esta normativa prescribirán, fiscalizarán y sancionarán conforme al título final del Código del Trabajo.
 
 =='''Material Adicional'''==
 [https://academicworks.cuny.edu/gc_etds/2794/ Lee, Do J., "Delivering Justice: Food Delivery Cyclists in New York City" (2018). CUNY Academic Works.]
 
-=== ¿Trabajo del Futuro/Futuro del trabajo? ===
+===¿Trabajo del Futuro/Futuro del trabajo?===
 Según la Comisión Mundial sobre el Futuro del Trabajo nuevas fuerzas están transformando el mundo del trabajo. Las transiciones implicadas en esta evolución piden que se tomen medidas enérgicas.&lt;ref name=":6"&gt;[https://www.ilo.org/global/topics/future-of-work/publications/WCMS_662541/lang--es/index.htm &lt;nowiki&gt;Comisión Mundial sobre el Futuro del Trabajo: Trabajar para un futuro más prometedor [Resumen]&lt;/nowiki&gt;]&lt;/ref&gt;
 
 Los avances tecnológicos –la inteligencia artificial, la automatización y la  robótica– crearán nuevos puestos de trabajo, pero quienes van a perder sus trabajos en esta transición podrían ser los menos preparados para aprovechar las nuevas oportunidades. Las competencias de hoy no se ajustarán a los trabajos de mañana y las nuevas competencias adquiridas pueden quedar desfasadas rápidamente. La ecologización de nuestras economías creará millones de puestos de trabajo a medida que adoptemos prácticas sostenibles y tecnologías limpias; en cambio, otros puestos de trabajo desaparecerán cuando los países vayan reduciendo progresivamente sus industrias basadas en el carbón y en el uso intensivo de los recursos. La evolución demográfica no es un factor desdeñable. Si bien es cierto que el aumento de la población juvenil en algunas regiones del mundo y el envejecimiento de la población en otras pueden ejercer presión sobre los mercados de trabajo y los sistemas de la seguridad social, estos cambios abren nuevas vías que nos brindan la posibilidad de contar con sociedades activas, basadas en los cuidados y la inclusión.&lt;ref name=":6" /&gt;
@@ -676,7 +779,7 @@ La comisión Mundial sobre el Futuro del Trabajo, propone un programa centrado e
 
 • Garantizar la representación colectiva de los trabajadores y los empleadores a través del diálogo social como bien público, promovido activamente a través de políticas públicas.
 
-• Encauzar y administrar la tecnología en favor del trabajo decente. Esto significa que los trabajadores y directivos han de diseñar la concepción del puesto de trabajo.
+• Encauzar y administrar la tecnología en favor del trabajo decente. Esto significa que los trabajadores y directivos han de diseñar la concepción del puesto de trabajo. 
 
 '''Incrementar la inversión en trabajo decente y sostenible''' 
 
@@ -686,7 +789,7 @@ La comisión Mundial sobre el Futuro del Trabajo, propone un programa centrado e
 
 =='''Referencias'''==
 &lt;references /&gt;</text>
-      <sha1>51y24hg7z9rhf0wpbr69nt75nj3r51n</sha1>
+      <sha1>fkw6tftu9k8oqwdkles3vpjxz0yz07s</sha1>
     </revision>
   </page>
   <page>
@@ -694,32 +797,27 @@ La comisión Mundial sobre el Futuro del Trabajo, propone un programa centrado e
     <ns>0</ns>
     <id>15</id>
     <revision>
-      <id>186</id>
-      <parentid>149</parentid>
-      <timestamp>2019-08-06T23:12:41Z</timestamp>
+      <id>250</id>
+      <parentid>241</parentid>
+      <timestamp>2019-08-12T14:34:22Z</timestamp>
       <contributor>
-        <username>ValeLisciani</username>
-        <id>10</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <comment>/* Legalización del cannabis en otros países */</comment>
+      <comment>/* Contexto */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="13648">{{Instrucciones}}
+      <text xml:space="preserve" bytes="18034">{{Instrucciones}}
 
 =='''Problemática / Causa Común'''==
-Regulación de la producción, comercialización, y tenencia para consumo del cannabis
+Regulación de la producción, comercialización, y tenencia para consumo del cannabis.
 
 =='''Contexto'''==
 Para dejar en claro ¿Qué son las '''drogas psicoactivas'''? Son todos aquellos compuestos químicos capaces de cambiar el modo en que funciona la mente mediante la interacción con las estructuras neurológicas, como alterar las sensaciones de dolor y placer, el estado de ánimo, la conciencia, la percepción, la capacidad de pensar y de ser creativos, el estado de alerta y otras funciones psicológicas. El término “sustancias psicoactivas” engloba tanto las drogas lícitas (alcohol, tabaco, cafeína, ansiolíticos, etc) como las ilícitas (cannabis, LSD, cocaína, heroína, etc)&lt;ref&gt;El Gato y La Caja - Un libro sobre drogas [https://elgatoylacaja.com.ar/sobredrogas/prologo-y-nota-introductoria/]&lt;/ref&gt;
 
 A nivel global, el '&lt;nowiki/&gt;''narcotráfico''' genera '''ganancias de 500 mil millones al año''', lo que equivale al '''8% del comercio mundial.''' El valor total de ventas al por menor de drogas ilícitas a nivel mundial fue de US$320.000 millones en 2003, equivalente al '''0,9% del PIB mundial''' &lt;ref&gt;''UNODC, Informe Mundial sobre las Drogas 2005''&lt;/ref&gt;'''.'''  Estas ganancias extraordinarias se basan en la ilegalidad de la producción y comercialización de las drogas. Si a esto sumáramos las ganancias obtenidas por el tráfico de armas, de personas y de blancas asociado al tráfico de drogas ilegales estamos hablando de un negocio de 800 mil millones al año, concentrado en un oligopolio de tan solo en 11 grupos económicos ilegales a nivel mundial&lt;ref&gt;''Jean de Maillard, Atlas de la criminalidad financiera''&lt;/ref&gt;.
 
-El '''cannabis''' sigue siendo la droga que '''más se consume en el mundo.''' De hecho fue la droga que más se consumió en 2016: 192 millones de personas la consumieron al menos una vez en el último año.&lt;ref&gt;Informe Mundial Sobre Las Drogas (2018)[https://www.unodc.org/wdr2018/prelaunch/WDR18_ExSum_Spanish.pdf]&lt;/ref&gt;
-
-&lt;br /&gt;
-[[Archivo:Grafica consumo mundial.jpg|alt=Consumo mundial en el año 2016|miniaturadeimagen|502x502px|Consumo mundial en el año 2016&lt;ref name=":0" /&gt;]]
-
-
+El '''cannabis''' sigue siendo la droga que '''más se consume en el mundo.''' De hecho fue la droga que más se consumió en 2016: 192 millones de personas la consumieron al menos una vez en el último año.&lt;ref&gt;Informe Mundial Sobre Las Drogas (2018)[https://www.unodc.org/wdr2018/prelaunch/WDR18_ExSum_Spanish.pdf]&lt;/ref&gt;[[Archivo:Drogas2016.png|alt=Consumo mundial en el año 2016|miniaturadeimagen|547x547px|Consumo mundial en el año 2016&lt;ref name=":0" /&gt;]]
 
 Unos '''275 millones de personas''' en todo el mundo, es decir, aproximadamente el 5,6% de la población mundial de edades comprendidas entre los 15 y los 64 años, consumió drogas en al menos una ocasión en 2016. Unos '''31 millones de personas''' que consumen drogas padecen trastornos derivados de ello, lo que significa que ese consumo es perjudicial hasta el punto de que podrían necesitar tratamiento. Según las estimaciones iniciales, 13,8 millones de jóvenes de 15 y 16 años consumieron cannabis en el año anterior en todo el mundo, lo que equivale a una proporción del 5,6%.&lt;ref name=":0"&gt;UNODC (2018), Informe mundial sobre las drogas
 
@@ -755,18 +853,30 @@ El prohibicionismo redunda en el sostenimiento de una estructura atravesada por 
 =='''Legalización del cannabis en otros países'''==
 La legalización aparece como una solución más sensata y realista.   
 
-'''Holanda'''  
+==='''Holanda'''===
+[[Archivo:Bulldog-coffeeshop-amsterdam-netherlands-down-town-april-netherlands-53966148.jpg|miniaturadeimagen|449x449px|The Bull Dog, primer Coffee Shop en la ciudad de Ámsterdam.]]
+Los holandeses son el mejor ejemplo de los efectos positivos y negativos respecto a la legalización de la venta y consumo de marihuana y hachís esto es  por la relativa antigüedad de la legislación en el país.  En 1976 se  aprobó la '''“Ley del opio”''' donde se despenalizó la venta y consumo de cannabis y hachís en establecimiento autorizados, como son los ''coffeeshops'' . Según un informe, titulado “La política de drogas en Holanda: continuidad y cambio”&lt;ref&gt;La política de drogas en Holanda: continuidad y cambio [http://webcache.googleusercontent.com/search?q=cache:C9nCi-zXu68J:23118.psi.uba.ar/academica/carrerasdegrado/psicologia/informacion_adicional/practicas_profesionales/707_adicciones/archivos/documentos/generales/drogas_en_holanda.doc+&amp;cd=1&amp;hl=es&amp;ct=clnk&amp;gl]&lt;/ref&gt;, la cantidad de dependientes a sustancias “duras”, cada mil habitantes, daba 1,6. Promedio bajo comparado con Francia, Gran Bretaña, Italia o España, que rondaban entre 2,4 y 3, y cercano al de países vecinos como Bélgica y Alemania. Los servicios sociales tenían contactos regulares con dos tercios de la población usuaria de estas drogas, por lo que, la visión oficial sobre el volumen y carácter del consumo era buena en comparación con otros países, según el informe. Los demás tenían subregistros, un número oculto mayor por la limitada asistencia. El número de muertes en Holanda por sobredosis de drogas es '''bajo'''. Según un informe de las Naciones Unidas, el número de muertos por el consumo de drogas ascendió en Holanda en 1991 a 42. En Bélgica fueron 82, en Dinamarca 188, en Francia 411, en Alemania 2.125, en Italia 1.382, en el Reino Unido 307, en España 479. En los Estados Unidos ascendió a 5.830. El número de muertes causadas por las drogas, por 100.000 habitantes, es, pues, en otros países por lo menos dos veces mayor. Esta cifra no muestra en Holanda, a diferencia de otros lugares del mundo, ningún incremento.  
 
-http://unmundocondrogas.com/holanda-2/  
+"No estamos a favor del consumo de drogas, pero somos pragmáticos y conscientes de que no van a desaparecer, así que tratamos de reducir el daño tanto como sea posible"&lt;ref&gt;"Holanda, a 34 años de tolerancia con las drogas"por Inder Bugarin para la BBC &lt;/ref&gt;, sostuvo la investigadora Van Laar coordinadora de la unidad de análisis sobre tendencias en materia de drogas del prestigioso Instituto holandés para la Salud Mental y las Adicciones (Trimbos)  
 
-&lt;code&gt;DATOS&lt;/code&gt;  
+Sin embargo, también hay estudiosos que piensan que la política de drogas holandesas ha sido un fracaso, y sólo ha contribuido a transformar al país en un '''destino turístico''' para el libre consumo de marihuana y hachís.  
 
-'''Canadá'''  
+De todas maneras, el Observatorio Europeo de las Drogas y las Toxicomanías (OEDT), la máxima agencia en la materia de la Unión Europea (UE), avala el balance realizado por las autoridades holandesas.  
 
-&lt;code&gt;DATOS&lt;/code&gt;  
+De acuerdo con el último informe del organismo, pese a que los holandeses despenalizaron su venta, consumen menos marihuana que los franceses y españoles.Mientras que el 5% de los holandeses de entre 15 a 64 años fumó cannabis durante el último año, los franceses y checos registraron una prevalencia del 9%, los españoles del 10% y los italianos del 14.6%.Los holandeses también están por debajo de la media europea, la cual es del 6.8%.
 
-'''Uruguay'''  
+Pero la política de drogas holandesa está '''lejos de ser perfecta.'''
 
+Las autoridades despenalizaron la venta y consumo de drogas blandas, pero '''no su producción''', de manera que las fuentes de abastecimiento de los ''coffeeshops'' provienen de los circuitos delictivos. Además, Holanda no ha encontrado una solución al problema del consumo de las drogas de diseño, las cuales dominan el mundo nocturno y de discoteca, y suelen ser acompañadas de sustancias como el alcohol.
+
+==='''Canadá'''===
+
+https://www.canada.ca/en/services/health/campaigns/cannabis/canadians.html#a3
+
+https://www.justice.gc.ca/eng/cj-jp/cannabis/
+(segundo pais en legalizar el cannabis para uso recreativo despues de uruguay)
+
+==='''Uruguay'''===
 http://unmundocondrogas.com/uruguay2/
 
 https://www.ircca.gub.uy/  
@@ -788,6 +898,10 @@ Valeria Salech, presidenta de '''Mamá Cultiv'''a (asociación civil precursora 
 
 =='''Glosario Básico'''==
 &lt;u&gt;'''DROGA''':&lt;/u&gt; sustantivo profundamente ambiguo e impreciso. Por un lado, incluye sustancias tales como el ibuprofeno o la penicilina y, por el otro, suele excluir sustancias como la nicotina y el alcohol. Es '''preferible usar SUSTANCIAS PSICOACTIVAS''' (de uso legal o ilegal) para referirse a aquellas sustancias que, una vez ingeridas, modifican y alteran el funcionamiento del cerebro '''inhibiendo el dolor, modificando el estado anímico o alterando  las percepciones'''.
+
+&lt;u&gt;'''DROGAS DURAS'''&lt;/u&gt;''':''' hacen referencia a la cocaína, los opioides (morfina, heroína, etc.), el alcohol, o las anfetaminas.
+
+&lt;u&gt;'''DROGAS BLANDAS'''&lt;/u&gt;''':''' el término es aplicado generalmente a los derivados del cannabis (marihuana, hachís, etc.), a la cafeína, etc.
 
 &lt;u&gt;'''ABORDAJES''':&lt;/u&gt; Históricamente, hubo distintos abordajes sobre la temática. Identificamos los '''cuatro más usuales''' y los que consideramos relevantes para esta discusión.
 
@@ -825,7 +939,7 @@ Valeria Salech, presidenta de '''Mamá Cultiv'''a (asociación civil precursora 
 
 =='''Referencias'''==
 &lt;references /&gt;</text>
-      <sha1>2ju0sv556u8f918g6szhhjz7l8ugson</sha1>
+      <sha1>py19z3fsp217hguem1eokw6xeupsorn</sha1>
     </revision>
   </page>
   <page>
@@ -833,20 +947,20 @@ Valeria Salech, presidenta de '''Mamá Cultiv'''a (asociación civil precursora 
     <ns>0</ns>
     <id>19</id>
     <revision>
-      <id>189</id>
-      <parentid>183</parentid>
-      <timestamp>2019-08-07T00:54:20Z</timestamp>
+      <id>261</id>
+      <parentid>256</parentid>
+      <timestamp>2019-08-13T01:56:16Z</timestamp>
       <contributor>
-        <username>AgustinFrizzera</username>
-        <id>4</id>
+        <username>ValeLisciani</username>
+        <id>10</id>
       </contributor>
-      <comment>/* Consecuencias */</comment>
+      <comment>/* Material Adicional */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="28545">&lt;br /&gt;
+      <text xml:space="preserve" bytes="29634">&lt;br /&gt;
 {{Instrucciones}}
 =='''Problemática / Causa Común'''==
-Dificultad de acceso a y permanencia en una vivienda
+Dificultad de acceso a y permanencia en una vivienda.
 
 =='''Contexto'''==
 Cada vez más argentinxs vivimos en ciudades. Según el censo de 2010, el país tenía 40,8 millones de habitantes y 12,17 millones de hogares.  El 92% de estos hogares está establecido en ciudades &lt;ref&gt;Censo nacional de población, hogares y viviendas 2010 : censo del Bicentenario : resultados definitivos, Serie B nº 2. - 1a ed. - Buenos Aires : Instituto Nacional de Estadística y Censos - INDEC, 2012
@@ -915,14 +1029,15 @@ https://zuletasintecho.files.wordpress.com/2018/04/resumen-informe-de-gestic3b3n
 *&lt;code&gt;MAS DATOS&lt;/code&gt;
 
 &lt;br /&gt;
-[[Archivo:Promedio de Hogares Inquilinos a Nivel Nacional.png|centro|https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf?sfns=mo[https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf]|alt=]]&lt;ref&gt;https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf?sfns=mo&lt;/ref&gt;[[Archivo:Porcentaje de hogares que alquilan su vivienda en las principales ciudades argentinas 2003 y 2018..png|centro|[https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf]]]
+[[Archivo:Promedio de Hogares Inquilinos a Nivel Nacional2.png|centro|https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf?sfns=mo[https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf]|alt=]]&lt;ref&gt;https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf?sfns=mo&lt;/ref&gt;[[Archivo:Porcentaje de hogares que alquilan su vivienda en las principales ciudades argentinas 2003 y 2018.2.png|centro|[https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf]]]
 
 &lt;ref&gt;https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf?sfns=mo&lt;/ref&gt;
+
 =====En CABA:&lt;ref name=":1"&gt;Defensoría del pueblo CABA (21 de Septiembre de 2015), "Informe de déficit habitacional"
 
 http://www.defensoria.org.ar/noticias/el-deficit-habitacional-en-la-ciudad-autonoma-de-buenos-aires-informe-especial-de-la-defensoria/&lt;/ref&gt;=====
 
-*11 % de los hogares de la ciudad presentan hacinamiento&lt;ref name=":1" /&gt;.
+*11 % de los hogares de la ciudad presentan hacinamiento.&lt;ref name=":1" /&gt;
 *6% viven en villas, asentamientos o núcleos habitacionales transitorios&lt;ref name=":1" /&gt;. En la Comunas 4 y 8 se concentran el mayor número de villas y asentamientos de la ciudad. En la Comuna 4 se localizan 8 villas y asentamientos, con una población que asciende las 18.815 familias (2016). En la Comuna 8, se concentran 18 villas y asentamientos, que corresponden a 37.726 familias. &lt;code&gt;FUENTE&lt;/code&gt;
 *&lt;code&gt;MAS DATOS&lt;/code&gt;
 
@@ -942,7 +1057,6 @@ http://www.inquilinosagrupados.com.ar/el-45-de-un-salario-se-destina-al-pago-del
 *El 87% de lxs inquilinxs está preocupado por el precio del alquiler, pero existen otras preocupaciones como los requisitos económicos para ingresar (61%), comisión inmobiliaria (59%) y las garantías (45%).
 *Entre lxs inquilinxs existe la percepción de que el Estado no tiene políticas especificas para el sector, ni control efectivo sobre las inmobiliarias. &lt;ref name=":6" /&gt;
 *El 25% de lxs inquilinxs que participaron de la encuesta manifestó que sufrió en algún momento de dificultad para alquilar por tener hijxs. Este alto porcentaje discrimina especialmente a las madres solteras o separadas que conviven con hijxs y no tienen vivienda propia. El 28% de las inquilinas que conviven con hijxs, en relación con el 19% de los inquilinxs que participaron de la encuesta, denuncian la dificultad de alquilar por tener hijxs. &lt;ref name=":6" /&gt;
-*&lt;code&gt;MAS DATOS&lt;/code&gt;
 
 =====En CABA:=====
 
@@ -955,10 +1069,10 @@ https://www.anred.org/?comunicado=caba-40-de-los-inquilinos-presenta-dificultade
 *A la hora de alquilar, solo en el 11,78% de los casos se aceptan seguro de caución y 5,53% son ofrecidos por dueño directo. Por otro lado, solo en el 2,23% de los casos se aceptan recibos de salario como garantía.&lt;ref name=":3" /&gt;
 *Tomando el primer trimestre del año como período de referencia, encontramos que el alquiler medio (3 ambientes) representa un 33,11% del ingreso medio del hogar. &lt;ref name=":3" /&gt;
 
-*&lt;code&gt;MAS DATOS&lt;/code&gt;
+[[Archivo:Hogares rentista e inquilinos.png|centro|https://gallery.mailchimp.com/e9c6f62a4dc825f6a9dab4e88/files/fbdd39ad-b784-40dc-a4b4-f9c2acbf1724/2019.04.04_Debate_en_torno_al_proyecto_Ley_de_Alquileres.pdf|alt=|550x550px]]
+  
 
-[[Archivo:Hogares rentista e inquilinos.png|centro|miniaturadeimagen|https://gallery.mailchimp.com/e9c6f62a4dc825f6a9dab4e88/files/fbdd39ad-b784-40dc-a4b4-f9c2acbf1724/2019.04.04_Debate_en_torno_al_proyecto_Ley_de_Alquileres.pdf]]
-[[Archivo:Inquilinos Ingresos.png|centro|miniaturadeimagen|https://gallery.mailchimp.com/e9c6f62a4dc825f6a9dab4e88/files/fbdd39ad-b784-40dc-a4b4-f9c2acbf1724/2019.04.04_Debate_en_torno_al_proyecto_Ley_de_Alquileres.pdf]]&lt;br /&gt;
+[[Archivo:Inquilinos Ingresos.png|centro|https://gallery.mailchimp.com/e9c6f62a4dc825f6a9dab4e88/files/fbdd39ad-b784-40dc-a4b4-f9c2acbf1724/2019.04.04_Debate_en_torno_al_proyecto_Ley_de_Alquileres.pdf|alt=|600x600px]]&lt;br /&gt;
 
 ===Alquiler temporario===
 En un contexto en donde existe un estancamiento de los márgenes de ganancia que deja el modelo tradicional de alquiler, sumado a las altas rentas que pagan los alquileres temporales, en la Ciudad de Buenos Aires ha crecido la venta de propiedades pequeñas, ubicadas en barrios céntricos/turísticos, para ser destinados a la renta temporaria a través de plantaformas llamadas "colaborativas". Uno de los grandes factores que influye para que exista una gran diferencia de rentabilidad de ambos alquileres, es el aumento del dolar. La época de oro del alquiler temporal en el país se dio entre el 2004 y 2009, llegando a un punto de caída en el 2011, a consecuencia del "cepo". Actualmente esta actividad esta creciendo fuertemente, centralizandose en los barrios de Palermo y Recoleta, principalmente.&lt;ref name=":4"&gt;Quiroga, Carla y Glikman, Andrea (3 de Agosto de 2019), "Alquiler temporario: qué debe tener un departamento para que se rente rapido". La Nación
@@ -1015,7 +1129,9 @@ http://www.presidencia.gub.uy/comunicacion/comunicacionnoticias/ministerio-de-vi
 
 '''En Estados Unidos:''' 
 
-Nueva York. &lt;code&gt;AGREGAR&lt;/code&gt;
+'''Nueva York:''' "Los legisladores estatales anunciaron haber llegado a un acuerdo que ofrecería la protección para arrendatarios más amplia establecida en más de un cuarto de siglo. El acuerdo se produjo solamente unos días antes del final de esta semana, fecha prevista para el vencimiento de las actuales regulaciones de las viviendas en alquiler. Los legisladores acordaron abolir las leyes que permiten a los propietarios desregular el precio de los alquileres de los apartamentos después de que excedan cierto límite. Asimismo, limitarán las disposiciones que permiten a los propietarios aumentar el alquiler de los apartamentos con alquiler controlado tras realizar renovaciones. Se espera que la ley otorgue a los municipios de todo el estado de Nueva York más autoridad para regular los alquileres y garantizar un mayor acceso a viviendas asequibles."&lt;ref&gt;12 de Junio "Nueva York acuerda nuevas medidas de protección al inquilino y marca un avance histórico para los defensores del derecho a la vivienda". Democracy Now
+
+https://www.democracynow.org/es/2019/6/12/titulares/new_york_agrees_to_new_tenant_protection_measures_marking_historic_win_for_housing_advocates&lt;/ref&gt;
 
 '''En Europa:''' 
 
@@ -1026,13 +1142,9 @@ Holanda, Alemania, España, otros. &lt;code&gt;AGREGAR&lt;/code&gt;
 https://www.lapandereta.es/portugal-da-un-paso-historico-y-limita-los-alquileres-a-675-euros-para-la-clase-media/&lt;/ref&gt;&lt;ref&gt;Diário da República electrónico - Decreto-Lei n. ° 68/2019 - Cria o Programa de Arrendamento Acessível
 
 https://dre.pt/web/guest/pesquisa/-/search/122373682/details/maximized?filterEnd=2019-07-31&amp;filterStart=2019-05-15&amp;q=Programa+de+Arrendamento+Acess%C3%ADvel&amp;filterAction=TRUE&amp;fqs=+Programa+de+Arrendamento+Acess%C3%ADvel+&amp;perPage=25&lt;/ref&gt;
-
-
-&lt;code&gt;AGREGAR&lt;/code&gt;
-
 =='''Referencias'''==
 &lt;references /&gt;</text>
-      <sha1>6pnuydqx1gxom9cgnjchi64dmq2nxe8</sha1>
+      <sha1>2cz1gr9zq11xfy30a0xqvbd8rbc589c</sha1>
     </revision>
   </page>
   <page>
