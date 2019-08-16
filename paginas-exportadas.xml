@@ -241,17 +241,16 @@ Por favor ingrese a alguno de los artículos de las causas:
     <ns>0</ns>
     <id>12</id>
     <revision>
-      <id>220</id>
-      <parentid>175</parentid>
-      <timestamp>2019-08-09T18:55:42Z</timestamp>
+      <id>270</id>
+      <parentid>220</parentid>
+      <timestamp>2019-08-15T00:50:02Z</timestamp>
       <contributor>
         <username>ValeLisciani</username>
         <id>10</id>
       </contributor>
-      <comment>/* ¿Estado totalitario? */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="21653">{{Instrucciones}}
+      <text xml:space="preserve" bytes="24033">{{Instrucciones}}
 
 =='''Problemática / Causa Común'''==
 Implementación de la Educación Sexual Integral, a nivel nacional. 
@@ -261,7 +260,7 @@ La "Educación Sexual Integral" (ESI) es el conjunto de actividades que se hacen
 
 https://www.huesped.org.ar/informacion/derechos-sexuales-y-reproductivos/tus-derechos/educacion-sexual-integral/&lt;/ref&gt; 
 
-En el 2006, el Congreso aprobó, con un amplio consenso, la [http://servicios.infoleg.gob.ar/infolegInternet/anexos/120000-124999/121222/norma.htm Ley de Educación Sexual Integral] . &lt;code&gt;'''DESARROLLAR LO QUE ESTABLECE LA LEY'''&lt;/code&gt; 
+En el 2006, el Congreso aprobó, con un amplio consenso, la [http://servicios.infoleg.gob.ar/infolegInternet/anexos/120000-124999/121222/norma.htm Ley de Educación Sexual Integral] .  
 
 Sin embargo, 13 años después, en muchas provincias, lxs niñxs y adolescentes manifiestan nunca haber recibido ESI en su escuela. Por ejemplo, un 80% de estudiantes manifiesta que su escuela debería abordar el tema de la Educación Sexual Integral, y no lo hace &lt;ref&gt;Aprender (2017), Informe de Resultados Cordoba - 6° año Secundaria
 
@@ -291,7 +290,28 @@ En la Ciudad de Buenos Aires, el 31% de los 200 jóvenes encuestados no recibió
 https://issuu.com/lauragvelasco/docs/informe_esi_ultima_version&lt;/ref&gt; 
 
 &lt;code&gt;'''¿DATOS A NIVEL NACIONAL? ¿HISTÓRICOS?'''&lt;/code&gt;
-=='''[https://web.archive.org/web/20180328174148/http://www.me.gov.ar/me_prog/esi/doc/lineamientos.pdf Contenidos promovidos por la ESI]'''==
+==[http://servicios.infoleg.gob.ar/infolegInternet/anexos/120000-124999/121222/norma.htm Ley de Educación Sexual Integral]==
+En el año 2006, entra en vigencia una ley que establece que: "Todos los educandos tienen derecho a recibir educación sexual integral en los establecimientos educativos públicos, de gestión estatal y privada de las jurisdicciones nacional, provincial, de la Ciudad Autónoma de Buenos Aires y municipal. "
+
+Según la misma, se entiende que la educación sexual integral  es aquella que "'''articula aspectos biológicos, psicológicos, sociales, afectivos y éticos'''"
+
+La misma establece los siguientes objetivos:
+
+* Incorporar la educación sexual integral dentro de las propuestas educativas orientadas a la formación armónica, equilibrada y permanente de las personas
+* Asegurar la transmisión de conocimientos pertinentes, precisos, confiables y actualizados sobre los distintos aspectos involucrados en la educación sexual integral
+* Promover actitudes responsables ante la sexualidad
+* Prevenir los problemas relacionados con la salud en general y la salud sexual y reproductiva en particular
+* Procurar igualdad de trato y oportunidades para varones y mujeres.
+
+Por otra parte, en el artículo 5 se establece la obligatoriedad de la misma, la cual debe ser garantizada por las jurisdicciones nacional, provincial, de CABA y municipal. "Cada comunidad educativa incluirá en el proceso de elaboración de su proyecto institucional, la adaptación de las propuestas a su realidad sociocultural, en el marco del respeto a su ideario institucional y a las convicciones de sus miembros."
+
+Por último, es importante remarcar que la misma no solo se orienta a los más jóvenes, sino que también estipula la participación de los padres, los cuales tendrán espacios de formación a su disposición, garantizados por las jurisdicciones previamente mencionadas. Los objetivos de estos espacios son:
+
+* Ampliar la información sobre aspectos biológicos, fisiológicos, genéticos, psicológicos, éticos, jurídicos y pedagógicos en relación con la sexualidad de niños, niñas y adolescentes
+* Promover la comprensión y el acompañamiento en la maduración afectiva del niño, niña y adolescente ayudándolo a formar su sexualidad y preparándolo para entablar relaciones interpersonales positivas
+* Vincular más estrechamente la escuela y la familia para el logro de los objetivos del programa
+
+===[https://web.archive.org/web/20180328174148/http://www.me.gov.ar/me_prog/esi/doc/lineamientos.pdf Contenidos promovidos por la ESI]===
 
 *'''''Para el nivel inicial:''''' se promueven hábitos de cuidado del cuerpo, se enseña a reconocer la intimidad propia y ajena, a desarrollar comportamientos de autoprotección y tanto a expresar el afecto como a respetar los sentimientos y necesidades de los demás. También se incluyen ‘nuevas’ formas de pensar los vínculos entre niñas y niños. “Propicia un uso igualitario del aula y del patio entre varones y mujeres, como así también de los juegos y juguetes en la medida en que considera que éstos no son ‘exclusivamente de varones’ o ‘exclusivamente de mujeres’”.
 
@@ -432,7 +452,7 @@ Educar en igualdad: Prevención y erradicación de la violencia de género.
 
 =='''Referencias'''==
 &lt;references /&gt;</text>
-      <sha1>1q072zvw8pqp7o6aq431zyeqx79pox5</sha1>
+      <sha1>41mxawkijogk4uq7gdqcl81nhcz1h7n</sha1>
     </revision>
   </page>
   <page>
@@ -440,21 +460,21 @@ Educar en igualdad: Prevención y erradicación de la violencia de género.
     <ns>0</ns>
     <id>18</id>
     <revision>
-      <id>259</id>
-      <parentid>245</parentid>
-      <timestamp>2019-08-12T20:29:31Z</timestamp>
+      <id>275</id>
+      <parentid>274</parentid>
+      <timestamp>2019-08-16T16:44:54Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>ValeLisciani</username>
+        <id>10</id>
       </contributor>
-      <comment>/* Carrera por reducción de emisiones GEI */</comment>
+      <comment>/* Expande la deforestación en Argentina */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="19878">{{Instrucciones}}
+      <text xml:space="preserve" bytes="33963">{{Instrucciones}}
 
 =='''Problemática / Causa Común'''==
 =='''Contexto global'''==
-Desde el período preindustrial, y especialmente a partir de la segunda mitad del siglo XX, la pérdida de biodiversidad (y '''degradación ambiental''') y el calentamiento global (síntoma más claro del '''colapso climático''') ocasionado directa e indirectamente por la actividad  humana '''(antropoceno''') han aumentado a un ritmo jamás visto en ninguna otra época de la historia planetaria. Las causas  principales son el '''modelo de producción''' de '''energía de base fósil''' y el '''modelo de producción y consumo lineales.'''  
+Desde el período preindustrial, y especialmente a partir de la segunda mitad del siglo XX, la pérdida de biodiversidad (y '''degradación ambiental''') y el calentamiento global ( principal causa directa del '''colapso climático''') ocasionado directa e indirectamente por la actividad  humana '''(antropoceno''') han aumentado a un ritmo jamás visto en ninguna otra época de la historia planetaria. Las causas  principales son el '''modelo de producción''' de '''energía de base fósil''' y el '''modelo de producción y consumo lineales.'''  
 
 La pérdida de biodiversidad es la disminución o desaparición de la diversidad biológica, entendida como la variedad de seres vivos que habitan el planeta. La principal consecuencia el empobrecimiento o '''simplificación de los ecosistemas''' de los que de manera directa e indirecta dependemos para alimentarnos y obtener servicios y  recursos. Todo esto sucede mientras  desaparece el '''patrimonio genético''' que contiene valiosísima información aún no explorada.&lt;ref&gt;WWF. 2018. Living Planet Report - 2018: Aiming Higher. Grooten, M. and Almond, R.E.A.(Eds). WWF, Gland, Switzerland.
 
@@ -471,14 +491,15 @@ Según el Panel Intergubernamental del Cambio Climático (IPCC) la oportunidad d
 https://www.miteco.gob.es/es/cambio-climatico/temas/el-proceso-internacional-de-lucha-contra-el-cambio-climatico/ipcc_informe_especial_15pdf_tcm30-485656.pdf&lt;/ref&gt;
 
 ==='''Por qué se establece el techo de 2 C?'''===
-El Panel Intergubernamental sobre el Cambio Climático (IPCC por sus siglas en inglés) ha proporcionado diferentes escenarios . Si no se hace nada, y el mundo avanza en su curso actual (BAU), estará encaminado al aumento de temperatura global en promedio de cuatro grados centígrados al final de este siglo. Con las emisiones de carbono que han sido bombeadas en el aire hasta la fecha (calentamiento global de 0.85 grados)  ya se han  producido grandes efectos: casi la mitad de la capa permanente de hielo del ártico se ha derretido, millones árboles de acre en el oeste americano han muerto por plagas relacionadas con el calentamiento y algunos de los glaciares más importantes de Antártida occidental, que contienen decenas de miles de millas cúbicas de hielo, han comenzado a desintegrarse.Incluso si los niveles de CO2 dejaran de aumentar mañana el mundo seguirá calentándose en 0.5 grados . (inercia), por cerca de [https://www.un.org/sustainabledevelopment/wp-content/uploads/2015/10/COP21-FAQ-ES.pdf 0.5 grados]. Mas allá de ese umbral (Punto crítico de irreversibilidad)  se proyectan bucles de retroalimentación negativa que acelerarían el proceso y empeorarían los escenarios.
+El Panel Intergubernamental sobre el Cambio Climático (IPCC por sus siglas en inglés) ha proporcionado diferentes escenarios . Si no se hace nada, y el mundo avanza en su curso actual (BAU), estará encaminado al aumento de temperatura global en promedio de cuatro grados centígrados al final de este siglo. Con las emisiones de carbono que han sido bombeadas en el aire hasta la fecha (calentamiento global de 0.85 grados)  ya se han  producido grandes efectos: casi la mitad de la capa permanente de hielo del ártico se ha derretido, millones árboles de acre en el oeste americano han muerto por plagas relacionadas con el calentamiento y algunos de los glaciares más importantes de Antártida occidental, que contienen decenas de miles de millas cúbicas de hielo, han comenzado a desintegrarse.Incluso si los niveles de CO2 dejaran de aumentar mañana el mundo seguirá calentándose en 0.5 grados . (inercia), por cerca de 0.5 grados. Mas allá de ese umbral (Punto crítico de irreversibilidad)  se proyectan bucles de retroalimentación negativa que acelerarían el proceso y empeorarían los escenarios.&lt;ref&gt;United Nations, "COP21 – Preguntas frecuentes"
+
+https://www.un.org/sustainabledevelopment/wp-content/uploads/2015/10/COP21-FAQ-ES.pdf&lt;/ref&gt;
 [[Archivo:IPCC .png|miniaturadeimagen|alt=|centro|Probabilidad de riesgos según aumento de la temperatura (IPCC).]]
+
 
 '''Responsabilidades comunes pero diferenciadas''' 
 
 A partir de este principio,el mayor compromiso lo deben asumir los países desarrollados por su responsabilidad histórica en el calentamiento global ya que han sido emisores históricos de gases de efecto invernadero.Las naciones desarrolladas deben asumir  el liderazgo en la reducción de emisiones de carbono y adoptar mayores compromisos financieros , de transferencia tecnológica y de capacidades con los países en vías de desarrollo para apoyar su adaptación y  mitigación de emisiones.
-
-
 
 '''Abordajes al problema''':
 
@@ -495,7 +516,9 @@ Las principales estrategias frente a la degradación ambiental y la pérdida de 
 
 '''Soluciones:''' 
 
-[https://www.ipcc.ch/report/srccl/ El colapso climático y ecosistémico es de tal  dimensión y rapidez que será necesario pero no suficiente '''suprimir las emisiones de GEI'''.  Se precisa entre otras cosas  '''combatir la deforestación y la desertización'''. Mientras hay acciones con impactos positivos inmediatos como la '''conservación de ecosistemas''' en turberas, humedales, praderas, manglares y bosques, que guardan enormes cantidades de GEI otras intervenciones también imprescindibles como la '''reforestación y regeneración de ecosistemas''' , precisan  décadas para ser efectivas. También se requieren transformaciones profundas en  la '''producción y consumo  de alimentos basado en “dietas equilibradas” de origen vegetal''', como cereales secundarios, legumbres, frutas y verduras. Se incluyen también '''alimentos de origen animal''', pero producidos de manera sostenible con '''bajas emisiones.'''] 
+El colapso climático y ecosistémico es de tal  dimensión y rapidez que será necesario pero no suficiente '''suprimir las emisiones de GEI'''.  Se precisa entre otras cosas  '''combatir la deforestación y la desertización'''. Mientras hay acciones con impactos positivos inmediatos como la '''conservación de ecosistemas''' en turberas, humedales, praderas, manglares y bosques, que guardan enormes cantidades de GEI otras intervenciones también imprescindibles como la '''reforestación y regeneración de ecosistemas''' , precisan  décadas para ser efectivas. También se requieren transformaciones profundas en  la '''producción y consumo  de alimentos basado en “dietas equilibradas” de origen vegetal''', como cereales secundarios, legumbres, frutas y verduras. Se incluyen también '''alimentos de origen animal''', pero producidos de manera sostenible con '''bajas emisiones.'''&lt;ref&gt;IPCC (Agosto 2019). "Climate Change and Land"
+
+https://www.ipcc.ch/report/srccl/&lt;/ref&gt; 
 
 ==='''Carrera por reducción de emisiones GEI'''===
 Argentina  propuso una reducción mínima del 15% en las emisiones de GEI al año 2030 (con respecto a las emisiones proyectadas en su Business as usual" (BAU)) y una reducción máximo del 30% (15 puntos porcentuales adicionales) siempre y cuando se cuente con "financiamiento internacional adecuado y predecible", " apoyo a la transferencia, la innovación y el desarrollo de tecnologías", así como también " apoyo a la creación de capacidades".&lt;ref&gt;Laura Rocha (29 de Octubre de 2016). "La argentina reducirá un 18% la emision de gases para 2030". La Nación&lt;/ref&gt;[[Archivo:COmpromisos nacionales de reducción de emisiones .png|miniaturadeimagen|alt=|centro|Nivel de compromiso en reducción de emisiones GEI (Energy climate intelligence unit).|509x509px]]
@@ -536,7 +559,122 @@ En la actualidad se utilizan unos  340 millones de litros anuales de Glifosato 
 
 El médico Damián Verzeñassi relevó 30 localidades de Santa Fe y Entre Ríos junto a un equipo de investigación. Realizaron más de 100.000 encuestas que vinculan el uso de agrotóxicos con las enfermedades en las localidades de esta región. Esos resultados indican que existe una suba a lo largo de los años de ciudadanos que padecen cáncer, hipertensión y malformaciones, en las zonas donde se fumiga a 100 metros del éjido urbano. "El relevamiento de 110 mil habitantes de 30 localidades dio cuenta del aumento de enfermedades oncológicas, malformaciones congénitas e hipotiroidismo debido al uso de plaguicida".
 
+=='''Agroquimicos'''==
 
+==='''Contexto'''===
+La producción de soja y sus derivados es actualmente una de las actividades más dinámicas de la economía argeNTINA. actualmente se ha convertido en la principal producción del agro argentino. superando de manera holgada a la suma de las cosechas de trigo, girasol y maíz. También se ha incrementado año a año la capacidad de procesamiento del grano, tanto a través de inversiones para aumentar la capacidad de molienda, como en la mejora de los puertos para exportación.
+
+El grueso de la producción de soja, ya sea como grano, aceite o sus derivados, se exporta al mercado chino como alimento porcino.. Asimismo se trata de un sector que tiene relevancia fiscal, y principal fuente de divisas del país. Sin embargo no todas son buenas noticias. La soja , no solo es un poroto sino también es un sistema de producción que esconde deforestación, éxodo rural y representa un serio problema ambiental y para la salud humana.  &lt;ref&gt;https://www.centrocultural.coop/revista/23/la-produccion-de-soja-en-argentina-causas-e-impactos-de-su-expansion&lt;/ref&gt;&lt;ref&gt;http://www.agritotal.com/nota/38834-sigue-aumentando-la-demanda-de-soja-desde-china/&lt;/ref&gt;
+
+
+
+
+'''Qué es la soja transgénica? Un poroto o un pack tecnológico?''' 
+
+Las malezas compiten con los cultivos por los nutrientes y la luz, disminuyendo su rendimiento y calidad. Es por eso que los agricultores vienen empleando herbicidas, que en general sirven para determinado tipo de malezas y cuyos residuos persisten en el suelo por mucho tiempo. El empleo de cultivos transgénicos tolerantes a herbicidas resuelve estos problemas, ya que son tolerantes a herbicidas de amplio espectro, como el glifosato, que además de eliminar todas las malezas, se degrada en el suelo más rápidamente que los herbicidas tradicionales. Además, el empleo de estos cultivos, junto con el glifosato, permite  la Siembra Directa, práctica de labranza cero de la tierra . La soja tolerante a glifosato se obtuvo por inserción de un gen bacteriano en el genoma de la planta. Los cultivos tolerantes a herbicida disponibles en el mercado mundial son la soja, el maíz, el algodón, la canola, la remolacha azucarera y la alfalfa. Por su parte, Argentina continúa siendo uno de los principales países productores de cultivos GM, y las variedades tolerantes al herbicida constituyen casi la totalidad del cultivo de soja en Argentina. &lt;ref&gt;http://www.argenbio.org/index.php?action=novedades&amp;note=399&lt;/ref&gt;&lt;br /&gt;
+
+==='''Ventajas y desventajas de la soja'''===
+'''Ventajas''':
+
++ Fácil de implementar.
+
++ Alto ingreso de divisas al país.
+
++ Ingeniería sencilla “desde Buenos Aires,” (1 sola clase de herbicida, siembra directa).
+
++ Alto valor del “commodity”.
+
++ Mucha superficie potencial de cultivo.
+
++ Tecnología fácilmente adquirible.
+
++ Poco costo laboraL
+
+Contras 
+
+-Exodo  Rural 
+
+- Pérdida de biodiversidad 
+
+- Degradación de suelo por falta de rotaciones de cultivos.
+
+- Favorecimiento de potenciales grandes plagas
+
+-Poca mano de obra (mecanización)
+
+- Concentración de tierras 
+
+- Contaminación ambiental y humana  por agroquímicos (por abuso y mal uso)
+
+- Dependencia de un solo producto, baja resiliencia.
+
+(Produccion propia -Don Powa)&lt;br /&gt;
+
+==='''Breve historia de la soja en Argentina'''===
+Si bien las primeras referencias al cultivo de soja en la Argentina datan de principios del siglo XX, y la primera mención en los registros estadísticos nacionales la encontramos recién a principios de la década del ´40 ocupando no más de 1000 hectáreas. Hasta la década del ´70 el cultivo de soja es puramente experimental, sin ningún peso significativo en la producción agropecuaria.1 No será sino hasta principios de los ´70 cuando comienza a expandirse ocupando 79.800 has para la campaña 1971/72. Diez años después ya se ubica entre los principales cultivos, ocupando 2.040.000 has en la campaña 1981/82. Para 1986/87 el área sembrada de soja supera a la del maíz, haciendo lo propio con el trigo en la campaña 1991/92, convirtiéndose así en el cultivo más importante del país. &lt;ref&gt;http://cdsa.aacademica.org/000-062/394.pdf&lt;/ref&gt;
+
+La soja cobra importancia en la década del ’70 a través de la incorporación del doble cultivo trigo - soja de segunda. Transformaciones climáticas y mejoras en las técnicas agrícolas sumadas a la mayor rentabilidad de la agricultura frente a la ganadería provocaron el reemplazo de la clásica rotación agricultura/ganadería. La soja, por ser un cultivo de fácil manejo y gran adaptabilidad permitió la realización de una doble cosecha luego de la del trigo. Pero al intensificarse las prácticas agrícolas, el laboreo más intenso y el abandono de prácticas anteriores como la rotación agrícola ganadera, los abonos verdes y los períodos de descanso, implicaron una mayor presión sobre los recursos naturales y hacia los ´80 empezaron a caer los rendimientos por el desgaste y la erosión que sufrían los suelos.2&lt;ref&gt;http://cdsa.aacademica.org/000-062/394.pdf&lt;/ref&gt;
+
+
+En 1996 se autorizó la producción y comercialización de la soja transgénica, loque permite el  ingreso al mercadolocal  de la semilla de soja transgénica, comercialmente conocida como la semilla “RR”: Roundup Ready.
+
+El nuevo paquete tecnológico se difundió rápidamente dando lugar a una reconfiguración productiva cuyo resultado concreto fue la ampliación de la producción de granos. 
+
+
+La semilla RR, comercializada por las empresas multinacionales, fue alterada genéticamente para resistir al glifosato, un potente herbicida que acompaña el cultivo. A partir de estas transformaciones tecnológicas, la producción de soja queda estrechamente vinculada a la utilización del “paquete tecnológico” que combina estos tres elementos: la utilización del glifosato se conjuga con la siembra directa mecanizada y con la semilla transgénica.
+
+La producción de soja, que creció desde principios de los ’90, ocupando más hectáreas y aumentando sus toneladas producidas.&lt;ref&gt;https://news.agrofy.com.ar/noticia/173831/fin-etapa-soja-ya-no-sera-superabundante-argentina&lt;/ref&gt;
+
+A su vez, la utilización de este paquete tecnológico tuvo un impacto determinante en la productividad por hectárea. Entre 1997 y 2002, en la zona núcleo sojera, el rinde promedio fue de 27,9 quintales por hectárea, mientras que entre 2003 y 2014 el rinde promedio fue de 34,7 quintales por hectárea, alrededor de un 20% superior.  
+
+==='''Consecuencias de la soja'''===
+===='''Aumento del valor y concentración de la tierra'''====
+Como revela el gráfico 6, entre 2001 y 2013, el valor de la tierra en Argentina creció, medido en dólares, un 363%. Este crecimiento, basado fundamentalmente en el aumento de los precios internacionales de los commodities, no se comportó de manera homogénea en términos de cultivos en todo el país. Si en la zona núcleo sojera el valor de la tierra se multiplicó por cinco, el crecimiento del valor en la zona núcleo triguera el aumento fue bastante menor.
+
+En esta línea, el valor de la tierra se ha ido adecuado a la tasa de ganancia de estos productos, generando, por un lado, un sector de propietarios rentistas. A su vez esta nueva situación fue reformando estructuralmente la composición del sector agropecuario de nuestro país, en donde el pequeño y el mediano productor fueron teniendo cada vez menos espacio y participación.desapareciendo las explotaciones agropecuarias de menor tamaño y, al mismo tiempo han ido creciendo aquellas explotaciones más grandes. Esto muestra una de las consecuencias terribles que tuvo el neoliberalismo en lo rural, concentrando la propiedad de la tierra como nunca antes. Se visualiza un marcado incremento de las explotaciones que superan las 1000 hectáreas y alcanzan las 5000 has, asimismo se revela un aumento de las explotaciones con más de 20 mil has. En paralelo, se redujeron prácticamente en una misma proporción todas las explotaciones con menos de 500 has., reflejando una palmaria destrucción de la pequeña producción.
+
+===='''Expande la deforestación en Argentina'''====
+
+
+La tendencia es a ampliar la frontera agropecuaria, sobre todo a expensas de los bosques nativos perdiéndose no solo los árboles talados sino el hábitat de la flora y fauna asociada y los servicios ecosistémicos.  . Para peor, en violación de la Ley de Bosques que buscaba preservarlos. En 2018 en apenas cuatro provincias se deforestaron 112.766 hectáreas; de ellas, 40.965 en zonas calificadas por la ley como rojas y amarillas, de explotación prohibida o restringida.&lt;ref&gt;https://greenpeace.org.ar/pdf/Deforestacion-norte-Argentina-Informe-Anual-2018.pdf?_ga=2.96377689.437242051.1565231407-530204217.1559657945&lt;/ref&gt;
+
+
+La producción de soja de 2018/19 será de unas 55 millones de toneladas en 17,6 millones de hectáreas, lo que implica 27,5% más de producción en un área apenas inferior al ciclo anterior, según informes de la Bolsa de Comercio de Rosario. Por el sistema constitucional argentino, las provincias son soberanas respecto de sus recursos naturales aunque se dicten leyes de presupuestos mínimos (como la de bosques o la de glaciares). De modo que la Secretaría va un poco detrás de los hechos, aunque su perfil sea más productivista que conservacionista.&lt;ref&gt;http://www.biodiversidadla.org/Noticias/La-soja-expande-la-deforestacion-en-Argentina&lt;/ref&gt;
+
+&lt;br /&gt;
+
+===='''Impacto en la salud humana'''====
+La IARC, el Centro Internacional de Investigaciones sobre el Cáncer​ (depende de la OMS y la ONU), clasificó en 2014 al glifosato dentro del grupo 2A, “el glifosato es probablemente una sustancia carcinogénica (que causa cáncer). Hay 5 categorías de carcinogénesis para la sustancias.
+
+El grupo 1 la sustancia es carcinogénica para humanos
+
+El grupo 2A la sustancia probablemente es carcinogénica para humanos
+
+El grupo 2B la sustancia posiblemente es carcinogénica para humanos
+
+El grupo 3 la sustancia no es clasificable como carcinogénica
+
+El grupo 4 la sustancia probablemente no sea carcinogénica para humanos
+
+&lt;nowiki&gt;http://lavueltaalmundo.com.ar/glifosato/&lt;/nowiki&gt;
+
+Eduardo Martín Rossi recopilador de una anotologia  de  trabajos académicos y científicos donde se analizan los efectos del glifosato en distintos ámbitos sostiene ‘’Ya tenemos una bibliografía de casi 1000 trabajos científicos a nivel nacional acerca de los daños que generan los agrotóxicos, publicadas tanto a nivel local como internacional. Hay más de 4000 trabajos publicados en todo el mundo sobre los efectos de estos productos para la agricultura’’&lt;ref&gt;http://semanariodejunin.com.ar/nota/4827/los_cuadernos_del_glifosato&lt;/ref&gt;
+
+
+El Dr.  Damián Verzeñassi (director del  Instituto de Salud Socioambiental Facultad de Ciencias Médicas de la UNRosario) realizó campamentos sanitarios en numerosas localidades de las provincias de Santa Fe, Córdoba, Buenos Aires y Entre Ríos. Estas investigaciones condujeron a denunciar “un crecimiento del cáncer que oscila entre cuatro veces y media y hasta siete más que en el primer quinquenio (del período analizado)". El extenso relevamiento estadístico realizado a través de los campamentos sanitarios aporta una evidencia fundamental sobre la responsabilidad del agronegocio en el incremento de los casos de cáncer, hipotiroidismo y malformaciones.&lt;ref&gt;https://www.laizquierdadiario.com/Hostigamiento-a-Damian-Verzenassi-medico-de-la-UNR-que-enfrento-a-Monsanto&lt;/ref&gt;
+
+
+Se Realizaron más de 100.000 encuestas que vinculan el uso de agrotóxicos con las enfermedades en las localidades de esta región. Esos resultados indican que existe una suba a lo largo de los años de ciudadanos que padecen cáncer, hipertensión y malformaciones, en las zonas donde se fumiga a 100 metros del éjido urbano. Luego de dar a conocer los resultados Las oficinas con los registros de los campamentos sanitarios fueron clausuradas con cadenas por las autoridades de la Facultad de Medicina de la Universidad Nacional de Rosario'''.'''
+
+El el 2017 luego de 15 años de lucha las madres de ituzaingó (córdoba) obtuvieron en la corte suprema un histórico fallo que dejaba firme la condena al  productor agropecuario y al piloto aéreo por contaminación del ambiente.Esta decisión judicial se amparó en estudios oficiales que indicaban que de los  142 niños del barrio colindante a zonas rurales donde , había presencia de químicos en 114 de ellos.  Las organización madres de Ituzaingó se conforma en el 2002 ante la preocupación por la gran cantidad de casos de cáncer y muertes (142 casos de cáncer y 84 personas muertas en un barrio).&lt;ref&gt;http://www.juicioalafumigacion.com.ar/la-causa/&lt;/ref&gt; 
+
+
+En San Francisco, EEUU El jardinero  Dewayne Johnson aplicó los herbicidas basados en Glifosato de Monsanto  a partir del 2012 hasta que en el 2014 le descubrieron un cáncer generalizado. La justicia de afirmó que Monsanto había omitido advertir a Johnson y otros consumidores sobre los riesgos de cáncer que tenían sus herbicidas.La jueza afirmó que encontraron que el glifosato  representó un peligro sustancial y que había pruebas claras y convincentes de que la empresa había actuado con malicia y de manera represiva. EL fallo obliga a la Monsanto pagar 289 millones de dólares&lt;ref&gt;https://www.bbc.com/mundo/noticias-45153467&lt;/ref&gt;
+
+
+EN Francia el colectivo glyphosate 21 está realizando un recorrido por todo el país haciendo análisis de orina (ya lleva mas de 1600 muestras) y en el 100% de los casos encontraron ratros de Glifosato (AMPA), incluso en habitantes urbanos. Este dato contrasta con otros estudio a nivel europeo hecho en el 2013 donde la tasa para francia era inferior al 30%&lt;ref&gt;https://france3-regions.francetvinfo.fr/bourgogne-franche-comte/cote-d-or/dijon/dijon-collectif-glyphosate-21-organise-deuxieme-session-analyse-1637000.html&lt;/ref&gt; 
+
+&lt;br /&gt;
 =='''Causas'''==
 La problemática tienen todas una misma raíz. El modelo de producción distribución y consumo que concentra la riqueza al mismo tiempo que daña el ambiente. En cambio climático las que resuenan más en Argentina tienen son una matriz energética basada en energías fósiles, falta de más y mejor transporte público (trenes y subtes), altos niveles de deforestación y una elevada producción de carne en feed-lots. En cuanto a la problemática de los agroquímicos, las causas tienen que ver con una completa desregulación de los cuidados que hay que tener para aplicar esos insumos a la producción. Se utilizan litros de pesticidas tóxicos sin consideraciones de protección ni de zonas donde se aplican, pero aún más sin ninguna clase de controles al respecto.
 
@@ -553,7 +691,7 @@ Las consecuencias de la falta de regulación y control de agroquímicos provocan
 [[Archivo:Cuadro ambiente 32.png|centro|miniaturadeimagen|700x700px]]
 &lt;br /&gt;
 &lt;references /&gt;</text>
-      <sha1>i7o1c3vxa0vyfzvtbe87a3qti97cg0q</sha1>
+      <sha1>o0chd45nf06i1ruywx5wc3l3ii1bbdc</sha1>
     </revision>
   </page>
   <page>
@@ -947,17 +1085,17 @@ Valeria Salech, presidenta de '''Mamá Cultiv'''a (asociación civil precursora 
     <ns>0</ns>
     <id>19</id>
     <revision>
-      <id>261</id>
-      <parentid>256</parentid>
-      <timestamp>2019-08-13T01:56:16Z</timestamp>
+      <id>268</id>
+      <parentid>267</parentid>
+      <timestamp>2019-08-13T22:55:39Z</timestamp>
       <contributor>
         <username>ValeLisciani</username>
         <id>10</id>
       </contributor>
-      <comment>/* Material Adicional */</comment>
+      <comment>/* En el país: */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="29634">&lt;br /&gt;
+      <text xml:space="preserve" bytes="32842">&lt;br /&gt;
 {{Instrucciones}}
 =='''Problemática / Causa Común'''==
 Dificultad de acceso a y permanencia en una vivienda.
@@ -999,11 +1137,10 @@ Al mismo tiempo, como fue señalado con anterioridad, las  inmobiliarias piden u
 =='''Consecuencias'''==
 Esta situación ha profundizado la asimetría entre propietarios e inquilinxs por la que estos últimos deben atenerse a contratos abusivos que erosionan gravemente su calidad de vida. Entre las consecuencias que tiene esta falta de regulación se encuentra que: 
 
-*Lxs inquilinxs deben pagar mucho más de lo que les corresponde para entrar en un alquiler.  &lt;code&gt;FUENTE&lt;/code&gt;
 *Debido a las dificultades de cumplir con los requisitos para alquilar, muchxs inquilinxs tienen que alquilar de manera informal lugares que deberían ser solución temporales pero se convierten en soluciones a medio o largo plazo. Así, según el censo 2010 del INDEC, 12% de lxs inquilinxs alquilan piezas o cupos en pensiones o hostales y 2% alquilen viviendas precarias. &lt;ref&gt;Natalia Cosacov, "Alquileres e inquilinos en la Ciudad de Buenos Aires. Una radiografía", Laboratorio de Políticas Públicas, Noviembre de 2012. https://www.researchgate.net/publication/297760059_Alquileres_e_inquilinos_en_la_Ciudad_de_Buenos_Aires_Una_radiografia
 
 &lt;span class="fs2"&gt;&lt;/span&gt;&lt;/ref&gt;  Según el Programa de Atención a inquilinxs de la Defensoría del Pueblo de la Ciudad Autónoma de Buenos Aires, en mayo 2019, 57% de la oferta de alquileres en  CABA son alquileres tradicionales, por 43% de alquileres temporales&lt;ref name=":0"&gt;Denfensoría del Pueblo de la Ciudad de Buenos Aires, ''Relevamiento Integral del Mercado de Alquileres'', Junio 2019.http://www.defensoria.org.ar/wp-content/uploads/2019/06/informe-inquilinos.pdf&lt;/ref&gt;. En tantas proporciones, no se trata más de una oferta exclusivamente turísticas sino de un nuevo mercado más rentable para los propietarios e inmobiliarias que responde a la brecha entre legislación de alquileres tradicionales y capacidad de lxs inquilinxs a cumplirlas&lt;ref name=":0" /&gt;.  Los hogares que tienen que alquiler viviendas temporarias se encuentran en situaciones aún más inestables. Los contratos son de tres a seis meses y pueden generar gastos a cada renovación. Además los precios de los alquileres temporarios exceden de más de 50% los precios de los alquileres tradicionales &lt;ref name=":0" /&gt;.
-*Firman contratos en los que los propietarios renuncian a responsabilidades que redundan en incluso más gastos para lxs inquilinxs. &lt;code&gt;¿EJEMPLOS?&lt;/code&gt; &lt;code&gt;FUENTE&lt;/code&gt;
+*Firman contratos en los que los propietarios renuncian a responsabilidades que redundan en incluso más gastos para lxs inquilinxs. Según Fernando Muñoz, de la Defensoría del Pueblo, en esta coyuntura, se observan inquilinxs que soportan pagar expensas que no le corresponden o arreglos edilicios porque tienen la expectativa de que se les renueve el alquiler. "Se redujeron mucho los reclamos", analiza.&lt;ref name=":7" /&gt;
 *Incrementos de alquiler con plazos arbitrarios.&lt;code&gt;¿EJEMPLOS?&lt;/code&gt; &lt;code&gt;FUENTE&lt;/code&gt;
 *&lt;code&gt;¿EVOLUCIÓN DE TASA DE EMANCIPACIÓN?&lt;/code&gt;
 
@@ -1026,7 +1163,6 @@ https://www.lanacion.com.ar/politica/crisis-habitacional-uno-de-cada-tres-hogare
 *Hay 4228 barrios informales (villas y asentamientos) donde residen 3.5 millones de personas&lt;ref&gt;Renabap, "Relevamiento Nacional de Barrios Populares Informe General Período 08/2016 a 12/2017"
 
 https://zuletasintecho.files.wordpress.com/2018/04/resumen-informe-de-gestic3b3n-renabap-ac3b1o-2017-docx.pdf&lt;/ref&gt;
-*&lt;code&gt;MAS DATOS&lt;/code&gt;
 
 &lt;br /&gt;
 [[Archivo:Promedio de Hogares Inquilinos a Nivel Nacional2.png|centro|https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf?sfns=mo[https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf]|alt=]]&lt;ref&gt;https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf?sfns=mo&lt;/ref&gt;[[Archivo:Porcentaje de hogares que alquilan su vivienda en las principales ciudades argentinas 2003 y 2018.2.png|centro|[https://www.cels.org.ar/web/wp-content/uploads/2019/06/programa-alquileres.pdf]]]
@@ -1039,7 +1175,7 @@ http://www.defensoria.org.ar/noticias/el-deficit-habitacional-en-la-ciudad-auton
 
 *11 % de los hogares de la ciudad presentan hacinamiento.&lt;ref name=":1" /&gt;
 *6% viven en villas, asentamientos o núcleos habitacionales transitorios&lt;ref name=":1" /&gt;. En la Comunas 4 y 8 se concentran el mayor número de villas y asentamientos de la ciudad. En la Comuna 4 se localizan 8 villas y asentamientos, con una población que asciende las 18.815 familias (2016). En la Comuna 8, se concentran 18 villas y asentamientos, que corresponden a 37.726 familias. &lt;code&gt;FUENTE&lt;/code&gt;
-*&lt;code&gt;MAS DATOS&lt;/code&gt;
+*Mientras la población porteña se mantiene en casi 3 millones desde hace medio siglo, la construcción jamás se detuvo. Eso hace que haya una gran proporción de viviendas vacías. Según el censo de 2010, unas 341.000 o 2 de cada 10. Un estudio reciente, coordinado por el IVC y hecho a partir del consumo de energía, dice que son 140 mil o 1 de cada 10.&lt;ref name=":7" /&gt;
 
 ====Problemática de Alquileres====
 
@@ -1060,7 +1196,9 @@ http://www.inquilinosagrupados.com.ar/el-45-de-un-salario-se-destina-al-pago-del
 
 =====En CABA:=====
 
-*32,1% de inquilinxs. &lt;ref name=":1" /&gt;
+*32,1% de inquilinxs en el 2015. &lt;ref name=":1" /&gt; Este año, la cifra ascendió al 36%.&lt;ref name=":7"&gt;Tuchin Florencia (12 de Agosto 2019) "Maldito alquiler: qué hacen otras ciudades como Buenos Aires para que ser inquilino no sea un drama". Redacción
+
+https://www.redaccion.com.ar/maldito-alquiler-que-hacen-otras-ciudades-como-buenos-aires-para-que-ser-inquilino-no-sea-un-drama/&lt;/ref&gt;
 *El valor promedio del alquiler de un medio ambiente es de $ 11.992 y el Gobierno de la Ciudad de Buenos Aires considera que la Canasta Básica Total (CBT), que define la linea de pobreza, para una persona viviendo sola en 2019 es de $ 10.845&lt;ref name=":0" /&gt;. Una persona debería contar con $ 22.837 al mes para vivir en Buenos Aires. Sin embargo, 50% de los porteños tiene ingresos menores a $ 20.000&lt;ref name=":0" /&gt;.
 *40% de las consultas del Programa de Atención a inquilinxs de la Defensoría del Pueblo son inquilinxs que no pueden más pagar el alquiler, las expensas y los gastos de su vivienda&lt;ref&gt;Programa de Atención a Inquilinos de la Defensoría del Pueblo, "CABA: Aumentaron las consultas de inquilinos ante la dificultad para pagar alquiler, expensas y servicios". ANRed
 
@@ -1068,6 +1206,9 @@ https://www.anred.org/?comunicado=caba-40-de-los-inquilinos-presenta-dificultade
 *Según el informe del Observatorio de Vivienda de la Ciudad de Buenos Aires "Indicadores socioeconómicos y mercado inmobiliario", tomando como período de referencia el de Junio 2019, el precio promedio de alquiler (en pesos) es de $21071 para 3 ambientes (con una variación interanual de +31.6%), $15212 para un 2 ambientes (con variación interanual del +30,5%) y $11532 para el caso de un monoambiente (variación interanual +33,9%). &lt;ref name=":3"&gt;Observatorio de Vivienda de la Ciudad de Buenos Aires (Agosto 2019) "Indicadores socioeconómicos y mercado inmobiliario"&lt;/ref&gt;
 *A la hora de alquilar, solo en el 11,78% de los casos se aceptan seguro de caución y 5,53% son ofrecidos por dueño directo. Por otro lado, solo en el 2,23% de los casos se aceptan recibos de salario como garantía.&lt;ref name=":3" /&gt;
 *Tomando el primer trimestre del año como período de referencia, encontramos que el alquiler medio (3 ambientes) representa un 33,11% del ingreso medio del hogar. &lt;ref name=":3" /&gt;
+*La 1° Encuesta a Inquilinos de la Ciudad de Buenos Aires, realizada por la Asociación Civil Inquilinos Agrupados, dio que las personas que alquilan una vivienda destinan alrededor del 40% de sus ingresos totales familiares al pago del alquiler. El porcentaje es todavía mayor en jóvenes, adultos mayores y mujeres.&lt;ref name=":7" /&gt;
+*En los últimos cinco años se iniciaron 5591 juicios de desalojo por vencimiento de contrato y 5327 por falta de pago en la Cámara Civil. En total, son 6 juicios por día.&lt;ref name=":7" /&gt;
+*Sólo el 13,7% de las personas que alquila recibe una factura legal a cambio del pago. El resto obtienen comprobantes no válidos como factura o directamente no reciben ningún comprobante.&lt;ref name=":7" /&gt;
 
 [[Archivo:Hogares rentista e inquilinos.png|centro|https://gallery.mailchimp.com/e9c6f62a4dc825f6a9dab4e88/files/fbdd39ad-b784-40dc-a4b4-f9c2acbf1724/2019.04.04_Debate_en_torno_al_proyecto_Ley_de_Alquileres.pdf|alt=|550x550px]]
   
@@ -1125,7 +1266,7 @@ https://polomujer.cba.gov.ar/institucional/&lt;/ref&gt;
 *'''Uruguay: ''Programa de Alquiler Social + Recuperación y Puesta en Valor de Inmuebles para Alquiler Social en la Ciudad Vieja. Ministerio de Vivienda, Ordenamiento Territorial y Medio Ambiente, Intendencia de Montevideo.''''' Objetivo: El programa piloto dispondrá de edificios y predios en áreas centrales para la rehabilitación e instrumentará un sistema de alquiler público.&lt;ref&gt;(21 de junio 2019), "Ministerio de Vivienda e Intendencia de Montevideo construirán 120 soluciones habitacionales para alquiler social"
 
 http://www.presidencia.gub.uy/comunicacion/comunicacionnoticias/ministerio-de-vivienda-convenio-con-intendencia-montevideo-alquiler-social&lt;/ref&gt;
-*'''Brasil: ''Fondo Inmobiliario Comunitario para el Alquiler. Organización: FICA''.''' Objetivo: &lt;ref&gt;[https://www.fundofica.org/ Fundo FICA]&lt;/ref&gt;
+*'''Brasil: ''Fondo Inmobiliario Comunitario para el Alquiler. Organización: FICA''.'''  &lt;ref&gt;[https://www.fundofica.org/ Fundo FICA]&lt;/ref&gt;
 
 '''En Estados Unidos:''' 
 
@@ -1135,16 +1276,20 @@ https://www.democracynow.org/es/2019/6/12/titulares/new_york_agrees_to_new_tenan
 
 '''En Europa:''' 
 
-Holanda, Alemania, España, otros. &lt;code&gt;AGREGAR&lt;/code&gt;
+'''[https://www.theguardian.com/society/2017/dec/12/vienna-housing-policy-uk-rent-controls Viena]:'''  Dos tercios de los ciudadanos viven en viviendas municipales o con subsidio público, lo que significa que los trabajadores con salarios bajos pueden permitirse vivir en la capital austriaca. Los alquileres en esa ciudad austriaca resultan asequibles debido a la '''fuerte inversión pública y la regulación parcial del mercado inmobiliario.''' Los complejos de vivienda pública se encuentran en todos los barrios, incluso en los más exclusivos. Los requisitos económicos para solicitar estas viviendas son muy amplios: 44.000 euros de límite anual de ingresos para una persona y 66.000 para dos.
 
 '''Portugal: ''Regulación de precios de alquileres.''''' Objetivo: limitar el precio de los alquileres en función de la zonificación, superficie del inmueble e ingresos familiares. Generar incentivos fiscales para los arrendatarios. &lt;ref&gt;LaPandereta.es, "Portugal da un paso histórico y limita los alquileres a 675 euros para la clase media"
 
 https://www.lapandereta.es/portugal-da-un-paso-historico-y-limita-los-alquileres-a-675-euros-para-la-clase-media/&lt;/ref&gt;&lt;ref&gt;Diário da República electrónico - Decreto-Lei n. ° 68/2019 - Cria o Programa de Arrendamento Acessível
 
 https://dre.pt/web/guest/pesquisa/-/search/122373682/details/maximized?filterEnd=2019-07-31&amp;filterStart=2019-05-15&amp;q=Programa+de+Arrendamento+Acess%C3%ADvel&amp;filterAction=TRUE&amp;fqs=+Programa+de+Arrendamento+Acess%C3%ADvel+&amp;perPage=25&lt;/ref&gt;
+
+'''[https://elpais.com/economia/2019/06/18/actualidad/1560878482_152610.html Berlín:]''' La capital alemana aprobó por ley la congelación del precio de los alquileres durante cinco años. Está previsto que la ley entre en vigor en enero 2020. Para evitar nuevos aumentos de precios, sus efectos serán retroactivos a partir de la resolución del Parlamento regional. En caso de infracción, la multa puede alcanzar los 500.000 euros. Objetivo: Poner freno a la especulación en el mercado de la vivienda.&lt;ref name=":7" /&gt;
+
+'''Barcelona''': Ada Colau Ballano (alcaldesa) impulsó una medida contra la especulación inmobiliaria, y por ende, contra las viviendas ociosas. Se ejecutó la primera expropiación de una vivienda, propiedad de un banco, porque estuvo vacía durante más de dos años. Por una ley de 2016 que ahora entró en vigencia plena, en esos casos, el Estado puede hacer uso de la propiedad por un período de 10 años al incorporarla al parque de vivienda de alquiler social.&lt;ref name=":7" /&gt;
 =='''Referencias'''==
 &lt;references /&gt;</text>
-      <sha1>2cz1gr9zq11xfy30a0xqvbd8rbc589c</sha1>
+      <sha1>mrmnm7ixgh1z9fhbg58iu5ozd12pmn6</sha1>
     </revision>
   </page>
   <page>
