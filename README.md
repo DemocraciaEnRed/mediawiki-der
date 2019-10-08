@@ -21,6 +21,9 @@ y navegar a [http://localhost:8080/](http://localhost:8080/) (van a tener que el
 Una vez completado el asistente de instalación deben bajarse el archivo `LocalSetting.php` generado y copiarlo al contenedor. Por ejemplo si el archivo se descargó en `~/Downloads/`, haríamos:   
 `docker cp ~/Downloads/LocalSettings.php prueba-mediawiki:/var/www/html/`
 
+### Instalación de base de datos
+Debido a que el contenedor de MediaWiki al levantarse busca instantáneamente conectarse a la base de datos y esta requiere un mínimo de configuración antes de ser utilizada, nos resultó más fácil separar el contenedor de MySql del resto. De esta forma, al correr el contenedor de MediaWiki, la base de datos ya esta lista para recibir la conexión. Para probar:
+`docker run --name mysql --network red-mediawiki -eMYSQL_ROOT_PASSWORD=iF8D53Lovy6Js3 mysql:5.7`
 
 -----
 -----
