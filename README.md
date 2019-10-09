@@ -1,7 +1,7 @@
 # mediawiki-der
 
 ### Infraestructura general de servicios
-Este software está basado en [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki/es). Por ende, cuenta con un servidor web, Apache+PHP, y una base de datos MySql. Además, al utilizar la extensión [VisualEditor](https://www.mediawiki.org/wiki/Extension:VisualEditor) para habilitar un editor visual tipo *office* en los artículos, también requiere de un servidor Node.js con [Parsoid](https://www.mediawiki.org/wiki/Parsoid). Esto resulta sumamente simple de implementar utilizando Docker. Afortunadamente MediaWiki tiene una [imagen oficial en DockerHub](https://hub.docker.com/_/mediawiki). Debido a compatibilidades con las extensiones que utilizamos, usamos la versión **1.32.2** de MediaWiki, como se puede apreciar en nuestro [`Dockerfile`](Dockerfile). Para Parsoid utilizamos la imagen [thenets/parsoid](https://hub.docker.com/r/thenets/parsoid/) versión **0.10**.
+Este software enastá basado en [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki/es). Por ende, cuenta con un servidor web, Apache + PHP **7.2.19**, y una base de datos MySql **5.7**. Además, al utilizar la extensión [VisualEditor](https://www.mediawiki.org/wiki/Extension:VisualEditor) para habilitar un editor visual tipo *office* en los artículos, también requiere de un servidor Node.js con [Parsoid](https://www.mediawiki.org/wiki/Parsoid). Esto resulta sumamente simple de implementar utilizando Docker. Afortunadamente MediaWiki tiene una [imagen oficial en DockerHub](https://hub.docker.com/_/mediawiki). Debido a compatibilidades con las extensiones que utilizamos, usamos la versión **1.32.2** de MediaWiki, como se puede apreciar en nuestro [`Dockerfile`](Dockerfile). Para Parsoid utilizamos la imagen [thenets/parsoid](https://hub.docker.com/r/thenets/parsoid/) versión **0.10**.
 
 ### Configuración de MediaWiki
 Si bien la aplicación de MediaWiki está en PHP, es muy poco lo que se programa en este lenguage. Donde más se usa es en el archivo de configuración [`LocalSettings.php`](LocalSettings.php). Este archivo se genera automáticamente al utilizar el asistente de instalación de MediaWiki. Posteriormente le agregamos configuración personalizada, a partir de la línea *142* del mismo archivo. Las extensiones que vienen instaladas en esta MediaWiki son:
@@ -21,9 +21,24 @@ y navegar a [http://localhost:8080/](http://localhost:8080/) (van a tener que el
 Una vez completado el asistente de instalación deben bajarse el archivo `LocalSetting.php` generado y copiarlo al contenedor. Por ejemplo si el archivo se descargó en `~/Downloads/`, haríamos:   
 `docker cp ~/Downloads/LocalSettings.php prueba-mediawiki:/var/www/html/`
 
-### Instalación de base de datos
-Debido a que el contenedor de MediaWiki al levantarse busca instantáneamente conectarse a la base de datos y esta requiere un mínimo de configuración antes de ser utilizada, nos resultó más fácil separar el contenedor de MySql del resto. De esta forma, al correr el contenedor de MediaWiki, la base de datos ya esta lista para recibir la conexión. Para probar:
+### Prueba con base de datos volátil
+Debido a que el contenedor de MediaWiki al levantarse busca instantáneamente conectarse a la base de datos y esta requiere un mínimo de configuración antes de ser utilizada, nos resultó más fácil separar el contenedor de MySql del resto. De esta forma, al correr el contenedor de MediaWiki, la base de datos ya esta lista para recibir la conexión.
+
+Para probar este sistema con una base de datos volátil pueden crear un contenedor de MySql:   
 `docker run --name mysql --network red-mediawiki -eMYSQL_ROOT_PASSWORD=iF8D53Lovy6Js3 mysql:5.7`
+
+Después conectarse a la consola `mysql` del contenedor:   
+`docker exec -it mysql mysql -piF8D53Lovy6Js3`
+
+Crear la base de datos y unx usuarix para la misma:   
+`CREATE DATABASE mediawikidb;`   
+`GRANT ALL PRIVILEGES ON mediawikidb.* TO 'mediawiki747895'@'%' IDENTIFIED BY 'kjavjkKL2949JDFJK757ysd82487';`
+
+Y posteriormente levantar el Compose: `docker-compose up`
+
+Si toda va bien, deberían poder acceder a la wiki vía [http://localhost:8020/](http://localhost:8020/).
+
+La mayoría de los parámetros usados en estos comandos tienen que corresponderse con las variables de entorno definidas en [`docker-compose.yml`](docker-compose.yml)
 
 -----
 -----
