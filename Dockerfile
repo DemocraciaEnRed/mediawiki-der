@@ -4,7 +4,9 @@ FROM mediawiki:1.32.2
 RUN apt-get update && apt-get install -y unzip librsvg2-bin && apt-get clean && pear install mail net_smtp
 
 # Composer
-RUN curl -S https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin –filename=composer
+# We need composer 1.8.6 or lower because of:
+# https://stackoverflow.com/questions/63223402/composer-json-validation-error-for-regex-pattern-a-z0-9-a-z0-9-a
+RUN curl -S https://getcomposer.org/download/1.8.6/composer.phar | php -- --install-dir=/usr/local/bin –filename=composer
 
 # Extensiones y customizaciones
 WORKDIR /var/www/html/extensions
