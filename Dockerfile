@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y unzip librsvg2-bin && apt-get clean && 
 # Composer
 # We need composer 1.8.6 or lower because of:
 # https://stackoverflow.com/questions/63223402/composer-json-validation-error-for-regex-pattern-a-z0-9-a-z0-9-a
-RUN curl -S https://getcomposer.org/download/1.8.6/composer.phar | php -- --install-dir=/usr/local/bin –filename=composer
+RUN curl -S https://raw.githubusercontent.com/composer/getcomposer.org/3c21a2c1affd88dd3fec6251e91a53e440bc2198/web/installer | php -- --install-dir=/usr/local/bin –filename=composer
 
 # Extensiones y customizaciones
 WORKDIR /var/www/html/extensions
